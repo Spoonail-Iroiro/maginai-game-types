@@ -25,9 +25,7 @@ patchは本パッケージとして修正があった場合に上がります。
 ※`tsconfig`に`types`が存在している場合は`maginai-game-types`を含めて下さい
 
 ```json
-// ...
   "types": [
     "maginai-game-types"
   ]
-// ...
 ```
