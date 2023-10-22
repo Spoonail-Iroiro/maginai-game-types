@@ -6,7 +6,7 @@ import fs from 'node:fs';
 // ESTreeの仕様: https://github.com/estree/estree/blob/master/es5.md
 
 const INPUT_FILE = 'game/game/js/game/union.js';
-const OUTPUT_FILE = '@types/generated.d.ts';
+const OUTPUT_FILE = 'types/game/union.d.ts';
 
 function run() {
   const file = fs.readFileSync(INPUT_FILE);
@@ -63,6 +63,9 @@ function run() {
 
   // d.tsを生成
   s += generate(globalVariable);
+
+  // tWgmの型を追加
+  s += 'declare var tWgm: tGameMain;\n';
 
   fs.writeFileSync(OUTPUT_FILE, s);
 }
