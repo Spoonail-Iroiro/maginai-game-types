@@ -1,12 +1,15 @@
 {
   "name": "maginai-game-types",
   "private": true,
-  "version": "1190.0.0",
-  "main": "",
+  "version": "1.8.0",
   "type": "module",
-  "types": "lib/union.d.ts",
+  "main": "",
+  "types": "types/index.d.ts",
+  "files": [
+    "types/"
+  ],
   "scripts": {
-    "build": "rimraf dist && tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts",
+    "build": "node ./src/dts-generator.js",
     "lint:scripts": "eslint . --ext .js",
     "format": "prettier . --write",
     "prepare": "husky install && husky set .husky/pre-commit 'npx lint-staged' && git add .husky/pre-commit",
@@ -14,6 +17,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.9",
+    "acorn": "^8.10.0",
+    "acorn-walk": "^8.2.0",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
