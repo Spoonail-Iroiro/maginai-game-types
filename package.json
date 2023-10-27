@@ -1,19 +1,20 @@
 {
   "name": "maginai-game-types",
-  "private": true,
   "version": "1.8.0",
   "type": "module",
   "main": "",
   "types": "types/index.d.ts",
   "files": [
-    "types/"
+    "types/",
+    "game-version.json"
   ],
   "scripts": {
     "build": "node ./src/dts-generator.js",
     "lint:scripts": "eslint . --ext .js",
     "format": "prettier . --write",
     "prepare": "husky install && husky set .husky/pre-commit 'npx lint-staged' && git add .husky/pre-commit",
-    "uninstall-husky": "npm uninstall husky --no-save && git config --unset core.hooksPath && npx rimraf .husky"
+    "uninstall-husky": "npm uninstall husky --no-save && git config --unset core.hooksPath && npx rimraf .husky",
+    "npver": "npm version --no-commit-hooks --no-git-tag-version"
   },
   "devDependencies": {
     "@types/node": "^20.4.9",
