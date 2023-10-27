@@ -58,7 +58,7 @@ function run() {
   let s = '';
 
   // ファイル先頭のコメント
-  s += '// tools/dts-generator.mjsによって生成されたファイルです。\n';
+  s += '// dts-generator.jsによって生成されたファイルです。\n';
   s += '// このファイルを直接編集しないでください。\n';
   s += '\n';
 
