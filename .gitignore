@@ -24,3 +24,8 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+.vimsession
+/game/
+/game_old/
+
