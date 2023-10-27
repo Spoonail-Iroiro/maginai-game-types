@@ -1,6 +1,7 @@
 import * as acorn from 'acorn';
 import * as walk from 'acorn-walk';
 import fs from 'node:fs';
+import { exportGameVersion } from './game-version.js';
 
 // 資料
 // ESTreeの仕様: https://github.com/estree/estree/blob/master/es5.md
@@ -68,6 +69,8 @@ function run() {
   s += 'declare var tWgm: tGameMain;\n';
 
   fs.writeFileSync(OUTPUT_FILE, s);
+
+  exportGameVersion();
 }
 
 /**
