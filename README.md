@@ -22,10 +22,15 @@ npm install -D maginai-game-types@1.9
 patchは本パッケージとして修正があった場合に上がります。  
 （ゲーム側のrevision更新に伴い型も更新の必要が出てきた場合、ゲームバージョンと関係ないバグ修正…etc）
 
-※`tsconfig`に`types`が存在している場合は`maginai-game-types`を含めて下さい
+## 注意
+
+プロジェクトの`tsconfig`に`types`が存在している場合は`maginai-game-types`を含めて下さい
 
 ```json
   "types": [
     "maginai-game-types"
   ]
 ```
+
+# 謝辞
+本リポジトリはenzaki氏より提供いただいた型定義生成スクリプト（https://github.com/Spoonail-Iroiro/maginai/pull/16 ）にSpoonailがその他開発用ファイルを追加して作成されました。
