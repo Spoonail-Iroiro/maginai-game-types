@@ -1035,79 +1035,81 @@ declare class tGameDesignedMap {
 declare class tGameDungeonGenerator {
   parent: any;
   bossFloors: any;
-  init(a: any): void;
+  init(c: any): void;
   getBaseAttr(): any;
   getAppearAttr(): any;
-  convertData(a: any): any;
-  createDungeonName(a: any, h: any): any;
-  getDungeonNameFromDungeonData(a: any, h: any, e: any, c: any): any;
-  getDungeonName(a: any, h: any, e: any, c: any, d: any): any;
-  getKaidanObjectId(a: any, h: any): any;
-  createEntrance(a: any, h: any): void;
-  createBossFloor(a: any, h: any): any;
-  setEntranceEventData(a: any, h: any): void;
-  setRoad(a: any): any;
-  jumpDungeonFloor(a: any, h: any, e: any, c: any, d: any, b: any): any;
-  nextDungeonFloor(a: any, h: any, e: any, c: any, d: any): any;
-  prevDungeonFloor(a: any, h: any, e: any, c: any, d: any): any;
-  checkEmptyPosition(a: any, h: any): any;
-  createFloor(a: any, h: any): any;
-  isCloseRoom(a: any, h: any): any;
-  createFloor_field(a: any, h: any): any;
-  createFloor_maze(a: any, h: any): any;
-  createFloor_long(a: any, h: any): any;
-  setMonstorHouse(a: any, h: any, e: any, c: any, d: any): void;
-  setRestRoom(a: any, h: any, e: any, c: any, d: any): void;
-  setHogyokuRoom(a: any, h: any, e: any, c: any, d: any): void;
-  setFishingRoom(a: any, h: any, e: any, c: any, d: any): void;
-  setOtakaraRoom(a: any, h: any, e: any, c: any, d: any): void;
-  setShopRoom(a: any, h: any, e: any, c: any): any;
-  getRectSpace(a: any, h: any): any;
-  getRectSpace2(a: any, h: any): any;
-  getRectSpace2FreeSpace(a: any, h: any): any;
-  selectItemType(a: any): any;
-  getFloorItemRank(a: any): any;
-  setDungeonItem(a: any, h: any, e: any, c: any): any;
-  setDungeonPortalEdgeAction(a: any, h: any, e: any): any;
-  setDungeonChest(a: any, h: any, e: any, c: any): any;
-  setDungeonMonsterChest(a: any, h: any, e: any, c: any): any;
-  setDungeonHibi(a: any, h: any, e: any, c: any): any;
-  setDungeonTrap(a: any, h: any, e: any, c: any): any;
-  setDungeonGoodTrap(a: any, h: any, e: any, c: any): any;
-  setDungeonJumpTrap(a: any, h: any, e: any, c: any): any;
-  setDungeonEnemy(a: any, h: any, e: any, c: any, d: any, b: any, l: any): any;
-  setDungeonMaterial(a: any, h: any, e: any, c: any): any;
-  setDungeonObject(a: any, h: any, e: any): any;
-  setDungeonCantMoveFloor(a: any, h: any, e: any, c: any, d: any, b: any): any;
-  setDungeonCanMoveFloor(a: any, h: any, e: any, c: any, d: any, b: any): any;
-  setDungeonDamageFloor(a: any, h: any, e: any, c: any, d: any): any;
-  setDungeonAdventurerCharactor(a: any, h: any, e: any, c: any): any;
-  setDungeonCriminalCharactor(a: any, h: any, e: any, c: any): any;
-  oneActionFinishAction(a: any, h: any, e: any): void;
-  oneActionFinishAction_crdungeonteleport(a: any, h: any): any;
-  oneActionFinishAction_monsterhouse(a: any, h: any): any;
-  oneActionFinishAction_dungeonautocdt(a: any, h: any): any;
-  oneActionFinishAction_crdungeon3turn(a: any, h: any): void;
-  oneActionFinishAction_yatoboss(a: any, h: any): any;
-  oneActionFinishAction_crdungeon3boss(a: any, h: any): any;
-  oneActionFinishAction_bossgekiha(a: any, h: any): any;
-  bossgekihaEvent(a: any, h: any): void;
-  isEnableSetObject(a: any, h: any, e: any, c: any): any;
-  isEnableSetObject2(a: any, h: any, e: any): any;
-  getMapGimmickFloorInfo(a: any, h: any, e: any, c: any, d: any): any;
-  getMapGimmickSpace(a: any, h: any, e: any): any;
-  setDungeonTypeMap(a: any, h: any, e: any, c: any, d: any): any;
-  viewInfoWindow(a: any, h: any): any;
+  convertData(c: any): any;
+  createDungeonName(c: any, l: any): any;
+  getDungeonNameFromDungeonData(c: any, l: any, e: any, a: any): any;
+  getDungeonName(c: any, l: any, e: any, a: any, d: any): any;
+  getKaidanObjectId(c: any, l: any): any;
+  createEntrance(c: any, l: any): void;
+  createBossFloor(c: any, l: any): any;
+  setEntranceEventData(c: any, l: any): void;
+  setRoad(c: any): any;
+  jumpDungeonFloor(c: any, l: any, e: any, a: any, d: any, b: any): any;
+  nextDungeonFloor(c: any, l: any, e: any, a: any, d: any): any;
+  prevDungeonFloor(c: any, l: any, e: any, a: any, d: any): any;
+  checkEmptyPosition(c: any, l: any): any;
+  createFloor(c: any, l: any): any;
+  isCloseRoom(c: any, l: any): any;
+  createFloor_field(c: any, l: any): any;
+  createFloor_maze(c: any, l: any): any;
+  createFloor_long(c: any, l: any): any;
+  setMonstorHouse(c: any, l: any, e: any, a: any, d: any): void;
+  setRestRoom(c: any, l: any, e: any, a: any, d: any): void;
+  setHogyokuRoom(c: any, l: any, e: any, a: any, d: any): void;
+  setFishingRoom(c: any, l: any, e: any, a: any, d: any): void;
+  setOtakaraRoom(c: any, l: any, e: any, a: any, d: any): void;
+  setShopRoom(c: any, l: any, e: any, a: any): any;
+  getRectSpace(c: any, l: any): any;
+  getRectSpace2(c: any, l: any): any;
+  getRectSpace2FreeSpace(c: any, l: any): any;
+  selectItemType(c: any): any;
+  getFloorItemRank(c: any): any;
+  setDungeonItem(c: any, l: any, e: any, a: any): any;
+  setDungeonPortalEdgeAction(c: any, l: any, e: any): any;
+  setDungeonChest(c: any, l: any, e: any, a: any): any;
+  setDungeonMonsterChest(c: any, l: any, e: any, a: any): any;
+  setDungeonHibi(c: any, l: any, e: any, a: any): any;
+  setDungeonTrap(c: any, l: any, e: any, a: any): any;
+  setDungeonGoodTrap(c: any, l: any, e: any, a: any): any;
+  setDungeonJumpTrap(c: any, l: any, e: any, a: any): any;
+  setDungeonEnemy(c: any, l: any, e: any, a: any, d: any, b: any, k: any): any;
+  setDungeonMaterial(c: any, l: any, e: any, a: any): any;
+  setDungeonObject(c: any, l: any, e: any): any;
+  setDungeonCantMoveFloor(c: any, l: any, e: any, a: any, d: any, b: any): any;
+  setDungeonCanMoveFloor(c: any, l: any, e: any, a: any, d: any, b: any): any;
+  setDungeonDamageFloor(c: any, l: any, e: any, a: any, d: any): any;
+  setDungeonAdventurerCharactor(c: any, l: any, e: any, a: any): any;
+  setDungeonCriminalCharactor(c: any, l: any, e: any, a: any): any;
+  oneActionFinishAction(c: any, l: any, e: any): void;
+  oneActionFinishAction_crdungeonteleport(c: any, l: any): any;
+  oneActionFinishAction_monsterhouse(c: any, l: any): any;
+  oneActionFinishAction_dungeonautocdt(c: any, l: any): any;
+  oneActionFinishAction_crdungeon3turn(c: any, l: any): void;
+  oneActionFinishAction_yatoboss(c: any, l: any): any;
+  oneActionFinishAction_crdungeon3boss(c: any, l: any): any;
+  oneActionFinishAction_crdungeon7boss(c: any, l: any): any;
+  oneActionFinishAction_crdungeon7boss_bosshp(c: any, l: any): any;
+  oneActionFinishAction_bossgekiha(c: any, l: any): any;
+  bossgekihaEvent(c: any, l: any): void;
+  isEnableSetObject(c: any, l: any, e: any, a: any): any;
+  isEnableSetObject2(c: any, l: any, e: any): any;
+  getMapGimmickFloorInfo(c: any, l: any, e: any, a: any, d: any): any;
+  getMapGimmickSpace(c: any, l: any, e: any): any;
+  setDungeonTypeMap(c: any, l: any, e: any, a: any, d: any): any;
+  viewInfoWindow(c: any, l: any): any;
   viewViewMapFukidashi(): void;
-  createSaveFloor(a: any, h: any): any;
-  createSaveJumpEscFloor(a: any, h: any): any;
-  changeMap(a: any): void;
-  getBassgekihaHoushu(a: any): void;
-  setAutoCdt(a: any, h: any): any;
-  setSpecialEvent(a: any, h: any): any;
-  setDungeonEnemy_god2dungeon2(a: any, h: any, e: any, c: any, d: any, b: any): any;
-  addTargetDungeon(a: any, h: any, e: any, c: any): void;
-  loadDungeonJs(a: any, h: any): void;
+  createSaveFloor(c: any, l: any): any;
+  createSaveJumpEscFloor(c: any, l: any): any;
+  changeMap(c: any): void;
+  getBassgekihaHoushu(c: any): void;
+  setAutoCdt(c: any, l: any): any;
+  setSpecialEvent(c: any, l: any): any;
+  setDungeonEnemy_god2dungeon2(c: any, l: any, e: any, a: any, d: any, b: any): any;
+  addTargetDungeon(c: any, l: any, e: any, a: any): void;
+  loadDungeonJs(c: any, l: any): void;
 }
 
 declare class tGameEditMember {
@@ -1527,19 +1529,19 @@ declare class tGameFishing {
   viewData: any;
   size: any;
   skillId: any;
-  init(b: any): void;
-  getSp(b: any, a: any): any;
-  initLoad(b: any): void;
-  loadLinkJson(b: any): void;
-  view(b: any): any;
+  init(a: any): void;
+  getSp(a: any, b: any): any;
+  initLoad(a: any): void;
+  loadLinkJson(a: any): void;
+  view(a: any): any;
   setFishData(): void;
-  clear(b: any): void;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
-  addTime(b: any): void;
-  getExp(b: any, a: any, e: any): any;
+  clear(a: any): void;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
+  addTime(a: any): void;
+  getExp(a: any, b: any, e: any): any;
 }
 
 declare class tGameFukidashiResource {
@@ -1571,13 +1573,14 @@ declare class tGameGameClear {
   checkClearFlg(): void;
   checkFirst(): void;
   setClearDungeon(): any;
+  setClearEtc(): any;
 }
 
 declare class tGameGameOptionWindow {
   parent: any;
   viewData: any;
-  init(a: any): void;
-  viewOptionWindow(a: any, b: any): void;
+  init(b: any): void;
+  viewOptionWindow(b: any, a: any): void;
 }
 
 declare class tGameGameOver {
@@ -1953,6 +1956,7 @@ declare class tGameItem {
   equipmentChangeChip(a: any, b: any): void;
   askillRename(a: any, b: any): void;
   askillRename_act(a: any, b: any, c: any): void;
+  jobRename(a: any, b: any): void;
   zentaishiji(a: any, b: any): void;
   getEquipmentDiff(a: any, b: any): any;
   getCharaItemAskillRank(a: any, b: any): any;
@@ -1965,6 +1969,8 @@ declare class tGameItem {
   setLock(a: any, b: any): void;
   clearLock(a: any, b: any): void;
   isLock(a: any, b: any): any;
+  getLockId(a: any): any;
+  setLockId(a: any): any;
   isEquipmentItem(a: any): any;
   getItemSkill_checkReuseItem(a: any): any;
 }
@@ -2028,11 +2034,12 @@ declare class tGameJob {
   parent: any;
   jobData: any;
   groups: any;
+  jobNameMax: any;
   init(a: any): void;
   loadJob(a: any): void;
   initLoad(a: any): void;
   getJobName(a: any, b: any): any;
-  getCharactorJobName(a: any, b: any): any;
+  getCharactorJobName(a: any, b: any, c: any): any;
   getJobChangeTargets(a: any): any;
   initGroups(): void;
   getRandomJob(a: any): any;
@@ -2355,6 +2362,7 @@ declare class tGameMain {
   tGameHyk: tGameHyk;
   tGameHikitsugiNakama: tGameHikitsugiNakama;
   tGameAcn: tGameAcn;
+  tGameSoubifukuro: tGameSoubifukuro;
   loadFinishData: any;
   firstLogData: any;
   limitLevel: any;
@@ -2408,30 +2416,30 @@ declare class tGameMaou {
   data: any;
   images: any;
   tobatsuLvs: any;
-  init(c: any): void;
-  createMap(c: any, b: any): void;
-  createAlly(c: any, b: any): void;
-  setMaou(c: any, b: any, a: any): any;
-  createEnemy(c: any, b: any, a: any): void;
-  getMaouMapAll(c: any): any;
-  getMaouMaps(c: any): any;
-  getMaouObject(c: any): any;
-  getMaouBarriers(c: any, b: any): any;
-  getRandomMaouId(c: any): any;
-  getPayment(c: any): any;
-  getNextPaymentTime(c: any): any;
+  init(b: any): void;
+  createMap(b: any, c: any): void;
+  createAlly(b: any, c: any): void;
+  setMaou(b: any, c: any, a: any): any;
+  createEnemy(b: any, c: any, a: any): void;
+  getMaouMapAll(b: any): any;
+  getMaouMaps(b: any): any;
+  getMaouObject(b: any): any;
+  getMaouBarriers(b: any, c: any): any;
+  getRandomMaouId(b: any): any;
+  getPayment(b: any): any;
+  getNextPaymentTime(b: any): any;
   createFieldData(): any;
-  setTimeOverFaith(c: any, b: any): void;
-  checkTimeOver(c: any): any;
-  destroyWorld(c: any, b: any): void;
-  getFreeCollaborator(c: any): any;
-  getSetsumei(c: any, b: any, a: any): any;
-  getItemSetsumei(c: any): any;
-  viewAdventureGuildBoard(c: any, b: any): void;
-  getPayItems(c: any): any;
-  oneActionFinishAction(c: any, b: any, a: any): void;
-  oneActionFinishAction_maougekiha(c: any, b: any): any;
-  oneActionFinishAction_maouteshitashutsugen(c: any, b: any): any;
+  setTimeOverFaith(b: any, c: any): void;
+  checkTimeOver(b: any): any;
+  destroyWorld(b: any, c: any): void;
+  getFreeCollaborator(b: any): any;
+  getSetsumei(b: any, c: any, a: any): any;
+  getItemSetsumei(b: any): any;
+  viewAdventureGuildBoard(b: any, c: any): void;
+  getPayItems(b: any): any;
+  oneActionFinishAction(b: any, c: any, a: any): void;
+  oneActionFinishAction_maougekiha(b: any, c: any): any;
+  oneActionFinishAction_maouteshitashutsugen(b: any, c: any): any;
 }
 
 declare class tGameMap {
@@ -2958,6 +2966,7 @@ declare class tGameOnsen {
   parent: any;
   init(h: any): void;
   view(h: any, a: any): void;
+  view2(h: any, a: any): void;
   hairu(h: any): void;
   kyoka(h: any, a: any): any;
 }
@@ -3978,6 +3987,21 @@ declare class tGameSlumGenerator {
   actionPatternOne(a: any): any;
 }
 
+declare class tGameSoubifukuro {
+  parent: any;
+  max: any;
+  nameMaxLength: any;
+  init(b: any): void;
+  getEquipList(): any;
+  searchTargetEquipment(b: any): any;
+  view(b: any, d: any): void;
+  isEnableRegistEquips(): any;
+  registEquips(b: any): any;
+  soubihazusu(b: any): any;
+  soubiyobidasu(b: any, d: any): void;
+  getItemDescription(b: any, d: any): any;
+}
+
 declare class tGameSoundResource {
   parent: any;
   soundData: any;
@@ -4048,6 +4072,10 @@ declare class tGameStatusWindow {
   cursor: any;
   pagesMaster: any;
   pages: any;
+  dcvs: any;
+  dctx: any;
+  pcvs: any;
+  pctx: any;
   init(f: any): void;
   clear(): void;
   viewStatusWindow(f: any, k: any): any;
