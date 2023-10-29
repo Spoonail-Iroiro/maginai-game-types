@@ -627,6 +627,7 @@ declare class tGameCharactor {
   tryNpcJoinTeam(a: any): any;
   requestJoinTeam(a: any, b: any): any;
   requestJoinMyMember(a: any, b: any): any;
+  requestJoinMyMember2(a: any, b: any): any;
   isBlockRequestJoin(a: any): any;
   requestRemoveMyTown(a: any, b: any): any;
   requestRemoveMyTeam(a: any, b: any): any;
@@ -787,6 +788,7 @@ declare class tGameCharactor {
   autoTownFacilityUse__targetChara(a: any, b: any, c: any): any;
   getEquipmentIds(a: any, b: any): any;
   birthdayLog(a: any): void;
+  setKinenbi(a: any, b: any): any;
 }
 
 declare class tGameCharactorData {
@@ -962,6 +964,18 @@ declare class tGameCreateWindow {
   actCreate(): void;
   createResult(c: any, a: any): any;
   getExp(c: any, a: any, d: any): any;
+}
+
+declare class tGameCriminalRouya {
+  parent: any;
+  criminalRouyaMaxNum: any;
+  init(b: any): void;
+  changeCtype(b: any): any;
+  affect(b: any, c: any): void;
+  viewList(b: any, c: any): void;
+  nakamani(b: any): any;
+  mytownhe(b: any): any;
+  boukenshahe(b: any): any;
 }
 
 declare class tGameCriminalWindow {
@@ -1579,8 +1593,8 @@ declare class tGameGameClear {
 declare class tGameGameOptionWindow {
   parent: any;
   viewData: any;
-  init(b: any): void;
-  viewOptionWindow(b: any, a: any): void;
+  init(d: any): void;
+  viewOptionWindow(d: any, a: any): void;
 }
 
 declare class tGameGameOver {
@@ -1987,6 +2001,7 @@ declare class tGameItemInfoWindow {
 declare class tGameItemWindow {
   parent: any;
   textMaxWidth: any;
+  textMaxWidth2: any;
   views: any;
   ccvs: any;
   cctx: any;
@@ -2363,8 +2378,10 @@ declare class tGameMain {
   tGameHikitsugiNakama: tGameHikitsugiNakama;
   tGameAcn: tGameAcn;
   tGameSoubifukuro: tGameSoubifukuro;
+  tGameCriminalRouya: tGameCriminalRouya;
   loadFinishData: any;
   firstLogData: any;
+  windowLabelMaxWidth: any;
   limitLevel: any;
   init(b: any): void;
   initNext(b: any): void;
@@ -2822,9 +2839,9 @@ declare class tGameMyTownMeibo {
   viewWindow(c: any): any;
   getItemDescription(c: any, b: any): any;
   changeCharaTown(c: any, b: any): any;
-  isEnableChangeJuninToNakama(c: any): any;
+  isEnableChangeJuninToNakama(c: any, b: any): any;
   isEnableChangeNakamaToJunin(c: any): any;
-  changeJuninToNakama(c: any): any;
+  changeJuninToNakama(c: any, b: any): any;
   changeNakamaToJunin(c: any): any;
 }
 
@@ -3182,6 +3199,7 @@ declare class tGameRoom {
   getCreateRoomCon_55(a: any): any;
   getCreateRoomCon_56(a: any): any;
   getCreateRoomCon_57(a: any): any;
+  getCreateRoomCon_58(a: any): any;
   getCreateRoomCon(a: any): any;
   createMap(a: any): any;
   copyObjectLinks(a: any): any;
@@ -4083,16 +4101,19 @@ declare class tGameStatusWindow {
   drawProfile(): any;
   drawDefcdt(): any;
   drawCondition(): any;
+  drawNpcEtc(): any;
   drawPage(f: any): any;
   drawPage_main(f: any): void;
   drawPage_defcdt(f: any): void;
   drawPage_condition(f: any): void;
+  drawPage_npcetc(f: any): void;
   setFrameEvent(f: any): void;
   setFrameEvent_dispose(f: any): void;
   setFrameEvent_frame(f: any): void;
   setFrameEvent_draw(f: any): void;
   clearCanvas(): void;
   updateStatus(): void;
+  isNpcEtc(f: any): any;
 }
 
 declare class tGameSteal {
@@ -4346,10 +4367,13 @@ declare class tGameText {
   colorData: any;
   cvs: any;
   ctx: any;
+  cvs2: any;
+  ctx2: any;
   textSpace: any;
   lineHeight: any;
   init(a: any): void;
-  setFont(a: any, g: any, k: any): void;
+  setFont(a: any, b: any, k: any): void;
+  createTextSingleLine(a: any): any;
   createText(a: any): any;
   createDamageText(a: any): any;
   initLoad(a: any): void;
