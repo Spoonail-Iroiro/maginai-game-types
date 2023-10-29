@@ -93,6 +93,11 @@ declare class tEvent {
   removeNativeEvent(a: any): any;
 }
 
+declare class tGameAcn {
+  parent: any;
+  init(a: any): void;
+}
+
 declare class tGameAdventurerGuild {
   parent: any;
   questMaxNum: any;
@@ -1496,6 +1501,7 @@ declare class tGameFieldGenerator {
   setKojiki(b: any): void;
   setOsouDeathAction(b: any): void;
   fieldCreateRoad(b: any): any;
+  fixInEtcTown_hogyokuketsugo(b: any): void;
 }
 
 declare class tGameFieldMaterial {
@@ -2348,6 +2354,7 @@ declare class tGameMain {
   tGameShokuzaifukuro: tGameShokuzaifukuro;
   tGameHyk: tGameHyk;
   tGameHikitsugiNakama: tGameHikitsugiNakama;
+  tGameAcn: tGameAcn;
   loadFinishData: any;
   firstLogData: any;
   limitLevel: any;
@@ -2660,6 +2667,7 @@ declare class tGameMenu {
   viewOptionGroup(b: any, c: any): void;
   viewOption(b: any): void;
   viewOption2(b: any): void;
+  viewOption3(b: any): void;
   viewMenuShortcut(b: any): void;
   viewGameOption(b: any): void;
   viewHelp(b: any): void;
@@ -2668,6 +2676,7 @@ declare class tGameMenu {
   viewEditNouchi(b: any, c: any): void;
   viewEditMember(b: any, c: any): void;
   viewLog(b: any, c: any): void;
+  viewSubInfo(b: any): void;
 }
 
 declare class tGameMenuShortcutWindow {
@@ -2709,7 +2718,7 @@ declare class tGameMessageWindow {
   defaultViewItemMaxNum: any;
   viewItemMaxNum: any;
   init(a: any): void;
-  viewMessageWindow(a: any, c: any): any;
+  viewMessageWindow(a: any, d: any): any;
   drawAnswers(a: any): any;
   getCursor(a: any): any;
   setFrameEvent(a: any): void;
@@ -2718,8 +2727,8 @@ declare class tGameMessageWindow {
   setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
   drawPage(a: any): void;
-  convertContinuationMessages(a: any, c: any): any;
-  viewContinuationMessageWindow(a: any, c: any): void;
+  convertContinuationMessages(a: any, d: any): any;
+  viewContinuationMessageWindow(a: any, d: any): void;
 }
 
 declare class tGameMyAdventurerCharactor {
@@ -2795,6 +2804,7 @@ declare class tGameMyTown {
   isMyTownNakamaType(a: any): any;
   getMyTownNakamaType(a: any): any;
   getMyTownNakamaCtype(a: any): any;
+  setNightBgmMenu(a: any): void;
 }
 
 declare class tGameMyTownMeibo {
@@ -2996,9 +3006,10 @@ declare class tGameOption {
 declare class tGameOptionWindow {
   parent: any;
   viewData: any;
-  init(f: any): void;
-  viewOptionWindow(f: any, a: any): void;
-  viewOptionWindow2(f: any, a: any): void;
+  init(e: any): void;
+  viewOptionWindow(e: any, a: any): void;
+  viewOptionWindow2(e: any, a: any): void;
+  viewOptionWindow3(e: any, a: any): void;
 }
 
 declare class tGameOverMapResource {
@@ -3213,7 +3224,7 @@ declare class tGameRoutineMap {
   frameAction_draw(a: any, c: any): void;
   updateLastConvertMapData(a: any): void;
   clearOneActionSyncAction(): void;
-  oneAction(a: any, c: any, b: any, e: any, d: any, h: any): void;
+  oneAction(a: any, c: any, b: any, e: any, d: any, g: any): void;
   oneActionAfterFinishAction(a: any): any;
   oneActionAfter(a: any): any;
   viewEffectLog(a: any): void;
@@ -3235,8 +3246,8 @@ declare class tGameRoutineMap {
   viewPlayerPositionLog(): any;
   viewPlayerPositionOverlookLog(): void;
   getCanMovePositions(a: any, c: any, b: any, e: any): any;
-  viewMap(a: any, c: any, b: any, e: any, d: any, h: any): any;
-  viewMap_action(a: any, c: any, b: any, e: any, d: any, h: any): any;
+  viewMap(a: any, c: any, b: any, e: any, d: any, g: any): any;
+  viewMap_action(a: any, c: any, b: any, e: any, d: any, g: any): any;
   viewMapEvent(a: any): void;
   setPlayerPosition(a: any, c: any): any;
   drawForce(a: any): void;
@@ -3363,9 +3374,9 @@ declare class tGameSchoolGenerator {
 
 declare class tGameSelectBgmWindow {
   parent: any;
-  init(b: any): void;
-  getBgmItems(b: any): any;
-  view(b: any): void;
+  init(a: any): void;
+  getBgmItems(a: any): any;
+  view(a: any): void;
 }
 
 declare class tGameSelectFovTarget {
@@ -4174,27 +4185,27 @@ declare class tGameStorage {
   createStorage(b: any): any;
   viewWindow(b: any): any;
   initTalk(b: any): void;
-  viewDefault(b: any, c: any): void;
+  viewDefault(b: any, d: any): void;
   viewArrears(b: any): void;
   pay(): void;
   getItemNum(): any;
   payArrearsMoney(b: any): void;
   addItem(b: any): any;
-  removeItem(b: any, c: any, a: any): any;
-  inCharaItem(b: any, c: any, a: any): any;
-  outCharaItem(b: any, c: any, a: any, d: any): any;
-  outOkuItem(b: any, c: any, a: any): any;
+  removeItem(b: any, d: any, a: any): any;
+  inCharaItem(b: any, d: any, a: any): any;
+  outCharaItem(b: any, d: any, a: any, c: any): any;
+  outOkuItem(b: any, d: any, a: any): any;
   azukeru(b: any): void;
-  toridasu(b: any, c: any): void;
+  toridasu(b: any, d: any): void;
   selectItem(b: any): void;
   help(b: any): void;
-  maoupay(b: any, c: any): void;
+  maoupay(b: any, d: any): void;
   fusaiShometsu(): any;
   sortItems(b: any): void;
-  setSortType(b: any, c: any): void;
-  setSortTypeWindow(b: any, c: any): void;
+  setSortType(b: any, d: any): void;
+  setSortTypeWindow(b: any, d: any): void;
   fixKakeraGroup(): void;
-  searchItemId(b: any, c: any): any;
+  searchItemId(b: any, d: any): any;
 }
 
 declare class tGameStoryWindow {
@@ -4259,7 +4270,7 @@ declare class tGameTalkResource {
   emptyMsg: any;
   init(d: any): void;
   getCharaPlayerRelationKey(d: any): any;
-  convertTalk(d: any, e: any): any;
+  convertTalk(d: any, e: any, f: any): any;
   getChoiseMessage(d: any, e: any): any;
   getChoiseJoinTeamMessage(d: any, e: any, f: any, c: any): any;
   getChoiseRequestMyTownMessage(d: any, e: any, f: any, c: any): any;
