@@ -383,21 +383,24 @@ declare class tGameBlacksmith {
   parent: any;
   viewData: any;
   maxNum: any;
+  gineikesshoMaxNum: any;
   init(d: any): void;
   getMaterialMaxNum(d: any): any;
+  getGineikesshoMaxNum(): any;
   getSoukesshoNeedNum(): any;
-  create(d: any, c: any, a: any, f: any): void;
-  createMember(d: any, c: any, a: any, f: any): void;
-  selectMaterial(d: any, c: any): void;
+  create(d: any, b: any, a: any, f: any): void;
+  createMember(d: any, b: any, a: any, f: any): void;
+  selectMaterial(d: any, b: any): void;
   selectEquipmentType2(d: any): any;
   selectSoukessho(d: any): any;
   getSuccessRate(d: any): any;
   getMaxRank(): any;
   actBlacksmith(): void;
-  blacksmithResult(d: any, c: any): any;
-  getExp(d: any, c: any, a: any): any;
-  bunkai(d: any, c: any): void;
+  blacksmithResult(d: any, b: any): any;
+  getExp(d: any, b: any, a: any): any;
+  bunkai(d: any, b: any): void;
   getSoukesshoItems(): any;
+  getGineikesshoItems(): any;
 }
 
 declare class tGameButsu {
@@ -618,7 +621,7 @@ declare class tGameCharactor {
   dropItem(a: any, b: any, c: any, d: any): any;
   calDamage(a: any): any;
   autoCure(a: any): void;
-  getExp(a: any, b: any, c: any, d: any): any;
+  getExp(a: any, b: any, c: any, d: any, e: any): any;
   setLevelUpGrowthStatus(a: any, b: any): any;
   addSkillActionExp(a: any, b: any, c: any): any;
   getFriendshipExp(a: any, b: any, c: any): any;
@@ -2379,6 +2382,7 @@ declare class tGameMain {
   tGameAcn: tGameAcn;
   tGameSoubifukuro: tGameSoubifukuro;
   tGameCriminalRouya: tGameCriminalRouya;
+  tGameMeiro: tGameMeiro;
   loadFinishData: any;
   firstLogData: any;
   windowLabelMaxWidth: any;
@@ -2677,6 +2681,46 @@ declare class tGameMapResource {
   getDrawMapData(a: any, b: any): void;
 }
 
+declare class tGameMeiro {
+  parent: any;
+  data: any;
+  imgs: any;
+  objs: any;
+  viewData: any;
+  size: any;
+  chipsize: any;
+  vcvs: any;
+  vctx: any;
+  isInit: any;
+  init(a: any): void;
+  tryMap(a: any): any;
+  createMap(): any;
+  affectDoor(a: any, c: any): void;
+  affect(a: any, c: any, b: any): void;
+  isHoshu(): any;
+  hoshu(a: any): void;
+  oneActionFinishAction(a: any, c: any, b: any): void;
+  oneActionFinishAction_createmeiro(a: any, c: any): any;
+  initLoad(a: any): any;
+  loadLinkJson(a: any): void;
+  initFrame(a: any): void;
+  view(a: any): void;
+  clear(a: any): void;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
+  inputKey(): void;
+  setStage(a: any): void;
+  drawView(): void;
+  draw3DMeiro(): any;
+  getTargetPosition(a: any, c: any): any;
+  drawBg(): any;
+  drawMap(): void;
+  actDeguchi(): void;
+  actMenu(): void;
+}
+
 declare class tGameMenu {
   parent: any;
   init(b: any): void;
@@ -2969,8 +3013,8 @@ declare class tGameObjectResource {
   isTurnEventObject(b: any): any;
   turnAction(b: any): any;
   turnAction_bomb(b: any, a: any): any;
-  takeSkillAction(b: any, a: any, c: any, e: any, g: any, l: any): any;
-  takeSkillAction_yubaku(b: any, a: any, c: any, e: any, g: any, l: any): any;
+  takeSkillAction(b: any, a: any, c: any, e: any, g: any, m: any): any;
+  takeSkillAction_yubaku(b: any, a: any, c: any, e: any, g: any, m: any): any;
   viewUnlockLog(b: any, a: any): any;
   affectWarikomi_dungeonnext(b: any, a: any): any;
   affectStorage2(b: any, a: any): void;
