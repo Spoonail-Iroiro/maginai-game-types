@@ -5,14 +5,14 @@
 
 # Install
 
-異世界の創造者v1.1.7.0用型定義
+異世界の創造者v1.1.10.0用型定義
 ```
-npm install -D maginai-game-types@1.7
+npm install -D maginai-game-types@1.10
 ```
 
-異世界の創造者v1.1.9.0用型定義
+異世界の創造者v1.2.0.0用型定義
 ```
-npm install -D maginai-game-types@1.9
+npm install -D maginai-game-types@2.0
 ```
 
 ※他バージョンも同様
