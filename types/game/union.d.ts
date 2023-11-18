@@ -371,12 +371,13 @@ declare class tGameBgmResource {
   startSound(a: any): any;
   removeSound(a: any, b: any): any;
   insertPlay(a: any, b: any): any;
-  insertPlay2(a: any, b: any, d: any): any;
+  insertPlay2(a: any, b: any, e: any): any;
   removeAllSound(a: any): void;
-  play(a: any, b: any, d: any, c: any): any;
+  play(a: any, b: any, e: any, d: any): any;
   setVolume(a: any): any;
   frameAction(a: any): void;
   reflectOption(a: any): void;
+  overwriteBgm(a: any): void;
 }
 
 declare class tGameBlacksmith {
@@ -887,14 +888,16 @@ declare class tGameChipsetResource {
   chipsetLink: any;
   chipsetData: any;
   counters: any;
-  init(c: any): void;
-  getUseData(c: any): any;
-  getUseDataFromMap(c: any): any;
-  loadImage(c: any, d: any, b: any): void;
-  loadLinkJson(c: any): void;
-  loadAllImage(c: any): void;
-  getChipsetData(c: any): any;
-  getMyAdventurerChipData(c: any): any;
+  init(d: any): void;
+  getUseData(d: any): any;
+  getUseDataFromMap(d: any): any;
+  loadImage(d: any, e: any, b: any): void;
+  loadLinkJson(d: any): void;
+  loadAllImage(d: any): void;
+  getChipsetData(d: any): any;
+  getMyAdventurerChipData(d: any): any;
+  loadOverwrite(d: any): void;
+  loadOverwrite__chipset_chara(d: any): void;
 }
 
 declare class tGameCommand {
@@ -1358,9 +1361,11 @@ declare class tGameFaceResource {
   loadImage(a: any, c: any, d: any): void;
   loadAllImage(a: any): void;
   loadLinkJson(a: any): void;
-  getRandomCharactor(a: any, c: any, d: any, b: any, e: any, k: any): any;
+  getRandomCharactor(a: any, c: any, d: any, b: any, e: any, h: any): any;
   getRandomObjectId(a: any): any;
   getRandomFaceId(a: any): any;
+  loadOverwrite(a: any): void;
+  loadOverwrite__face(a: any): void;
 }
 
 declare class tGameFaith {
@@ -1969,6 +1974,7 @@ declare class tGameItem {
   getRareRandomRateItem(): any;
   convertTargetRankEquipment(a: any, b: any): any;
   equipRankupItem(a: any, b: any, c: any, f: any): any;
+  askillLevelupItem(a: any, b: any, c: any, f: any): any;
   equipmentRename(a: any, b: any): void;
   equipmentChangeChip(a: any, b: any): void;
   askillRename(a: any, b: any): void;
@@ -2383,6 +2389,8 @@ declare class tGameMain {
   tGameSoubifukuro: tGameSoubifukuro;
   tGameCriminalRouya: tGameCriminalRouya;
   tGameMeiro: tGameMeiro;
+  tGameNw: tGameNw;
+  tGameMatsuri: tGameMatsuri;
   loadFinishData: any;
   firstLogData: any;
   windowLabelMaxWidth: any;
@@ -2681,6 +2689,18 @@ declare class tGameMapResource {
   getDrawMapData(a: any, b: any): void;
 }
 
+declare class tGameMatsuri {
+  parent: any;
+  init(a: any): void;
+  tryMap(a: any): any;
+  createMap(): any;
+  getMapId(): any;
+  createMap_act(a: any): any;
+  addCharactor(a: any, d: any): any;
+  oneActionFinishAction(a: any, d: any, b: any): void;
+  oneActionFinishAction_creatematsuri(a: any, d: any): any;
+}
+
 declare class tGameMeiro {
   parent: any;
   data: any;
@@ -2971,6 +2991,38 @@ declare class tGameNumWindow {
   clearCanvas(): void;
   setNum(b: any, c: any, a: any): any;
   getInputValue(): any;
+}
+
+declare class tGameNw {
+  parent: any;
+  isEnabled: any;
+  callObj: any;
+  callObj_screen: any;
+  callBacks: any;
+  requires: any;
+  init(a: any): void;
+  refreshWindowsFnc(a: any): void;
+  loadRequire(a: any): any;
+  initDir(a: any): void;
+  initLoad(a: any): void;
+  pageClose(): any;
+  pageReload(): any;
+  getSaveList(a: any): any;
+  getSaveData(a: any, c: any): any;
+  setSaveData(a: any, c: any, b: any): any;
+  setSaveDataBackup(a: any, c: any): any;
+  deleteSaveData(a: any, c: any): any;
+  changeContentSize(a: any, c: any, b: any, d: any): void;
+  changeContentSize__resize(a: any, c: any, b: any, d: any): void;
+  changeContentSize__fullscreen(a: any, c: any, b: any, d: any): void;
+  sendJsSysError(a: any, c: any): void;
+  exportMyAdventurerCharactor(a: any, c: any, b: any, d: any, e: any): any;
+  importMyAdventurerCharactor(a: any): void;
+  overwriteMyAdventurerCharactorData(a: any, c: any, b: any, d: any, e: any, g: any): void;
+  sendIsTr(): void;
+  exportMpaData(a: any, c: any): void;
+  importMapData(a: any): void;
+  closeGame(): void;
 }
 
 declare class tGameObjectResource {
@@ -3766,6 +3818,7 @@ declare class tGameSkillAction {
   takeSkillAction_attack(a: any, m: any, e: any, d: any, n: any): any;
   takeSkillAction_food(a: any, m: any, e: any, d: any, n: any): any;
   takeSkillAction_light(a: any, m: any, e: any, d: any, n: any): any;
+  takeSkillAction_weatherchange(a: any, m: any, e: any, d: any, n: any): any;
   takeSkillAction_warmeirei(a: any, m: any, e: any, d: any, n: any): any;
   takeSkillAction_warbomb(a: any, m: any, e: any, d: any, n: any): any;
   takeSkillAction_teleport(a: any, m: any, e: any, d: any, n: any): any;
@@ -4810,21 +4863,25 @@ declare class tGameWindowResource {
 declare class tGameWindows {
   parent: any;
   isEnabled: any;
+  type: any;
   callObj: any;
   callBacks: any;
-  init(d: any): void;
-  getSaveList(d: any): void;
-  getSaveData(d: any, e: any): void;
-  setSaveData(d: any, e: any, b: any): void;
-  deleteSaveData(d: any, e: any): void;
-  changeContentSize(d: any, e: any, b: any, a: any): void;
-  sendJsSysError(d: any, e: any): void;
-  exportMyAdventurerCharactor(d: any, e: any, b: any, a: any, c: any): void;
-  importMyAdventurerCharactor(d: any): void;
-  overwriteMyAdventurerCharactorData(d: any, e: any, b: any, a: any, c: any, f: any): void;
+  init(c: any): void;
+  initLoad(c: any): void;
+  pageClose(): void;
+  pageReload(): void;
+  getSaveList(c: any): void;
+  getSaveData(c: any, e: any): void;
+  setSaveData(c: any, e: any, b: any): void;
+  deleteSaveData(c: any, e: any): void;
+  changeContentSize(c: any, e: any, b: any, a: any): void;
+  sendJsSysError(c: any, e: any): void;
+  exportMyAdventurerCharactor(c: any, e: any, b: any, a: any, d: any): void;
+  importMyAdventurerCharactor(c: any): void;
+  overwriteMyAdventurerCharactorData(c: any, e: any, b: any, a: any, d: any, f: any): void;
   sendIsTr(): void;
-  exportMpaData(d: any, e: any): void;
-  importMapData(d: any): void;
+  exportMpaData(c: any, e: any): void;
+  importMapData(c: any): void;
   closeGame(): void;
 }
 
