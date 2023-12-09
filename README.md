@@ -37,21 +37,21 @@ patchは本パッケージとして修正があった場合に上がります。
 ## (B) tsconfigで`types`を使用していない場合
 コードで以下のトリプルスラッシュディレクティブを使用してください。
 
-```
+```ts
 /// <reference types="maginai-game-types"/>
 ```
 
 構成例：
 
 `types/global.d.ts`
-```
+```ts
 /// <reference types="maginai-game-types"/>
 
 // ...他にグローバルな型定義があれば記載、importやexportを使用するとモジュールスコープとなってしまうため×
 ```
 
 `tsconfig.json`
-```
+```json
   "include": [
     "src",
     "types"

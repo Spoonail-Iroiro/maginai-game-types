@@ -1152,20 +1152,20 @@ declare class tGameEffect {
   addEffect(e: any): any;
   frameActionDraw(e: any): void;
   draw(e: any): any;
-  drawEffectMap(e: any, k: any, g: any): any;
-  effectSimple(e: any, k: any): any;
-  effectBottomText(e: any, k: any): any;
+  drawEffectMap(e: any, l: any, g: any): any;
+  effectSimple(e: any, l: any): any;
+  effectBottomText(e: any, l: any): any;
   getEffectTextDelay(e: any): any;
-  effectText(e: any, k: any): any;
-  effectSmallText(e: any, k: any): any;
-  viewMapName(e: any, k: any): any;
+  effectText(e: any, l: any): any;
+  effectSmallText(e: any, l: any): any;
+  viewMapName(e: any, l: any): any;
   clear(): void;
-  effectDeath(e: any, k: any): any;
-  effectVanish(e: any, k: any): any;
-  effectUpObject(e: any, k: any): any;
+  effectDeath(e: any, l: any): any;
+  effectVanish(e: any, l: any): any;
+  effectUpObject(e: any, l: any): any;
   effectSimpleCut(e: any): any;
-  effectLine(e: any, k: any): any;
-  viewBigText(e: any, k: any): any;
+  effectLine(e: any, l: any): any;
+  viewBigText(e: any, l: any): any;
 }
 
 declare class tGameEmotionResource {
@@ -1754,12 +1754,13 @@ declare class tGameHelp {
   init(k: any): void;
   initLoad(k: any): void;
   viewHelp(k: any): void;
-  viewCategoryWindow(k: any, n: any): void;
-  viewCategoryItemWindow(k: any, n: any, d: any): void;
-  viewSelectWindow(k: any, n: any, d: any, r: any): any;
+  viewCategoryWindow(k: any, l: any): void;
+  viewCategoryItemWindow(k: any, l: any, d: any): void;
+  viewSelectWindow(k: any, l: any, d: any, r: any): any;
   getCategories(): any;
   getCategoryItems(k: any): any;
-  viewDocument(k: any, n: any): any;
+  viewDocument(k: any, l: any): any;
+  setMessage(): void;
 }
 
 declare class tGameHikitsugi {
@@ -1827,6 +1828,34 @@ declare class tGameHoridashimono {
 
 declare class tGameHyk {
   parent: any;
+  targetFont: any;
+  textMode: any;
+  timeViewMode: any;
+  cnvData: any;
+  list: any;
+  init(e: any): void;
+  initLoad(e: any, g: any): any;
+  loadLinkJson(e: any): void;
+  loadLOADDATA(e: any, g: any): void;
+  getTableStrings(e: any, g: any): void;
+  getTableString__default(e: any, g: any, c: any): void;
+  getTableString__talk(e: any, g: any, c: any): void;
+  getTableString__askill(e: any, g: any, c: any): void;
+  getTableString__charactor(e: any, g: any, c: any): void;
+  getTableString__kucho(e: any, g: any, c: any): void;
+  getTableString__item(e: any, g: any, c: any): void;
+  getTableString__job(e: any, g: any, c: any): void;
+  getTableString__map(e: any, g: any, c: any): void;
+  getTableString__mapeditor(e: any, g: any, c: any): void;
+  getTableString__name(e: any, g: any, c: any): void;
+  getTableString__poker(e: any, g: any, c: any): void;
+  getTableString__shortevent(e: any, g: any, c: any): void;
+  getTableString__skill(e: any, g: any, c: any): void;
+  getTableString__war(e: any, g: any, c: any): void;
+  getTableString__help(e: any, g: any, c: any): void;
+  addExCsvs(e: any, g: any): void;
+  importLanguageCsv(e: any): any;
+  reflectLanguageLOADDATA(e: any, g: any): any;
 }
 
 declare class tGameIcon24Resource {
@@ -2143,7 +2172,6 @@ declare class tGameLog {
   parent: any;
   logs: any;
   logMaxNum: any;
-  viewLogMaxNum: any;
   textMaxWidth: any;
   fontSize: any;
   lineHeight: any;
@@ -2403,8 +2431,8 @@ declare class tGameMain {
   refreshCanvas(b: any): void;
   subFrameAction(b: any): void;
   subRefreshCanvas(b: any): void;
-  loadJsData(b: any, a: any, d: any, c: any): void;
-  loadImage(b: any, a: any, d: any): any;
+  loadJsData(b: any, a: any, c: any, d: any, e: any): void;
+  loadImage(b: any, a: any, c: any): any;
   /**
    * 乱数を取得する
    * @param min 最小値
@@ -2420,24 +2448,25 @@ declare class tGameMain {
   getBrowser(): any;
   getRandomBias(b: any, a: any): any;
   log(b: any, a: any): void;
-  clog(b: any, a: any, d: any): void;
+  clog(b: any, a: any, c: any): void;
   shuffleArray(b: any): void;
   close(): void;
   reload(): void;
   changeScreenSize(b: any): any;
-  startNewGame(b: any, a: any, d: any): void;
-  outputMap(b: any, a: any, d: any): any;
-  outputRoom(b: any, a: any, d: any): any;
+  startNewGame(b: any, a: any, c: any): void;
+  outputMap(b: any, a: any, c: any): any;
+  outputRoom(b: any, a: any, c: any): any;
   setViewPosition(b: any): void;
   convertCsv(b: any): any;
-  loadJsPngWorker(b: any, a: any, d: any): any;
-  loadJsPng2Worker(b: any, a: any, d: any): any;
+  loadJsPngWorker(b: any, a: any, c: any): any;
+  loadJsPng2Worker(b: any, a: any, c: any): any;
   isTr(): any;
   actJsPngWorker(b: any, a: any): void;
   actJsPng2Worker(b: any, a: any): void;
   initJsError(): void;
   initFirstLog(): void;
   getCachePrefix(): any;
+  loadFont(): void;
 }
 
 declare class tGameMaou {
@@ -3132,6 +3161,7 @@ declare class tGameOptionWindow {
   viewOptionWindow(e: any, a: any): void;
   viewOptionWindow2(e: any, a: any): void;
   viewOptionWindow3(e: any, a: any): void;
+  viewSysOptWindow(e: any, a: any): void;
 }
 
 declare class tGameOverMapResource {
@@ -4413,6 +4443,7 @@ declare class tGameTableTalk {
 declare class tGameTalkResource {
   parent: any;
   talkData: any;
+  talkDataCache: any;
   emptyMsg: any;
   init(d: any): void;
   getCharaPlayerRelationKey(d: any): any;
@@ -4457,6 +4488,7 @@ declare class tGameTalkResource {
   loadTargetMyTalkData(d: any, e: any): void;
   getTableTalkMessage(d: any, e: any, f: any): any;
   getSleepTogetherMessage(d: any, e: any, f: any): any;
+  updateButtonKeyLabel(): void;
 }
 
 declare class tGameText {
@@ -4469,9 +4501,10 @@ declare class tGameText {
   textSpace: any;
   lineHeight: any;
   init(a: any): void;
-  setFont(a: any, b: any, k: any): void;
+  setFont(a: any, b: any, l: any): void;
   createTextSingleLine(a: any): any;
   createText(a: any): any;
+  createText_en(a: any): any;
   createDamageText(a: any): any;
   initLoad(a: any): void;
 }
@@ -4507,13 +4540,14 @@ declare class tGameTime {
   getNow(): any;
   viewAmpm(a: any): void;
   getTimeToWaitTime(a: any): any;
-  addTime(a: any, b: any, d: any): void;
+  addTime(a: any, b: any, c: any): void;
   getZeroDate(a: any): any;
   getDate(a: any): any;
   calAge(a: any, b: any): any;
-  getBirthDayToTime(a: any, b: any, d: any): any;
+  getBirthDayToTime(a: any, b: any, c: any): any;
   createBiarthday(a: any, b: any): any;
   drawTime(): any;
+  drawTime_en(): any;
   viewTime(): any;
   frameActionDraw(a: any): any;
   getTimeGroup(a: any): any;
