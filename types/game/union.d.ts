@@ -385,21 +385,21 @@ declare class tGameBlacksmith {
   viewData: any;
   maxNum: any;
   gineikesshoMaxNum: any;
-  init(d: any): void;
-  getMaterialMaxNum(d: any): any;
+  init(b: any): void;
+  getMaterialMaxNum(b: any): any;
   getGineikesshoMaxNum(): any;
   getSoukesshoNeedNum(): any;
-  create(d: any, b: any, a: any, f: any): void;
-  createMember(d: any, b: any, a: any, f: any): void;
-  selectMaterial(d: any, b: any): void;
-  selectEquipmentType2(d: any): any;
-  selectSoukessho(d: any): any;
-  getSuccessRate(d: any): any;
+  create(b: any, c: any, a: any, f: any): void;
+  createMember(b: any, c: any, a: any, f: any): void;
+  selectMaterial(b: any, c: any): void;
+  selectEquipmentType2(b: any): any;
+  selectSoukessho(b: any): any;
+  getSuccessRate(b: any): any;
   getMaxRank(): any;
   actBlacksmith(): void;
-  blacksmithResult(d: any, b: any): any;
-  getExp(d: any, b: any, a: any): any;
-  bunkai(d: any, b: any): void;
+  blacksmithResult(b: any, c: any): any;
+  getExp(b: any, c: any, a: any): any;
+  bunkai(b: any, c: any): void;
   getSoukesshoItems(): any;
   getGineikesshoItems(): any;
 }
@@ -2320,6 +2320,7 @@ declare class tGameMain {
   tGameShukkabako: tGameShukkabako;
   tGameEnchantment: tGameEnchantment;
   tGameBlacksmith: tGameBlacksmith;
+  tGameYubiwadukuri: tGameYubiwadukuri;
   tGameFishing: tGameFishing;
   tGameMapEditor: tGameMapEditor;
   tGameMyTown: tGameMyTown;
@@ -4561,12 +4562,12 @@ declare class tGameTime {
 declare class tGameTitle {
   parent: any;
   images: any;
-  init(c: any): void;
-  initLoad(c: any): void;
+  init(b: any): void;
+  initLoad(b: any): void;
   viewTitle(): void;
-  drawBackground(c: any, b: any): any;
-  drawBackground_etc(c: any, b: any): any;
-  drawBackground_title(c: any): void;
+  drawBackground(b: any, c: any): any;
+  drawBackground_etc(b: any, c: any): any;
+  drawBackground_title(b: any): void;
 }
 
 declare class tGameTitleWindow {
@@ -4583,7 +4584,7 @@ declare class tGameTitleWindow {
   clearBottomData: any;
   init(b: any): void;
   clear(): void;
-  viewSaveWindow(b: any, a: any, d: any): void;
+  viewSaveWindow(b: any, a: any, c: any): void;
   drawPage(b: any): void;
   getCursor(b: any): any;
   setFrameEvent(b: any): void;
@@ -4597,7 +4598,7 @@ declare class tGameTitleWindow {
   updateItems(b: any): void;
   newGameBefore(b: any): void;
   newGame(b: any, a: any): void;
-  startNewGame(b: any, a: any, d: any): void;
+  startNewGame(b: any, a: any, c: any): void;
   viewError(b: any): void;
   checkMismatchSaveData(b: any): any;
   checkMismatchVersionSaveData(b: any): any;
@@ -4924,6 +4925,27 @@ declare class tGameYagi {
   init(b: any): void;
   affect(b: any): any;
   tryRefresh(): any;
+}
+
+declare class tGameYubiwadukuri {
+  parent: any;
+  viewData: any;
+  kisekiMaxNum: any;
+  gineikesshoMaxNum: any;
+  size: any;
+  init(a: any): void;
+  getKisekiMaxNum(): any;
+  getGineikesshoMaxNum(): any;
+  getSoukesshoNeedNum(): any;
+  create(a: any, c: any, b: any): void;
+  createMember(a: any, c: any, b: any): void;
+  selectMaterial(a: any, c: any): void;
+  selectSoukessho(a: any): any;
+  getMaxRank(): any;
+  actYubiwadukuri(): void;
+  getExp(a: any, c: any, b: any): any;
+  getSoukesshoItems(): any;
+  getGineikesshoItems(): any;
 }
 
 declare class tGameYukigassen {
