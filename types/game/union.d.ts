@@ -793,6 +793,9 @@ declare class tGameCharactor {
   getEquipmentIds(a: any, b: any): any;
   birthdayLog(a: any): void;
   setKinenbi(a: any, b: any): any;
+  checkCdtTarget(a: any): any;
+  addItemWithFukuro(a: any, b: any, c: any, d: any): void;
+  viewAddItemLog(a: any, b: any, c: any, d: any): void;
 }
 
 declare class tGameCharactorData {
@@ -1443,6 +1446,7 @@ declare class tGameFieldGenerator {
   inMyTown(b: any, a: any, d: any): any;
   inSubTown(b: any, a: any, d: any): any;
   inNouchi(b: any, a: any, d: any): any;
+  inIkesu(b: any, a: any, d: any): any;
   inSchool(b: any, a: any, d: any): any;
   inCastle(b: any, a: any, d: any): any;
   inEtcTown(b: any, a: any, d: any): any;
@@ -1883,6 +1887,34 @@ declare class tGameIdRecycle {
   setSaveData(a: any): any;
   checkObject(a: any): any;
   getObjectId(): any;
+}
+
+declare class tGameIkesu {
+  parent: any;
+  data: any;
+  maxNum: any;
+  init(a: any): void;
+  initSaveData(): void;
+  getSaveData(): any;
+  setSaveData(a: any): any;
+  getIkesuName(): any;
+  getChipData(a: any): any;
+  setIkesu(a: any, b: any): any;
+  createIkesuWithLoad(a: any, b: any): void;
+  moveIkesu(a: any): any;
+  createIkesu(a: any, b: any): void;
+  actionPattern(a: any): any;
+  updateActionPattern(a: any): any;
+  actionPatternOne(a: any): any;
+  viewWindow(a: any): void;
+  viewDefault(a: any, b: any): void;
+  ireru(a: any): void;
+  dasu(a: any): void;
+  addItem(a: any, b: any): any;
+  sortItems(): void;
+  convertItem(a: any): any;
+  seicho(): void;
+  getAddNumRate(a: any): any;
 }
 
 declare class tGameItem {
@@ -2420,6 +2452,7 @@ declare class tGameMain {
   tGameMeiro: tGameMeiro;
   tGameNw: tGameNw;
   tGameMatsuri: tGameMatsuri;
+  tGameIkesu: tGameIkesu;
   loadFinishData: any;
   firstLogData: any;
   windowLabelMaxWidth: any;
@@ -2468,6 +2501,7 @@ declare class tGameMain {
   initFirstLog(): void;
   getCachePrefix(): any;
   loadFont(): void;
+  activeAchievement(b: any, a: any): any;
 }
 
 declare class tGameMaou {
@@ -3030,6 +3064,13 @@ declare class tGameNw {
   callObj_screen: any;
   callBacks: any;
   requires: any;
+  selectFileDatas: any;
+  currentDir: any;
+  currentDir2: any;
+  pwd: any;
+  myAdvTmpData: any;
+  greenworks: any;
+  activeAchievementCache: any;
   init(a: any): void;
   refreshWindowsFnc(a: any): void;
   loadRequire(a: any): any;
@@ -3038,21 +3079,23 @@ declare class tGameNw {
   pageClose(): any;
   pageReload(): any;
   getSaveList(a: any): any;
-  getSaveData(a: any, c: any): any;
-  setSaveData(a: any, c: any, b: any): any;
-  setSaveDataBackup(a: any, c: any): any;
-  deleteSaveData(a: any, c: any): any;
-  changeContentSize(a: any, c: any, b: any, d: any): void;
-  changeContentSize__resize(a: any, c: any, b: any, d: any): void;
-  changeContentSize__fullscreen(a: any, c: any, b: any, d: any): void;
-  sendJsSysError(a: any, c: any): void;
-  exportMyAdventurerCharactor(a: any, c: any, b: any, d: any, e: any): any;
+  getSaveData(a: any, b: any): any;
+  setSaveData(a: any, b: any, c: any): any;
+  setSaveDataBackup(a: any, b: any): any;
+  deleteSaveData(a: any, b: any): any;
+  changeContentSize(a: any, b: any, c: any, d: any): void;
+  changeContentSize__resize(a: any, b: any, c: any, d: any): void;
+  changeContentSize__fullscreen(a: any, b: any, c: any, d: any): void;
+  sendJsSysError(a: any, b: any): void;
+  exportMyAdventurerCharactor(a: any, b: any, c: any, d: any, e: any): any;
   importMyAdventurerCharactor(a: any): void;
-  overwriteMyAdventurerCharactorData(a: any, c: any, b: any, d: any, e: any, g: any): void;
+  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, d: any, e: any, g: any): void;
   sendIsTr(): void;
-  exportMpaData(a: any, c: any): void;
+  exportMpaData(a: any, b: any): any;
   importMapData(a: any): void;
   closeGame(): void;
+  setSelectFile(a: any): void;
+  activeAchievement(a: any, b: any): any;
 }
 
 declare class tGameObjectResource {
@@ -3378,7 +3421,7 @@ declare class tGameRoutineMap {
   frameAction_draw(a: any, c: any): void;
   updateLastConvertMapData(a: any): void;
   clearOneActionSyncAction(): void;
-  oneAction(a: any, c: any, b: any, e: any, d: any, g: any): void;
+  oneAction(a: any, c: any, b: any, d: any, f: any, e: any): void;
   oneActionAfterFinishAction(a: any): any;
   oneActionAfter(a: any): any;
   viewEffectLog(a: any): void;
@@ -3396,19 +3439,19 @@ declare class tGameRoutineMap {
   clearDiaonalCanvas(): void;
   drawArrow(): void;
   setMode(a: any, c: any): void;
-  getFootMessageData(a: any, c: any): any;
+  getFootMessageData(a: any, c: any, b: any): any;
   viewPlayerPositionLog(): any;
   viewPlayerPositionOverlookLog(): void;
-  getCanMovePositions(a: any, c: any, b: any, e: any): any;
-  viewMap(a: any, c: any, b: any, e: any, d: any, g: any): any;
-  viewMap_action(a: any, c: any, b: any, e: any, d: any, g: any): any;
+  getCanMovePositions(a: any, c: any, b: any, d: any): any;
+  viewMap(a: any, c: any, b: any, d: any, f: any, e: any): any;
+  viewMap_action(a: any, c: any, b: any, d: any, f: any, e: any): any;
   viewMapEvent(a: any): void;
   setPlayerPosition(a: any, c: any): any;
   drawForce(a: any): void;
   edgeMove(a: any, c: any, b: any): any;
   getMapType(): any;
   actionPlayerAutoTurn(a: any): any;
-  breakMap(a: any, c: any, b: any, e: any, d: any): any;
+  breakMap(a: any, c: any, b: any, d: any, f: any): any;
   checkPlayerTeamTimeLimit(a: any): any;
   getPositionAffectList(a: any, c: any): any;
   addFinishAction(a: any): any;
@@ -4901,23 +4944,24 @@ declare class tGameWindows {
   type: any;
   callObj: any;
   callBacks: any;
-  init(c: any): void;
-  initLoad(c: any): void;
+  init(d: any): void;
+  initLoad(d: any): void;
   pageClose(): void;
   pageReload(): void;
-  getSaveList(c: any): void;
-  getSaveData(c: any, e: any): void;
-  setSaveData(c: any, e: any, b: any): void;
-  deleteSaveData(c: any, e: any): void;
-  changeContentSize(c: any, e: any, b: any, a: any): void;
-  sendJsSysError(c: any, e: any): void;
-  exportMyAdventurerCharactor(c: any, e: any, b: any, a: any, d: any): void;
-  importMyAdventurerCharactor(c: any): void;
-  overwriteMyAdventurerCharactorData(c: any, e: any, b: any, a: any, d: any, f: any): void;
+  getSaveList(d: any): void;
+  getSaveData(d: any, c: any): void;
+  setSaveData(d: any, c: any, b: any): void;
+  deleteSaveData(d: any, c: any): void;
+  changeContentSize(d: any, c: any, b: any, a: any): void;
+  sendJsSysError(d: any, c: any): void;
+  exportMyAdventurerCharactor(d: any, c: any, b: any, a: any, e: any): void;
+  importMyAdventurerCharactor(d: any): void;
+  overwriteMyAdventurerCharactorData(d: any, c: any, b: any, a: any, e: any, f: any): void;
   sendIsTr(): void;
-  exportMpaData(c: any, e: any): void;
-  importMapData(c: any): void;
+  exportMpaData(d: any, c: any): void;
+  importMapData(d: any): void;
   closeGame(): void;
+  activeAchievement(d: any, c: any): void;
 }
 
 declare class tGameYagi {
