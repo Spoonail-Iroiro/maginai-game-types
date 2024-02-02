@@ -459,7 +459,7 @@ declare class tGameChangeProfile {
   init(a: any): void;
   initLoad(a: any): void;
   viewMember(a: any): void;
-  viewOne(a: any, h: any, f: any, c: any): void;
+  viewOne(a: any, h: any, g: any, b: any): void;
 }
 
 declare class tGameCharactor {
@@ -911,18 +911,18 @@ declare class tGameCommand {
 declare class tGameCooking {
   parent: any;
   viewData: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  cooking(c: any, b: any, d: any): void;
-  cookingMember(c: any, b: any, d: any): void;
-  selectFood(c: any): void;
-  selectCmr(c: any): void;
-  getSuccessRate(c: any, b: any): any;
+  init(d: any): void;
+  initLoad(d: any): void;
+  cooking(d: any, b: any, c: any): void;
+  cookingMember(d: any, b: any, c: any): void;
+  selectFood(d: any): void;
+  selectCmr(d: any): void;
+  getSuccessRate(d: any, b: any): any;
   actCooking(): void;
-  cookResult(c: any, b: any): any;
-  getExp(c: any, b: any, d: any): any;
-  selectNum(c: any): any;
-  viewOutdoor(c: any): void;
+  cookResult(d: any, b: any): any;
+  getExp(d: any, b: any, c: any): any;
+  selectNum(d: any): any;
+  viewOutdoor(d: any): void;
 }
 
 declare class tGameCreateCharactor {
@@ -1361,10 +1361,10 @@ declare class tGameFaceResource {
   getSomeFace(a: any): any;
   getFace(a: any): any;
   getChipsetFace(a: any): any;
-  loadImage(a: any, c: any, d: any): void;
+  loadImage(a: any, c: any, f: any): void;
   loadAllImage(a: any): void;
   loadLinkJson(a: any): void;
-  getRandomCharactor(a: any, c: any, d: any, b: any, e: any, h: any): any;
+  getRandomCharactor(a: any, c: any, f: any, b: any, d: any, h: any): any;
   getRandomObjectId(a: any): any;
   getRandomFaceId(a: any): any;
   loadOverwrite(a: any): void;
@@ -1628,17 +1628,20 @@ declare class tGameGamePad {
   parent: any;
   isEnableGamePad: any;
   targetGamePadIndex: any;
+  isSteamInput: any;
+  steamInputPressedButtons: any;
   keymapData: any;
   pressedButtons: any;
   isBlock: any;
   init(): void;
-  frameAction(b: any): void;
+  frameAction(a: any): void;
   calKey(): void;
-  loadKeyMap(b: any): void;
+  loadKeyMap(a: any): void;
   clearPressKeys(): void;
-  isPressedButton(b: any): any;
-  setBlock(b: any): void;
+  isPressedButton(a: any): any;
+  setBlock(a: any): void;
   refreshKeyMap(): any;
+  setSteamInput(a: any): void;
 }
 
 declare class tGameGamePadBase {
@@ -1755,16 +1758,17 @@ declare class tGameHelp {
   viewDocumentData: any;
   viewItemMaxNum: any;
   cursor: any;
-  init(k: any): void;
-  initLoad(k: any): void;
-  viewHelp(k: any): void;
-  viewCategoryWindow(k: any, l: any): void;
-  viewCategoryItemWindow(k: any, l: any, d: any): void;
-  viewSelectWindow(k: any, l: any, d: any, r: any): any;
+  init(l: any): void;
+  initLoad(l: any): void;
+  viewHelp(l: any): void;
+  viewCategoryWindow(l: any, k: any): void;
+  viewCategoryItemWindow(l: any, k: any, c: any): void;
+  viewSelectWindow(l: any, k: any, c: any, r: any): any;
   getCategories(): any;
-  getCategoryItems(k: any): any;
-  viewDocument(k: any, l: any): any;
+  getCategoryItems(l: any): any;
+  viewDocument(l: any, k: any): any;
   setMessage(): void;
+  convertButtonLabel(): void;
 }
 
 declare class tGameHikitsugi {
@@ -1811,14 +1815,14 @@ declare class tGameHikitsugiNakama {
 
 declare class tGameHikyo {
   parent: any;
-  init(d: any): void;
-  initLoad(d: any): void;
-  loadLinkJson(d: any): void;
-  setHikyoDummyObjects(d: any): any;
-  setHikyoDummyObjects_act(d: any, e: any): any;
-  hakken(d: any, e: any): any;
-  matakita(d: any, e: any): void;
-  drawHikyo(d: any, e: any): any;
+  init(c: any): void;
+  initLoad(c: any): void;
+  loadLinkJson(c: any): void;
+  setHikyoDummyObjects(c: any): any;
+  setHikyoDummyObjects_act(c: any, d: any): any;
+  hakken(c: any, d: any): any;
+  matakita(c: any, d: any): void;
+  drawHikyo(c: any, d: any): any;
 }
 
 declare class tGameHoridashimono {
@@ -1836,6 +1840,7 @@ declare class tGameHyk {
   textMode: any;
   timeViewMode: any;
   cnvData: any;
+  logoFileName: any;
   list: any;
   init(e: any): void;
   initLoad(e: any, g: any): any;
@@ -2495,6 +2500,8 @@ declare class tGameMain {
   loadJsPngWorker(b: any, a: any, c: any): any;
   loadJsPng2Worker(b: any, a: any, c: any): any;
   isTr(): any;
+  getGameType(): any;
+  getGameTypeSub(): any;
   actJsPngWorker(b: any, a: any): void;
   actJsPng2Worker(b: any, a: any): void;
   initJsError(): void;
@@ -2617,59 +2624,60 @@ declare class tGameMap {
 declare class tGameMapCharaCommonAction {
   parent: any;
   init(a: any): void;
-  actionBeforePatternOne(a: any, b: any, c: any, d: any): void;
-  actionPatternOne(a: any, b: any): any;
-  viewMapActionPatternOne(a: any, b: any): any;
-  actionPatternType_counter(a: any, b: any): any;
-  viewMapActionPatternOne_myhome(a: any, b: any): any;
-  viewMapActionPatternOne_counter(a: any, b: any): any;
-  viewMapActionPatternOne_bed(a: any, b: any, c: any): any;
-  viewMapActionPatternOne_chair(a: any, b: any, c: any): any;
-  viewMapActionPatternOne_diningchair(a: any, b: any, c: any): any;
-  viewMapActionPatternOne_farm(a: any, b: any): any;
-  viewMapActionPatternOne_goei(a: any, b: any): any;
-  viewMapActionPatternOne_kenkyu(a: any, b: any): any;
-  viewMapActionPatternOne_imushitsu(a: any, b: any): any;
-  actionPatternType_myhome(a: any, b: any): any;
-  actionPatternType_myhomecenter(a: any, b: any): any;
-  actionPatternType_kenkyu(a: any, b: any): any;
-  actionPatternType_imushitsu(a: any, b: any): any;
-  actionPatternType_animalwood(a: any, b: any): any;
-  actionPatternType_bed(a: any, b: any, c: any): any;
-  actionPatternType_noriaibasha(a: any, b: any): any;
-  actionPatternType_aroundtypedataposition(a: any, b: any): any;
-  actionPatternType_randompoint(a: any, b: any): any;
-  actionPatternType_chair(a: any, b: any, c: any): any;
-  actionPatternType_diningchair(a: any, b: any, c: any): any;
-  actionPatternType_adventureguild(a: any, b: any, c: any): any;
-  actionPatternType_goei(a: any, b: any): any;
-  moveTargetPoint(a: any, b: any): any;
-  actionPatternBeforeAction(a: any, b: any, c: any, d: any): void;
-  actionPatternType_farm(a: any, b: any): any;
+  actionBeforePatternOne(a: any, c: any, b: any, d: any): void;
+  actionPatternOne(a: any, c: any): any;
+  viewMapActionPatternOne(a: any, c: any): any;
+  actionPatternType_counter(a: any, c: any): any;
+  viewMapActionPatternOne_myhome(a: any, c: any): any;
+  viewMapActionPatternOne_counter(a: any, c: any): any;
+  viewMapActionPatternOne_bed(a: any, c: any, b: any): any;
+  viewMapActionPatternOne_chair(a: any, c: any, b: any): any;
+  viewMapActionPatternOne_diningchair(a: any, c: any, b: any): any;
+  viewMapActionPatternOne_farm(a: any, c: any): any;
+  viewMapActionPatternOne_goei(a: any, c: any): any;
+  viewMapActionPatternOne_kenkyu(a: any, c: any): any;
+  viewMapActionPatternOne_imushitsu(a: any, c: any): any;
+  actionPatternType_myhome(a: any, c: any): any;
+  actionPatternType_myhomecenter(a: any, c: any): any;
+  actionPatternType_kenkyu(a: any, c: any): any;
+  actionPatternType_imushitsu(a: any, c: any): any;
+  actionPatternType_animalwood(a: any, c: any): any;
+  actionPatternType_bed(a: any, c: any, b: any): any;
+  actionPatternType_noriaibasha(a: any, c: any): any;
+  actionPatternType_aroundtypedataposition(a: any, c: any): any;
+  actionPatternType_randompoint(a: any, c: any): any;
+  actionPatternType_chair(a: any, c: any, b: any): any;
+  actionPatternType_diningchair(a: any, c: any, b: any): any;
+  actionPatternType_adventureguild(a: any, c: any, b: any): any;
+  actionPatternType_goei(a: any, c: any): any;
+  moveTargetPoint(a: any, c: any): any;
+  actionPatternBeforeAction(a: any, c: any, b: any, d: any): void;
+  actionPatternType_farm(a: any, c: any): any;
   updateActionPattern(a: any): any;
   getCharactorObjects(a: any): any;
-  selectEatTarget(a: any, b: any): any;
-  selectRandomTarget(a: any, b: any): any;
-  selectRandomNightTarget(a: any, b: any): any;
-  selectBedTarget(a: any, b: any): any;
-  updateActionPattern_default(a: any, b: any): any;
-  updateActionPattern_shop(a: any, b: any): any;
-  updateActionPattern_shop2(a: any, b: any): any;
-  updateActionPattern_housemain(a: any, b: any): any;
-  updateActionPattern_farmor(a: any, b: any): any;
-  updateActionPattern_king(a: any, b: any): any;
-  updateActionPattern_goei(a: any, b: any): any;
-  updateActionPattern_kenkyu(a: any, b: any): any;
-  updateActionPattern_isha(a: any, b: any): any;
-  updateActionPattern_animalwood(a: any, b: any): any;
-  updateActionPattern_tougijo_uketsuke(a: any, b: any): any;
-  updateActionPattern_casino_dealer(a: any, b: any): any;
-  updateActionPattern_casino_chonin(a: any, b: any): any;
-  updateActionPattern_noriai(a: any, b: any): any;
-  updateActionPattern_shitaiasari(a: any, b: any): any;
-  addTimeAction(a: any, b: any, c: any): any;
+  selectEatTarget(a: any, c: any): any;
+  selectRandomTarget(a: any, c: any): any;
+  selectRandomNightTarget(a: any, c: any): any;
+  selectBedTarget(a: any, c: any): any;
+  updateActionPattern_default(a: any, c: any): any;
+  updateActionPattern_outmain(a: any, c: any): any;
+  updateActionPattern_shop(a: any, c: any): any;
+  updateActionPattern_shop2(a: any, c: any): any;
+  updateActionPattern_housemain(a: any, c: any): any;
+  updateActionPattern_farmor(a: any, c: any): any;
+  updateActionPattern_king(a: any, c: any): any;
+  updateActionPattern_goei(a: any, c: any): any;
+  updateActionPattern_kenkyu(a: any, c: any): any;
+  updateActionPattern_isha(a: any, c: any): any;
+  updateActionPattern_animalwood(a: any, c: any): any;
+  updateActionPattern_tougijo_uketsuke(a: any, c: any): any;
+  updateActionPattern_casino_dealer(a: any, c: any): any;
+  updateActionPattern_casino_chonin(a: any, c: any): any;
+  updateActionPattern_noriai(a: any, c: any): any;
+  updateActionPattern_shitaiasari(a: any, c: any): any;
+  addTimeAction(a: any, c: any, b: any): any;
   viewMapFixPosition(a: any): void;
-  okiru(a: any, b: any): any;
+  okiru(a: any, c: any): any;
 }
 
 declare class tGameMapEditor {
@@ -3071,7 +3079,9 @@ declare class tGameNw {
   myAdvTmpData: any;
   greenworks: any;
   activeAchievementCache: any;
-  init(a: any): void;
+  isInitError: any;
+  init(a: any): any;
+  initError(): void;
   refreshWindowsFnc(a: any): void;
   loadRequire(a: any): any;
   initDir(a: any): void;
@@ -3083,19 +3093,21 @@ declare class tGameNw {
   setSaveData(a: any, b: any, c: any): any;
   setSaveDataBackup(a: any, b: any): any;
   deleteSaveData(a: any, b: any): any;
-  changeContentSize(a: any, b: any, c: any, d: any): void;
-  changeContentSize__resize(a: any, b: any, c: any, d: any): void;
-  changeContentSize__fullscreen(a: any, b: any, c: any, d: any): void;
+  changeContentSize(a: any, b: any, c: any, e: any): void;
+  changeContentSize__resize(a: any, b: any, c: any, e: any): void;
+  changeContentSize__fullscreen(a: any, b: any, c: any, e: any): void;
   sendJsSysError(a: any, b: any): void;
-  exportMyAdventurerCharactor(a: any, b: any, c: any, d: any, e: any): any;
+  exportMyAdventurerCharactor(a: any, b: any, c: any, e: any, d: any): any;
   importMyAdventurerCharactor(a: any): void;
-  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, d: any, e: any, g: any): void;
+  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, e: any, d: any, g: any): void;
   sendIsTr(): void;
   exportMpaData(a: any, b: any): any;
   importMapData(a: any): void;
   closeGame(): void;
   setSelectFile(a: any): void;
   activeAchievement(a: any, b: any): any;
+  initMydata(a: any): void;
+  getControllerType(a: any): void;
 }
 
 declare class tGameObjectResource {
@@ -3196,6 +3208,7 @@ declare class tGameOption {
   getLocalStorageData(a: any): void;
   reflect(): void;
   updateLoadIndex(a: any, b: any): void;
+  loadEx(a: any): void;
 }
 
 declare class tGameOptionWindow {
@@ -4645,6 +4658,8 @@ declare class tGameTitleWindow {
   viewError(b: any): void;
   checkMismatchSaveData(b: any): any;
   checkMismatchVersionSaveData(b: any): any;
+  initSettingControllerButton(): void;
+  viewSettingControllerButton(): void;
 }
 
 declare class tGameTougijo {
@@ -4944,24 +4959,26 @@ declare class tGameWindows {
   type: any;
   callObj: any;
   callBacks: any;
-  init(d: any): void;
-  initLoad(d: any): void;
+  init(a: any): void;
+  initLoad(a: any): any;
   pageClose(): void;
   pageReload(): void;
-  getSaveList(d: any): void;
-  getSaveData(d: any, c: any): void;
-  setSaveData(d: any, c: any, b: any): void;
-  deleteSaveData(d: any, c: any): void;
-  changeContentSize(d: any, c: any, b: any, a: any): void;
-  sendJsSysError(d: any, c: any): void;
-  exportMyAdventurerCharactor(d: any, c: any, b: any, a: any, e: any): void;
-  importMyAdventurerCharactor(d: any): void;
-  overwriteMyAdventurerCharactorData(d: any, c: any, b: any, a: any, e: any, f: any): void;
+  getSaveList(a: any): void;
+  getSaveData(a: any, d: any): void;
+  setSaveData(a: any, d: any, b: any): void;
+  deleteSaveData(a: any, d: any): void;
+  changeContentSize(a: any, d: any, b: any, c: any): void;
+  sendJsSysError(a: any, d: any): void;
+  exportMyAdventurerCharactor(a: any, d: any, b: any, c: any, e: any): void;
+  importMyAdventurerCharactor(a: any): void;
+  overwriteMyAdventurerCharactorData(a: any, d: any, b: any, c: any, e: any, f: any): void;
   sendIsTr(): void;
-  exportMpaData(d: any, c: any): void;
-  importMapData(d: any): void;
+  exportMpaData(a: any, d: any): void;
+  importMapData(a: any): void;
   closeGame(): void;
-  activeAchievement(d: any, c: any): void;
+  activeAchievement(a: any, d: any): any;
+  initMydata(a: any): any;
+  getControllerType(a: any): any;
 }
 
 declare class tGameYagi {
