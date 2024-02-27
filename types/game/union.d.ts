@@ -117,77 +117,77 @@ declare class tGameAdventurerGuild {
   getTownQuestTargetFromMapId(a: any): any;
   createTownQuests(a: any): any;
   getQuestFreeCharactors(a: any): any;
-  createTownQuest(a: any, b: any, c: any): any;
-  createTownJikeidanQuest(a: any, b: any): any;
-  createTownQuest_1(a: any, b: any, c: any, d: any): any;
-  createTownQuest_2(a: any, b: any, c: any, d: any): any;
-  createTownQuest_3(a: any, b: any, c: any, d: any): any;
-  createTownQuest_4(a: any, b: any, c: any, d: any): any;
-  createTownQuest_4_field(a: any, b: any, c: any, d: any, e: any): any;
-  createTownQuest_5(a: any, b: any, c: any, d: any): any;
-  createTownQuest_6(a: any, b: any, c: any, d: any): any;
-  createTownQuest_7(a: any, b: any, c: any, d: any): any;
-  createTownQuest_8(a: any, b: any, c: any, d: any): any;
-  createTownQuest_9(a: any, b: any, c: any, d: any): any;
-  createTownQuest_10(a: any, b: any, c: any, d: any, e: any): any;
-  createTownQuest_11(a: any, b: any, c: any, d: any): any;
-  createTownQuest_12(a: any, b: any, c: any, d: any, e: any): any;
-  createTownQuest_13(a: any, b: any, c: any, d: any, e: any): any;
-  createTownQuest_14(a: any, b: any, c: any, d: any, e: any): any;
-  createTownQuest_15(a: any, b: any, c: any, d: any, e: any): any;
-  getQuestSentence(a: any, b: any): any;
-  getQuestSentence_1(a: any, b: any): any;
-  getQuestSentence_2(a: any, b: any): any;
-  getQuestSentence_3(a: any, b: any): any;
-  getQuestSentence_4(a: any, b: any): any;
-  getQuestSentence_4_field(a: any, b: any): any;
-  getQuestSentence_5(a: any, b: any): any;
-  getQuestSentence_6(a: any, b: any): any;
-  getQuestSentence_7(a: any, b: any): any;
-  getQuestSentence_8(a: any, b: any): any;
-  getQuestSentence_9(a: any, b: any): any;
-  getQuestSentence_10(a: any, b: any): any;
-  getQuestSentence_11(a: any, b: any): any;
-  getQuestSentence_12(a: any, b: any): any;
-  getQuestSentence_13(a: any, b: any): any;
-  getQuestSentence_14(a: any, b: any): any;
-  getQuestSentence_15(a: any, b: any): any;
-  setMyTown(a: any, b: any, c: any): void;
+  createTownQuest(a: any, c: any, b: any): any;
+  createTownJikeidanQuest(a: any, c: any): any;
+  createTownQuest_1(a: any, c: any, b: any, d: any): any;
+  createTownQuest_2(a: any, c: any, b: any, d: any): any;
+  createTownQuest_3(a: any, c: any, b: any, d: any): any;
+  createTownQuest_4(a: any, c: any, b: any, d: any): any;
+  createTownQuest_4_field(a: any, c: any, b: any, d: any, e: any): any;
+  createTownQuest_5(a: any, c: any, b: any, d: any): any;
+  createTownQuest_6(a: any, c: any, b: any, d: any): any;
+  createTownQuest_7(a: any, c: any, b: any, d: any): any;
+  createTownQuest_8(a: any, c: any, b: any, d: any): any;
+  createTownQuest_9(a: any, c: any, b: any, d: any): any;
+  createTownQuest_10(a: any, c: any, b: any, d: any, e: any): any;
+  createTownQuest_11(a: any, c: any, b: any, d: any): any;
+  createTownQuest_12(a: any, c: any, b: any, d: any, e: any): any;
+  createTownQuest_13(a: any, c: any, b: any, d: any, e: any): any;
+  createTownQuest_14(a: any, c: any, b: any, d: any, e: any): any;
+  createTownQuest_15(a: any, c: any, b: any, d: any, e: any): any;
+  getQuestSentence(a: any, c: any): any;
+  getQuestSentence_1(a: any, c: any): any;
+  getQuestSentence_2(a: any, c: any): any;
+  getQuestSentence_3(a: any, c: any): any;
+  getQuestSentence_4(a: any, c: any): any;
+  getQuestSentence_4_field(a: any, c: any): any;
+  getQuestSentence_5(a: any, c: any): any;
+  getQuestSentence_6(a: any, c: any): any;
+  getQuestSentence_7(a: any, c: any): any;
+  getQuestSentence_8(a: any, c: any): any;
+  getQuestSentence_9(a: any, c: any): any;
+  getQuestSentence_10(a: any, c: any): any;
+  getQuestSentence_11(a: any, c: any): any;
+  getQuestSentence_12(a: any, c: any): any;
+  getQuestSentence_13(a: any, c: any): any;
+  getQuestSentence_14(a: any, c: any): any;
+  getQuestSentence_15(a: any, c: any): any;
+  setMyTown(a: any, c: any, b: any): void;
   getQuestRewordMessage(a: any): any;
-  addReceived(a: any, b: any, c: any): any;
-  initReceived_1(a: any, b: any): any;
-  initReceived_2(a: any, b: any): any;
-  initReceived_3(a: any, b: any): any;
-  initReceived_4(a: any, b: any): any;
-  initReceived_5(a: any, b: any): any;
-  initReceived_6(a: any, b: any): any;
-  initReceived_7(a: any, b: any): any;
-  initReceived_8(a: any, b: any): any;
-  initReceived_9(a: any, b: any): any;
-  initReceived_10(a: any, b: any): any;
-  initReceived_11(a: any, b: any): any;
-  initReceived_12(a: any, b: any): any;
-  initReceived_13(a: any, b: any): any;
-  initReceived_14(a: any, b: any): any;
-  initReceived_15(a: any, b: any): any;
-  finishQuest(a: any, b: any, c: any): any;
-  failureQuest(a: any, b: any, c: any, d: any, e: any): any;
-  clearQuestData(a: any, b: any, c: any): any;
+  addReceived(a: any, c: any, b: any): any;
+  initReceived_1(a: any, c: any): any;
+  initReceived_2(a: any, c: any): any;
+  initReceived_3(a: any, c: any): any;
+  initReceived_4(a: any, c: any): any;
+  initReceived_5(a: any, c: any): any;
+  initReceived_6(a: any, c: any): any;
+  initReceived_7(a: any, c: any): any;
+  initReceived_8(a: any, c: any): any;
+  initReceived_9(a: any, c: any): any;
+  initReceived_10(a: any, c: any): any;
+  initReceived_11(a: any, c: any): any;
+  initReceived_12(a: any, c: any): any;
+  initReceived_13(a: any, c: any): any;
+  initReceived_14(a: any, c: any): any;
+  initReceived_15(a: any, c: any): any;
+  finishQuest(a: any, c: any, b: any): any;
+  failureQuest(a: any, c: any, b: any, d: any, e: any): any;
+  clearQuestData(a: any, c: any, b: any): any;
   checkTimeOver(a: any): any;
   getTowns(a: any): any;
-  getTownsFromPosition(a: any, b: any): any;
+  getTownsFromPosition(a: any, c: any): any;
   getAffectAnswer(a: any): any;
   affectAnswer(a: any): void;
-  affectAnswer_2(a: any, b: any): void;
-  affectAnswer_3(a: any, b: any): void;
-  affectAnswer_9(a: any, b: any): void;
+  affectAnswer_2(a: any, c: any): void;
+  affectAnswer_3(a: any, c: any): void;
+  affectAnswer_9(a: any, c: any): void;
   getTargetItem(a: any): any;
   getTargetQuestItem(a: any): any;
   createID(): any;
   searchReceivedQuest(a: any): any;
   getFieldObjectToQuest1Name(a: any): any;
-  getQuestFinishFameExp(a: any, b: any, c: any): any;
-  getQuestFinishGaeExp(a: any, b: any, c: any): any;
+  getQuestFinishFameExp(a: any, c: any, b: any): any;
+  getQuestFinishGaeExp(a: any, c: any, b: any): any;
   changeMapEvent(a: any): void;
   createQuestRank(): any;
   createQuestItem_2(a: any): any;
@@ -195,11 +195,12 @@ declare class tGameAdventurerGuild {
   updateAttackedList(): void;
   getAttackedList(): any;
   calQuestIconData(): void;
-  addQuestSentenceCommon(a: any, b: any, c: any): void;
+  addQuestSentenceCommon(a: any, c: any, b: any): void;
   isSokuji(a: any): any;
   actSokuji(a: any): void;
-  createQuestTargetType(a: any, b: any): any;
-  guildpointkau(a: any, b: any): void;
+  createQuestTargetType(a: any, c: any): any;
+  guildpointkau(a: any, c: any): void;
+  guildpointkau2(a: any, c: any): void;
   getGuildPointBottomData(): any;
 }
 
@@ -677,6 +678,7 @@ declare class tGameCharactor {
   noroiwotoku(a: any): void;
   noroiwotoku2(a: any): void;
   noroiwotoku3(a: any): void;
+  noroiwotoku4(a: any): void;
   fukkatusaseru(a: any): void;
   hospitalmeibomiru(a: any): void;
   isPlayerTeamMemberSpaceNum(): any;
@@ -796,6 +798,8 @@ declare class tGameCharactor {
   checkCdtTarget(a: any): any;
   addItemWithFukuro(a: any, b: any, c: any, d: any): void;
   viewAddItemLog(a: any, b: any, c: any, d: any): void;
+  npcShiokuri(a: any): void;
+  getItemSpaceMaxNum(a: any, b: any): any;
 }
 
 declare class tGameCharactorData {
@@ -1842,29 +1846,31 @@ declare class tGameHyk {
   cnvData: any;
   logoFileName: any;
   list: any;
-  init(e: any): void;
-  initLoad(e: any, g: any): any;
-  loadLinkJson(e: any): void;
-  loadLOADDATA(e: any, g: any): void;
-  getTableStrings(e: any, g: any): void;
-  getTableString__default(e: any, g: any, c: any): void;
-  getTableString__talk(e: any, g: any, c: any): void;
-  getTableString__askill(e: any, g: any, c: any): void;
-  getTableString__charactor(e: any, g: any, c: any): void;
-  getTableString__kucho(e: any, g: any, c: any): void;
-  getTableString__item(e: any, g: any, c: any): void;
-  getTableString__job(e: any, g: any, c: any): void;
-  getTableString__map(e: any, g: any, c: any): void;
-  getTableString__mapeditor(e: any, g: any, c: any): void;
-  getTableString__name(e: any, g: any, c: any): void;
-  getTableString__poker(e: any, g: any, c: any): void;
-  getTableString__shortevent(e: any, g: any, c: any): void;
-  getTableString__skill(e: any, g: any, c: any): void;
-  getTableString__war(e: any, g: any, c: any): void;
-  getTableString__help(e: any, g: any, c: any): void;
-  addExCsvs(e: any, g: any): void;
-  importLanguageCsv(e: any): any;
-  reflectLanguageLOADDATA(e: any, g: any): any;
+  init(g: any): void;
+  initLoad(g: any, l: any): any;
+  loadLinkJson(g: any): void;
+  loadLOADDATA(g: any, l: any): void;
+  getTableStrings(g: any, l: any): void;
+  getTableString__default(g: any, l: any, e: any): void;
+  getTableString__talk(g: any, l: any, e: any): void;
+  getTableString__talkevent(g: any, l: any, e: any): void;
+  getTableString__askill(g: any, l: any, e: any): void;
+  getTableString__charactor(g: any, l: any, e: any): void;
+  getTableString__kucho(g: any, l: any, e: any): void;
+  getTableString__item(g: any, l: any, e: any): void;
+  getTableString__job(g: any, l: any, e: any): void;
+  getTableString__map(g: any, l: any, e: any): void;
+  getTableString__mapeditor(g: any, l: any, e: any): void;
+  getTableString__name(g: any, l: any, e: any): void;
+  getTableString__poker(g: any, l: any, e: any): void;
+  getTableString__shortevent(g: any, l: any, e: any): void;
+  getTableString__skill(g: any, l: any, e: any): void;
+  getTableString__war(g: any, l: any, e: any): void;
+  getTableString__help(g: any, l: any, e: any): void;
+  addExCsvs(g: any, l: any): void;
+  importLanguageCsv(g: any): any;
+  reflectLanguageLOADDATA(g: any, l: any): any;
+  createMonsterList(): void;
 }
 
 declare class tGameIcon24Resource {
@@ -2062,6 +2068,7 @@ declare class tGameItem {
   setLockId(a: any): any;
   isEquipmentItem(a: any): any;
   getItemSkill_checkReuseItem(a: any): any;
+  actEquipPlus(a: any, b: any): any;
 }
 
 declare class tGameItemInfoWindow {
@@ -2118,6 +2125,14 @@ declare class tGameJashin {
   oneActionFinishAction_jashinboss2(c: any, b: any): any;
   createBossFloor(c: any): void;
   affectZou(c: any, b: any): any;
+}
+
+declare class tGameJinja {
+  parent: any;
+  init(m: any): void;
+  affectSaisenbako(m: any, h: any): any;
+  kau(m: any, h: any): void;
+  kau2(m: any, h: any): void;
 }
 
 declare class tGameJob {
@@ -2458,6 +2473,9 @@ declare class tGameMain {
   tGameNw: tGameNw;
   tGameMatsuri: tGameMatsuri;
   tGameIkesu: tGameIkesu;
+  tGameTextInputWindow2: tGameTextInputWindow2;
+  tGameNumWindow2: tGameNumWindow2;
+  tGameJinja: tGameJinja;
   loadFinishData: any;
   firstLogData: any;
   windowLabelMaxWidth: any;
@@ -2710,6 +2728,7 @@ declare class tGameMapEditor {
   setFrameEvent_dispose(a: any): void;
   setFrameEvent_frame(a: any): void;
   setFrameEvent_draw(a: any): void;
+  keyEvent(): void;
   viewCanvasCursor(a: any, b: any): void;
   getCanvasCursorPosition(): any;
   setBackground(a: any, b: any): any;
@@ -2749,6 +2768,8 @@ declare class tGameMapEditor {
   updateHistoryButton(): void;
   callBackClearViewData(): void;
   editorToggle(a: any): void;
+  actionRightClick(a: any): void;
+  clearObjectLongTapTimer(): void;
 }
 
 declare class tGameMapResource {
@@ -3054,7 +3075,10 @@ declare class tGameNumWindow {
   viewData: any;
   cursor: any;
   textBox: any;
+  keypadData: any;
   init(b: any): void;
+  isEnableKeypad(): any;
+  inputKeypad(b: any): void;
   viewNumWindow(b: any, c: any): any;
   setFrameEvent(b: any): void;
   setFrameEvent_dispose(b: any): void;
@@ -3063,6 +3087,24 @@ declare class tGameNumWindow {
   clearCanvas(): void;
   setNum(b: any, c: any, a: any): any;
   getInputValue(): any;
+}
+
+declare class tGameNumWindow2 {
+  parent: any;
+  objs: any;
+  viewData: any;
+  cursor: any;
+  keys: any;
+  init(a: any): void;
+  viewNumWindow(a: any, c: any): void;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
+  clearCanvas(): void;
+  updateCursor(): void;
+  setValue(a: any): void;
+  changeTab(a: any): void;
 }
 
 declare class tGameNw {
@@ -3108,6 +3150,7 @@ declare class tGameNw {
   activeAchievement(a: any, b: any): any;
   initMydata(a: any): void;
   getControllerType(a: any): void;
+  isSteamInBigPictureMode(a: any): any;
 }
 
 declare class tGameObjectResource {
@@ -4129,7 +4172,7 @@ declare class tGameSleep {
   initLoad(c: any): void;
   sleep(c: any, g: any): void;
   sleepInn(c: any, g: any): void;
-  sleepAction(c: any, g: any, a: any, d: any): void;
+  sleepAction(c: any, g: any, a: any, e: any): void;
   getTogetherCharas(): any;
   sleepTogether(c: any, g: any): void;
   getSleepTime(c: any, g: any): any;
@@ -4174,7 +4217,7 @@ declare class tGameSlotReel {
   initFrame(): void;
   clearGame(): void;
   updateReel(a: any, b: any): any;
-  setReelIcon(a: any, b: any): void;
+  setReelIcon(a: any, b: any, c: any): void;
   moveReel(a: any): void;
   stopReel(): void;
 }
@@ -4586,6 +4629,24 @@ declare class tGameTextInputWindow {
   clearCanvas(): void;
 }
 
+declare class tGameTextInputWindow2 {
+  parent: any;
+  objs: any;
+  viewData: any;
+  cursor: any;
+  keys: any;
+  init(a: any): void;
+  viewTextInputWindow(a: any, c: any): void;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
+  clearCanvas(): void;
+  updateCursor(): void;
+  setValue(a: any): void;
+  changeTab(a: any): void;
+}
+
 declare class tGameTime {
   parent: any;
   cvs: any;
@@ -4638,6 +4699,7 @@ declare class tGameTitleWindow {
   viewItemMaxNum: any;
   cursor: any;
   clearBottomData: any;
+  optionClearData: any;
   init(b: any): void;
   clear(): void;
   viewSaveWindow(b: any, a: any, c: any): void;
@@ -4658,8 +4720,9 @@ declare class tGameTitleWindow {
   viewError(b: any): void;
   checkMismatchSaveData(b: any): any;
   checkMismatchVersionSaveData(b: any): any;
-  initSettingControllerButton(): void;
-  viewSettingControllerButton(): void;
+  removeOptionInitButton(): void;
+  setOptionInitButton(): void;
+  viewOptionInitMenu(): void;
 }
 
 declare class tGameTougijo {
@@ -4959,6 +5022,7 @@ declare class tGameWindows {
   type: any;
   callObj: any;
   callBacks: any;
+  bSteamBigPictureMode: any;
   init(a: any): void;
   initLoad(a: any): any;
   pageClose(): void;
@@ -4979,6 +5043,7 @@ declare class tGameWindows {
   activeAchievement(a: any, d: any): any;
   initMydata(a: any): any;
   getControllerType(a: any): any;
+  isSteamInBigPictureMode(a: any): any;
 }
 
 declare class tGameYagi {
