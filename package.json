@@ -1,6 +1,6 @@
 {
   "name": "maginai-game-types",
-  "version": "3.4.0",
+  "version": "4.0.0",
   "type": "module",
   "main": "",
   "types": "types/index.d.ts",
