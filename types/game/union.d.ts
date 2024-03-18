@@ -460,7 +460,7 @@ declare class tGameChangeProfile {
   init(a: any): void;
   initLoad(a: any): void;
   viewMember(a: any): void;
-  viewOne(a: any, h: any, g: any, b: any): void;
+  viewOne(a: any, h: any, f: any, b: any): void;
 }
 
 declare class tGameCharactor {
@@ -898,7 +898,7 @@ declare class tGameChipsetResource {
   init(d: any): void;
   getUseData(d: any): any;
   getUseDataFromMap(d: any): any;
-  loadImage(d: any, e: any, b: any): void;
+  loadImage(d: any, e: any, c: any): void;
   loadLinkJson(d: any): void;
   loadAllImage(d: any): void;
   getChipsetData(d: any): any;
@@ -1057,6 +1057,20 @@ declare class tGameDesignedMap {
   addInitMaps_etc(d: any, c: any): any;
   getTargetChipsetPosition(d: any, c: any, h: any): any;
   autoCreateExpand(d: any, c: any, h: any, e: any): any;
+}
+
+declare class tGameDialog {
+  parent: any;
+  objs: any;
+  initFlg: any;
+  bg2CloseTimer: any;
+  init(): void;
+  setBg2CloseTimer(): void;
+  setEvent(): void;
+  isView(): any;
+  view(a: any): void;
+  close(): void;
+  getMessageBoxFrame(): any;
 }
 
 declare class tGameDungeonGenerator {
@@ -1347,13 +1361,14 @@ declare class tGameExMapData {
   parent: any;
   version: any;
   importData: any;
-  init(e: any): void;
-  exportMapData(e: any, b: any): void;
-  createOutputMapData(e: any, b: any): void;
-  importMapData(e: any, b: any): void;
-  clearImportMapDataFile(e: any): void;
-  selectedImportMapDataFile(e: any): any;
-  selectedImportMapDataFileCommon(e: any, b: any, c: any): void;
+  init(f: any): void;
+  exportMapData(f: any, b: any): void;
+  createOutputMapData(f: any, b: any, a: any): any;
+  importMapData(f: any, b: any): void;
+  clearImportMapDataFile(f: any): void;
+  selectedImportMapDataFile(f: any): any;
+  selectedImportMapDataFileCommon(f: any, b: any, a: any, h: any): void;
+  exportK1up(f: any, b: any): void;
 }
 
 declare class tGameFaceResource {
@@ -1845,6 +1860,7 @@ declare class tGameHyk {
   timeViewMode: any;
   cnvData: any;
   logoFileName: any;
+  textLengthMode: any;
   list: any;
   init(g: any): void;
   initLoad(g: any, l: any): any;
@@ -2160,6 +2176,50 @@ declare class tGameJobChange {
   enableJobChange(b: any): any;
 }
 
+declare class tGameK1up {
+  parent: any;
+  hcvs: any;
+  hctx: any;
+  uploadMyTownData: any;
+  listMyTownData: any;
+  uploadMyAdventurerCharactorData: any;
+  listMyAdventurerCharactorData: any;
+  importFaceData: any;
+  uploadFaceData: any;
+  listFaceData: any;
+  importChipsetData: any;
+  uploadChipsetData: any;
+  listChipsetData: any;
+  importTalkData: any;
+  uploadTalkData: any;
+  listTalkData: any;
+  scrollEventData: any;
+  apiUrl: any;
+  key: any;
+  init(r: any): void;
+  getApiUrl(): any;
+  setText(r: any, n: any): void;
+  setErrorView(r: any): void;
+  viewUploadMyTown(r: any, n: any): any;
+  viewListMyTown(r: any, n: any): any;
+  viewUploadFace(r: any, n: any): any;
+  viewListFace(r: any, n: any): any;
+  viewUploadChipset(r: any, n: any): any;
+  viewListChipset(r: any, n: any): any;
+  viewUploadTalk(r: any, n: any): any;
+  viewListTalk(r: any, n: any): any;
+  viewImportFace(r: any, n: any): any;
+  viewImportChipset(r: any, n: any): any;
+  viewImportTalk(r: any, n: any): any;
+  viewTitleMenu(r: any): void;
+  viewUploadMyAdventurerCharactor(r: any, n: any): any;
+  viewUploadMyAdventurerCharactor2(r: any, n: any): any;
+  viewListMyAdventurerCharactor(r: any, n: any): any;
+  initScrollEvent(r: any): void;
+  setScrollEvent(r: any): void;
+  isMove(r: any, n: any): any;
+}
+
 declare class tGameKeyboard {
   parent: any;
   simplePressKeys: any;
@@ -2218,6 +2278,17 @@ declare class tGameLoading {
   viewLoadingErrorFrame(): void;
   hiddenLoadingErrorFrame(): void;
   retry(): void;
+}
+
+declare class tGameLoading2 {
+  parent: any;
+  targets: any;
+  errorHeightMin: any;
+  init(): void;
+  initObjs(c: any): any;
+  searchTarget(c: any): any;
+  view(c: any, b: any, e: any, d: any): any;
+  hidden(c: any): void;
 }
 
 declare class tGameLog {
@@ -2476,6 +2547,9 @@ declare class tGameMain {
   tGameTextInputWindow2: tGameTextInputWindow2;
   tGameNumWindow2: tGameNumWindow2;
   tGameJinja: tGameJinja;
+  tGameK1up: tGameK1up;
+  tGameLoading2: tGameLoading2;
+  tGameDialog: tGameDialog;
   loadFinishData: any;
   firstLogData: any;
   windowLabelMaxWidth: any;
@@ -2489,7 +2563,9 @@ declare class tGameMain {
   subFrameAction(b: any): void;
   subRefreshCanvas(b: any): void;
   loadJsData(b: any, a: any, c: any, d: any, e: any): void;
-  loadImage(b: any, a: any, c: any): any;
+  loadJsDataText(b: any, a: any, c: any): any;
+  loadImageBase(b: any, a: any, c: any, d: any): any;
+  loadImage(b: any, a: any, c: any, d: any): any;
   /**
    * 乱数を取得する
    * @param min 最小値
@@ -2900,7 +2976,7 @@ declare class tGameMessageWindow {
   defaultViewItemMaxNum: any;
   viewItemMaxNum: any;
   init(a: any): void;
-  viewMessageWindow(a: any, d: any): any;
+  viewMessageWindow(a: any, c: any): any;
   drawAnswers(a: any): any;
   getCursor(a: any): any;
   setFrameEvent(a: any): void;
@@ -2909,8 +2985,8 @@ declare class tGameMessageWindow {
   setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
   drawPage(a: any): void;
-  convertContinuationMessages(a: any, d: any): any;
-  viewContinuationMessageWindow(a: any, d: any): void;
+  convertContinuationMessages(a: any, c: any): any;
+  viewContinuationMessageWindow(a: any, c: any): void;
 }
 
 declare class tGameMyAdventurerCharactor {
@@ -2932,9 +3008,14 @@ declare class tGameMyAdventurerCharactor {
   getItemDescription(d: any, c: any): any;
   viewError(d: any): void;
   export(d: any, c: any): any;
+  exportK1up(d: any, c: any): void;
   convertTextB64(d: any, c: any): void;
   confirmImport(d: any): any;
   refreshOverwriteTargets(d: any, c: any): void;
+  getOverwriteFaceList(): any;
+  getOverwriteChipsetList(d: any): any;
+  viewSelectOverwriteTalkTargetWindow(d: any): void;
+  enableNew(): any;
 }
 
 declare class tGameMyShop {
@@ -3140,8 +3221,11 @@ declare class tGameNw {
   changeContentSize__fullscreen(a: any, b: any, c: any, e: any): void;
   sendJsSysError(a: any, b: any): void;
   exportMyAdventurerCharactor(a: any, b: any, c: any, e: any, d: any): any;
+  getExportMyAdventurerCharactorK1upData(a: any, b: any, c: any, e: any, d: any): any;
   importMyAdventurerCharactor(a: any): void;
-  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, e: any, d: any, g: any): void;
+  importMyAdventurerCharactor2FromBase64Data0(a: any, b: any): void;
+  importMyAdventurerCharactor2FromData0(a: any, b: any): any;
+  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, e: any, d: any, f: any): any;
   sendIsTr(): void;
   exportMpaData(a: any, b: any): any;
   importMapData(a: any): void;
@@ -3151,6 +3235,10 @@ declare class tGameNw {
   initMydata(a: any): void;
   getControllerType(a: any): void;
   isSteamInBigPictureMode(a: any): any;
+  overwriteMydataFace(a: any, b: any, c: any): any;
+  overwriteMydataChipset(a: any, b: any, c: any): any;
+  overwriteMydataTalk(a: any, b: any, c: any, e: any): any;
+  getTargetImageBase64(a: any, b: any): any;
 }
 
 declare class tGameObjectResource {
@@ -3246,6 +3334,7 @@ declare class tGameOption {
   initSaveData(): void;
   getSaveData(): any;
   setSaveData(a: any): any;
+  getKey(): any;
   save(a: any): void;
   load(a: any): void;
   getLocalStorageData(a: any): void;
@@ -3684,6 +3773,8 @@ declare class tGameSelectImageTarget {
   setFrameEvent_draw(a: any): void;
   changeTarget(a: any): any;
   drawCursor(): void;
+  mousemoveEvent(a: any): void;
+  mousedownEvent(a: any, b: any): any;
 }
 
 declare class tGameSelectTarget {
@@ -4239,12 +4330,12 @@ declare class tGameSoubifukuro {
   init(b: any): void;
   getEquipList(): any;
   searchTargetEquipment(b: any): any;
-  view(b: any, d: any): void;
+  view(b: any, c: any): void;
   isEnableRegistEquips(): any;
   registEquips(b: any): any;
   soubihazusu(b: any): any;
-  soubiyobidasu(b: any, d: any): void;
-  getItemDescription(b: any, d: any): any;
+  soubiyobidasu(b: any, c: any): void;
+  getItemDescription(b: any, c: any): any;
 }
 
 declare class tGameSoundResource {
@@ -4586,6 +4677,7 @@ declare class tGameTalkResource {
   loadMyTalkDataRange(d: any): void;
   loadMyTalkData(d: any): void;
   loadTargetMyTalkData(d: any, e: any): void;
+  getTextTalkData(d: any, e: any): void;
   getTableTalkMessage(d: any, e: any, f: any): any;
   getSleepTogetherMessage(d: any, e: any, f: any): any;
   updateButtonKeyLabel(): void;
@@ -5023,27 +5115,33 @@ declare class tGameWindows {
   callObj: any;
   callBacks: any;
   bSteamBigPictureMode: any;
-  init(a: any): void;
-  initLoad(a: any): any;
+  init(c: any): void;
+  initLoad(c: any): any;
   pageClose(): void;
   pageReload(): void;
-  getSaveList(a: any): void;
-  getSaveData(a: any, d: any): void;
-  setSaveData(a: any, d: any, b: any): void;
-  deleteSaveData(a: any, d: any): void;
-  changeContentSize(a: any, d: any, b: any, c: any): void;
-  sendJsSysError(a: any, d: any): void;
-  exportMyAdventurerCharactor(a: any, d: any, b: any, c: any, e: any): void;
-  importMyAdventurerCharactor(a: any): void;
-  overwriteMyAdventurerCharactorData(a: any, d: any, b: any, c: any, e: any, f: any): void;
+  getSaveList(c: any): void;
+  getSaveData(c: any, d: any): void;
+  setSaveData(c: any, d: any, a: any): void;
+  deleteSaveData(c: any, d: any): void;
+  changeContentSize(c: any, d: any, a: any, b: any): void;
+  sendJsSysError(c: any, d: any): void;
+  exportMyAdventurerCharactor(c: any, d: any, a: any, b: any, e: any): void;
+  getExportMyAdventurerCharactorK1upData(c: any, d: any, a: any, b: any, e: any): void;
+  importMyAdventurerCharactor(c: any): void;
+  importMyAdventurerCharactor2FromBase64Data0(c: any, d: any): void;
+  overwriteMyAdventurerCharactorData(c: any, d: any, a: any, b: any, e: any, f: any): void;
   sendIsTr(): void;
-  exportMpaData(a: any, d: any): void;
-  importMapData(a: any): void;
+  exportMpaData(c: any, d: any): void;
+  importMapData(c: any): void;
   closeGame(): void;
-  activeAchievement(a: any, d: any): any;
-  initMydata(a: any): any;
-  getControllerType(a: any): any;
-  isSteamInBigPictureMode(a: any): any;
+  activeAchievement(c: any, d: any): any;
+  initMydata(c: any): any;
+  getControllerType(c: any): any;
+  isSteamInBigPictureMode(c: any): any;
+  overwriteMydataFace(c: any, d: any, a: any): void;
+  overwriteMydataChipset(c: any, d: any, a: any): void;
+  overwriteMydataTalk(c: any, d: any, a: any, b: any): void;
+  getTargetImageBase64(c: any, d: any): void;
 }
 
 declare class tGameYagi {
