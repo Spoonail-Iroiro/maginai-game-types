@@ -2187,37 +2187,51 @@ declare class tGameK1up {
   importFaceData: any;
   uploadFaceData: any;
   listFaceData: any;
+  importItemData: any;
+  uploadItemData: any;
+  listItemData: any;
   importChipsetData: any;
   uploadChipsetData: any;
   listChipsetData: any;
   importTalkData: any;
   uploadTalkData: any;
   listTalkData: any;
+  manualData: any;
   scrollEventData: any;
   apiUrl: any;
   key: any;
-  init(r: any): void;
+  init(u: any): void;
   getApiUrl(): any;
-  setText(r: any, n: any): void;
-  setErrorView(r: any): void;
-  viewUploadMyTown(r: any, n: any): any;
-  viewListMyTown(r: any, n: any): any;
-  viewUploadFace(r: any, n: any): any;
-  viewListFace(r: any, n: any): any;
-  viewUploadChipset(r: any, n: any): any;
-  viewListChipset(r: any, n: any): any;
-  viewUploadTalk(r: any, n: any): any;
-  viewListTalk(r: any, n: any): any;
-  viewImportFace(r: any, n: any): any;
-  viewImportChipset(r: any, n: any): any;
-  viewImportTalk(r: any, n: any): any;
-  viewTitleMenu(r: any): void;
-  viewUploadMyAdventurerCharactor(r: any, n: any): any;
-  viewUploadMyAdventurerCharactor2(r: any, n: any): any;
-  viewListMyAdventurerCharactor(r: any, n: any): any;
-  initScrollEvent(r: any): void;
-  setScrollEvent(r: any): void;
-  isMove(r: any, n: any): any;
+  setText(u: any, n: any): void;
+  setErrorView(u: any): void;
+  viewUploadMyTown(u: any, n: any): any;
+  viewListMyTown(u: any, n: any): any;
+  viewUploadFace(u: any, n: any): any;
+  viewListFace(u: any, n: any): any;
+  viewUploadItem(u: any, n: any): any;
+  viewListItem(u: any, n: any): any;
+  viewUploadChipset(u: any, n: any): any;
+  viewListChipset(u: any, n: any): any;
+  viewUploadTalk(u: any, n: any): any;
+  viewListTalk(u: any, n: any): any;
+  viewImportFace(u: any, n: any): any;
+  viewImportItem(u: any, n: any): any;
+  viewImportChipset(u: any, n: any): any;
+  viewImportTalk(u: any, n: any): any;
+  viewTitleMenu(u: any): void;
+  viewUploadMyAdventurerCharactor(u: any, n: any): any;
+  viewUploadMyAdventurerCharactor2(u: any, n: any): any;
+  viewListMyAdventurerCharactor(u: any, n: any): any;
+  initScrollEvent(u: any): void;
+  setScrollEvent(u: any): void;
+  isMove(u: any, n: any): any;
+  viewManualFace(u: any, n: any): any;
+  viewManualItem(u: any, n: any): any;
+  viewManualChipset1(u: any, n: any): any;
+  viewManualChipset2(u: any, n: any): any;
+  viewManualTalk(u: any, n: any): any;
+  getOverwriteItemList(): any;
+  refreshOverwriteItem(u: any, n: any): any;
 }
 
 declare class tGameKeyboard {
@@ -3236,9 +3250,12 @@ declare class tGameNw {
   getControllerType(a: any): void;
   isSteamInBigPictureMode(a: any): any;
   overwriteMydataFace(a: any, b: any, c: any): any;
+  overwriteMydataItem(a: any, b: any, c: any): any;
   overwriteMydataChipset(a: any, b: any, c: any): any;
   overwriteMydataTalk(a: any, b: any, c: any, e: any): any;
   getTargetImageBase64(a: any, b: any): any;
+  openBrowser(a: any, b: any): void;
+  outputFile(a: any, b: any): void;
 }
 
 declare class tGameObjectResource {
@@ -4177,8 +4194,8 @@ declare class tGameSkillActionInfoWindow {
   cvs: any;
   ctx: any;
   fontSize: any;
-  init(a: any): void;
-  viewInfoWindow(a: any): any;
+  init(b: any): void;
+  viewInfoWindow(b: any): any;
 }
 
 declare class tGameSkillActionWindow {
@@ -5115,33 +5132,37 @@ declare class tGameWindows {
   callObj: any;
   callBacks: any;
   bSteamBigPictureMode: any;
-  init(c: any): void;
-  initLoad(c: any): any;
+  init(d: any): void;
+  initLoad(d: any): any;
   pageClose(): void;
   pageReload(): void;
-  getSaveList(c: any): void;
-  getSaveData(c: any, d: any): void;
-  setSaveData(c: any, d: any, a: any): void;
-  deleteSaveData(c: any, d: any): void;
-  changeContentSize(c: any, d: any, a: any, b: any): void;
-  sendJsSysError(c: any, d: any): void;
-  exportMyAdventurerCharactor(c: any, d: any, a: any, b: any, e: any): void;
-  getExportMyAdventurerCharactorK1upData(c: any, d: any, a: any, b: any, e: any): void;
-  importMyAdventurerCharactor(c: any): void;
-  importMyAdventurerCharactor2FromBase64Data0(c: any, d: any): void;
-  overwriteMyAdventurerCharactorData(c: any, d: any, a: any, b: any, e: any, f: any): void;
+  getSaveList(d: any): void;
+  getSaveData(d: any, c: any): void;
+  setSaveData(d: any, c: any, b: any): void;
+  deleteSaveData(d: any, c: any): void;
+  changeContentSize(d: any, c: any, b: any, a: any): void;
+  sendJsSysError(d: any, c: any): void;
+  exportMyAdventurerCharactor(d: any, c: any, b: any, a: any, e: any): void;
+  getExportMyAdventurerCharactorK1upData(d: any, c: any, b: any, a: any, e: any): void;
+  importMyAdventurerCharactor(d: any): void;
+  importMyAdventurerCharactor2FromBase64Data0(d: any, c: any): void;
+  overwriteMyAdventurerCharactorData(d: any, c: any, b: any, a: any, e: any, f: any): void;
   sendIsTr(): void;
-  exportMpaData(c: any, d: any): void;
-  importMapData(c: any): void;
+  exportMpaData(d: any, c: any): void;
+  importMapData(d: any): void;
   closeGame(): void;
-  activeAchievement(c: any, d: any): any;
-  initMydata(c: any): any;
-  getControllerType(c: any): any;
-  isSteamInBigPictureMode(c: any): any;
-  overwriteMydataFace(c: any, d: any, a: any): void;
-  overwriteMydataChipset(c: any, d: any, a: any): void;
-  overwriteMydataTalk(c: any, d: any, a: any, b: any): void;
-  getTargetImageBase64(c: any, d: any): void;
+  activeAchievement(d: any, c: any): any;
+  initMydata(d: any): any;
+  getControllerType(d: any): any;
+  isSteamInBigPictureMode(d: any): any;
+  overwriteMydataFace(d: any, c: any, b: any): void;
+  overwriteMydataItem(d: any, c: any, b: any): void;
+  overwriteMydataChipset(d: any, c: any, b: any): void;
+  overwriteMydataTalk(d: any, c: any, b: any, a: any): void;
+  getTargetImageBase64(d: any, c: any): void;
+  openBrowser(d: any, c: any): void;
+  outputFile(d: any, c: any): void;
+  openDirectory(d: any, c: any): void;
 }
 
 declare class tGameYagi {
