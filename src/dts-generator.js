@@ -201,11 +201,16 @@ function collectMethods(node) {
       name = prop.key.value;
     }
 
-    for (const param of prop.value.params) {
+    for (let index = 0; index < prop.value.params.length; index++) {
+      const param = prop.value.params[index];
       if (param.type !== 'Identifier') continue;
 
+      // param.nameにはバンドラーによって生成されたランダムな引数名が入っている。
+      // バージョン間で意味のない差分が生じるのを防ぐため、代わりにa-zのアルファベットを使う。
+      const name = 'abcdefghijklmnopqrstuvwxyz'[index]; // 引数の数が26を超えないと仮定
+
       params.push({
-        name: param.name,
+        name,
         type: 'any',
       });
     }
