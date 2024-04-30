@@ -62,5 +62,10 @@ patchは本パッケージとして修正があった場合に上がります。
 tsconfigの`types`を使用すると、そこに書かれた`@types`スコープのパッケージのみグローバルに参照できるようになります。  
 これまで`types`を使っていなかったパッケージに`types`を追加すると、型定義が意図せず参照できなくなる可能性があるため、上記スラッシュディレクティブを使用してください。
 
+# 不具合・問い合わせ
+本リポジトリのissueを立てるか、以下の連絡先までご連絡ください。
+
+[https://whiteblackspace.hatenablog.com/contact-coaw](https://whiteblackspace.hatenablog.com/contact-coaw)
+
 # 謝辞
 本リポジトリはenzaki氏より提供いただいた型定義生成スクリプト（https://github.com/Spoonail-Iroiro/maginai/pull/16 ）にSpoonailがその他開発用ファイルを追加して作成されました。
