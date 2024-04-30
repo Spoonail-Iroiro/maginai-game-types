@@ -1806,6 +1806,7 @@ declare class tGameHikitsugi {
   getRecipe(): any;
   getMapEditor(): any;
   getItemRecord(): any;
+  getMamonoRecord(): any;
   setWindow(c: any): void;
   save(c: any, a: any): void;
   load(c: any): void;
@@ -2273,9 +2274,9 @@ declare class tGameKeyboard {
 
 declare class tGameLakeZou {
   parent: any;
-  init(c: any): void;
-  view(c: any, h: any): void;
-  act(c: any): any;
+  init(d: any): void;
+  view(d: any, k: any): void;
+  act(d: any): any;
 }
 
 declare class tGameLoading {
@@ -2564,6 +2565,8 @@ declare class tGameMain {
   tGameK1up: tGameK1up;
   tGameLoading2: tGameLoading2;
   tGameDialog: tGameDialog;
+  tGameMamonoJisho: tGameMamonoJisho;
+  tGameNakamaHaken: tGameNakamaHaken;
   loadFinishData: any;
   firstLogData: any;
   windowLabelMaxWidth: any;
@@ -2617,6 +2620,22 @@ declare class tGameMain {
   getCachePrefix(): any;
   loadFont(): void;
   activeAchievement(b: any, a: any): any;
+}
+
+declare class tGameMamonoJisho {
+  parent: any;
+  init(c: any): void;
+  getDungeonTypes(): any;
+  getDungeonEnemyIds(c: any): any;
+  getDungeonObjectId(c: any): any;
+  getTargetEnemyLevel(c: any): any;
+  getTargetEnemyBaseData(c: any): any;
+  createcharactor(c: any): any;
+  getDropItems(c: any): any;
+  view(c: any, k: any): void;
+  viewMamonoInfo(c: any, k: any, a: any): any;
+  viewDropItems(c: any, k: any): void;
+  unlock(c: any, k: any): void;
 }
 
 declare class tGameMaou {
@@ -2802,6 +2821,7 @@ declare class tGameMapEditor {
   myData: any;
   historyMax: any;
   editorHeight: any;
+  selectTargetCharactorCache: any;
   init(a: any): void;
   initLoad(a: any): void;
   getLearnObject(a: any): any;
@@ -3103,6 +3123,31 @@ declare class tGameMyTownRuleWindow {
   init(a: any): void;
   isEnableCharactor(a: any): any;
   viewCharactorRuleWindow(a: any, b: any): any;
+}
+
+declare class tGameNakamaHaken {
+  parent: any;
+  viewData: any;
+  init(b: any): void;
+  view(b: any, a: any): void;
+  viewMenu(b: any): void;
+  viewSelectHakenNakama(b: any): void;
+  getHakenKanouCharas(): any;
+  getHakenchuCharas(): any;
+  isHakenKanouChara(b: any): any;
+  refreshDungeonLevel(b: any): void;
+  initCharaValue(b: any): void;
+  getDungeonNanido(b: any, a: any): any;
+  isHakenNow(b: any): any;
+  getHakenTime(b: any, a: any): any;
+  registHaken(b: any, a: any, e: any): void;
+  setHakenClose(b: any): void;
+  registHakenCancel(b: any, a: any): void;
+  viewHakenchuNakama(b: any): void;
+  setResultInfo(b: any): void;
+  getHoshuBUnkatsu(b: any): any;
+  viewResult(b: any, a: any): void;
+  unlockRandomMamono(b: any): any;
 }
 
 declare class tGameName {
@@ -4829,6 +4874,7 @@ declare class tGameTitleWindow {
   viewError(b: any): void;
   checkMismatchSaveData(b: any): any;
   checkMismatchVersionSaveData(b: any): any;
+  checkGameTypeSaveData(b: any): any;
   removeOptionInitButton(): void;
   setOptionInitButton(): void;
   viewOptionInitMenu(): void;
