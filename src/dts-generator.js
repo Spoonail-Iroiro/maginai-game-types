@@ -55,6 +55,16 @@ function run() {
     });
   });
 
+  // parentフィールドの型をtGameMainに設定
+  for (const key in globalVariable) {
+    if (key.startsWith('tGame')) {
+      const parent = globalVariable[key].fields.parent;
+      if (parent !== undefined) {
+        parent.type = 'tGameMain';
+      }
+    }
+  }
+
   let s = '';
 
   // ファイル先頭のコメント
