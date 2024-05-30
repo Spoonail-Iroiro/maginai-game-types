@@ -16,8 +16,8 @@ declare class tDefault {
   makeKey(a: any): any;
   getStringDateToObject(a: any): any;
   getDateToObject(a: any): any;
-  getCalStrDate(a: any, b: any, c: any, d: any, e: any, f: any, h: any): any;
-  getCalDate(a: any, b: any, c: any, d: any, e: any, f: any, h: any): any;
+  getCalStrDate(a: any, b: any, c: any, d: any, e: any, f: any, g: any): any;
+  getCalDate(a: any, b: any, c: any, d: any, e: any, f: any, g: any): any;
   checkEmailFormat(a: any): any;
   checkTelFormat(a: any, b: any): any;
   checkPostcodeFormat(a: any): any;
@@ -44,8 +44,8 @@ declare class tDefault {
   focusFirstTarget(a: any): any;
   getFocusTarget(): any;
   blur(): void;
-  viewPopWindow(a: any, b: any, c: any, d: any, e: any, f: any, h: any, g: any, k: any, p: any, l: any, q: any, u: any): any;
-  viewPopWindowPostMessage(a: any, b: any, c: any, d: any, e: any, f: any, h: any, g: any, k: any, p: any, l: any, q: any, u: any): any;
+  viewPopWindow(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any, i: any, j: any, k: any, l: any, m: any): any;
+  viewPopWindowPostMessage(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any, i: any, j: any, k: any, l: any, m: any): any;
   closeMyWindow(a: any): void;
   popCallBack(a: any, b: any, c: any): any;
   popPostMessageCallBack(a: any): any;
@@ -117,77 +117,77 @@ declare class tGameAdventurerGuild {
   getTownQuestTargetFromMapId(a: any): any;
   createTownQuests(a: any): any;
   getQuestFreeCharactors(a: any): any;
-  createTownQuest(a: any, c: any, b: any): any;
-  createTownJikeidanQuest(a: any, c: any): any;
-  createTownQuest_1(a: any, c: any, b: any, d: any): any;
-  createTownQuest_2(a: any, c: any, b: any, d: any): any;
-  createTownQuest_3(a: any, c: any, b: any, d: any): any;
-  createTownQuest_4(a: any, c: any, b: any, d: any): any;
-  createTownQuest_4_field(a: any, c: any, b: any, d: any, e: any): any;
-  createTownQuest_5(a: any, c: any, b: any, d: any): any;
-  createTownQuest_6(a: any, c: any, b: any, d: any): any;
-  createTownQuest_7(a: any, c: any, b: any, d: any): any;
-  createTownQuest_8(a: any, c: any, b: any, d: any): any;
-  createTownQuest_9(a: any, c: any, b: any, d: any): any;
-  createTownQuest_10(a: any, c: any, b: any, d: any, e: any): any;
-  createTownQuest_11(a: any, c: any, b: any, d: any): any;
-  createTownQuest_12(a: any, c: any, b: any, d: any, e: any): any;
-  createTownQuest_13(a: any, c: any, b: any, d: any, e: any): any;
-  createTownQuest_14(a: any, c: any, b: any, d: any, e: any): any;
-  createTownQuest_15(a: any, c: any, b: any, d: any, e: any): any;
-  getQuestSentence(a: any, c: any): any;
-  getQuestSentence_1(a: any, c: any): any;
-  getQuestSentence_2(a: any, c: any): any;
-  getQuestSentence_3(a: any, c: any): any;
-  getQuestSentence_4(a: any, c: any): any;
-  getQuestSentence_4_field(a: any, c: any): any;
-  getQuestSentence_5(a: any, c: any): any;
-  getQuestSentence_6(a: any, c: any): any;
-  getQuestSentence_7(a: any, c: any): any;
-  getQuestSentence_8(a: any, c: any): any;
-  getQuestSentence_9(a: any, c: any): any;
-  getQuestSentence_10(a: any, c: any): any;
-  getQuestSentence_11(a: any, c: any): any;
-  getQuestSentence_12(a: any, c: any): any;
-  getQuestSentence_13(a: any, c: any): any;
-  getQuestSentence_14(a: any, c: any): any;
-  getQuestSentence_15(a: any, c: any): any;
-  setMyTown(a: any, c: any, b: any): void;
+  createTownQuest(a: any, b: any, c: any): any;
+  createTownJikeidanQuest(a: any, b: any): any;
+  createTownQuest_1(a: any, b: any, c: any, d: any): any;
+  createTownQuest_2(a: any, b: any, c: any, d: any): any;
+  createTownQuest_3(a: any, b: any, c: any, d: any): any;
+  createTownQuest_4(a: any, b: any, c: any, d: any): any;
+  createTownQuest_4_field(a: any, b: any, c: any, d: any, e: any): any;
+  createTownQuest_5(a: any, b: any, c: any, d: any): any;
+  createTownQuest_6(a: any, b: any, c: any, d: any): any;
+  createTownQuest_7(a: any, b: any, c: any, d: any): any;
+  createTownQuest_8(a: any, b: any, c: any, d: any): any;
+  createTownQuest_9(a: any, b: any, c: any, d: any): any;
+  createTownQuest_10(a: any, b: any, c: any, d: any, e: any): any;
+  createTownQuest_11(a: any, b: any, c: any, d: any): any;
+  createTownQuest_12(a: any, b: any, c: any, d: any, e: any): any;
+  createTownQuest_13(a: any, b: any, c: any, d: any, e: any): any;
+  createTownQuest_14(a: any, b: any, c: any, d: any, e: any): any;
+  createTownQuest_15(a: any, b: any, c: any, d: any, e: any): any;
+  getQuestSentence(a: any, b: any): any;
+  getQuestSentence_1(a: any, b: any): any;
+  getQuestSentence_2(a: any, b: any): any;
+  getQuestSentence_3(a: any, b: any): any;
+  getQuestSentence_4(a: any, b: any): any;
+  getQuestSentence_4_field(a: any, b: any): any;
+  getQuestSentence_5(a: any, b: any): any;
+  getQuestSentence_6(a: any, b: any): any;
+  getQuestSentence_7(a: any, b: any): any;
+  getQuestSentence_8(a: any, b: any): any;
+  getQuestSentence_9(a: any, b: any): any;
+  getQuestSentence_10(a: any, b: any): any;
+  getQuestSentence_11(a: any, b: any): any;
+  getQuestSentence_12(a: any, b: any): any;
+  getQuestSentence_13(a: any, b: any): any;
+  getQuestSentence_14(a: any, b: any): any;
+  getQuestSentence_15(a: any, b: any): any;
+  setMyTown(a: any, b: any, c: any): void;
   getQuestRewordMessage(a: any): any;
-  addReceived(a: any, c: any, b: any): any;
-  initReceived_1(a: any, c: any): any;
-  initReceived_2(a: any, c: any): any;
-  initReceived_3(a: any, c: any): any;
-  initReceived_4(a: any, c: any): any;
-  initReceived_5(a: any, c: any): any;
-  initReceived_6(a: any, c: any): any;
-  initReceived_7(a: any, c: any): any;
-  initReceived_8(a: any, c: any): any;
-  initReceived_9(a: any, c: any): any;
-  initReceived_10(a: any, c: any): any;
-  initReceived_11(a: any, c: any): any;
-  initReceived_12(a: any, c: any): any;
-  initReceived_13(a: any, c: any): any;
-  initReceived_14(a: any, c: any): any;
-  initReceived_15(a: any, c: any): any;
-  finishQuest(a: any, c: any, b: any): any;
-  failureQuest(a: any, c: any, b: any, d: any, e: any): any;
-  clearQuestData(a: any, c: any, b: any): any;
+  addReceived(a: any, b: any, c: any): any;
+  initReceived_1(a: any, b: any): any;
+  initReceived_2(a: any, b: any): any;
+  initReceived_3(a: any, b: any): any;
+  initReceived_4(a: any, b: any): any;
+  initReceived_5(a: any, b: any): any;
+  initReceived_6(a: any, b: any): any;
+  initReceived_7(a: any, b: any): any;
+  initReceived_8(a: any, b: any): any;
+  initReceived_9(a: any, b: any): any;
+  initReceived_10(a: any, b: any): any;
+  initReceived_11(a: any, b: any): any;
+  initReceived_12(a: any, b: any): any;
+  initReceived_13(a: any, b: any): any;
+  initReceived_14(a: any, b: any): any;
+  initReceived_15(a: any, b: any): any;
+  finishQuest(a: any, b: any, c: any): any;
+  failureQuest(a: any, b: any, c: any, d: any, e: any): any;
+  clearQuestData(a: any, b: any, c: any): any;
   checkTimeOver(a: any): any;
   getTowns(a: any): any;
-  getTownsFromPosition(a: any, c: any): any;
+  getTownsFromPosition(a: any, b: any): any;
   getAffectAnswer(a: any): any;
   affectAnswer(a: any): void;
-  affectAnswer_2(a: any, c: any): void;
-  affectAnswer_3(a: any, c: any): void;
-  affectAnswer_9(a: any, c: any): void;
+  affectAnswer_2(a: any, b: any): void;
+  affectAnswer_3(a: any, b: any): void;
+  affectAnswer_9(a: any, b: any): void;
   getTargetItem(a: any): any;
   getTargetQuestItem(a: any): any;
   createID(): any;
   searchReceivedQuest(a: any): any;
   getFieldObjectToQuest1Name(a: any): any;
-  getQuestFinishFameExp(a: any, c: any, b: any): any;
-  getQuestFinishGaeExp(a: any, c: any, b: any): any;
+  getQuestFinishFameExp(a: any, b: any, c: any): any;
+  getQuestFinishGaeExp(a: any, b: any, c: any): any;
   changeMapEvent(a: any): void;
   createQuestRank(): any;
   createQuestItem_2(a: any): any;
@@ -195,12 +195,12 @@ declare class tGameAdventurerGuild {
   updateAttackedList(): void;
   getAttackedList(): any;
   calQuestIconData(): void;
-  addQuestSentenceCommon(a: any, c: any, b: any): void;
+  addQuestSentenceCommon(a: any, b: any, c: any): void;
   isSokuji(a: any): any;
   actSokuji(a: any): void;
-  createQuestTargetType(a: any, c: any): any;
-  guildpointkau(a: any, c: any): void;
-  guildpointkau2(a: any, c: any): void;
+  createQuestTargetType(a: any, b: any): any;
+  guildpointkau(a: any, b: any): void;
+  guildpointkau2(a: any, b: any): void;
   getGuildPointBottomData(): any;
 }
 
@@ -215,18 +215,18 @@ declare class tGameAdventurerGuildConfirmWindow {
   viewData: any;
   viewQuestMaxNum: any;
   cursor: any;
-  init(b: any): void;
+  init(a: any): void;
   clear(): void;
-  viewWindow(b: any, c: any): any;
-  drawPage(b: any): void;
-  getCursor(b: any): any;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
+  viewWindow(a: any, b: any): any;
+  drawPage(a: any): void;
+  getCursor(a: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
-  setCursor(b: any): any;
-  viewInfoWindow(b: any): any;
+  setCursor(a: any): any;
+  viewInfoWindow(a: any): any;
 }
 
 declare class tGameAdventurerGuildWindow {
@@ -241,32 +241,32 @@ declare class tGameAdventurerGuildWindow {
   viewQuestMaxNum: any;
   cursor: any;
   talkData: any;
-  init(c: any): void;
+  init(a: any): void;
   clear(): void;
-  viewWindow(c: any, a: any): any;
-  drawPage(c: any): void;
-  getCursor(c: any): any;
-  setFrameEvent(c: any): void;
-  setFrameEvent_dispose(c: any): void;
-  setFrameEvent_frame(c: any): void;
-  setFrameEvent_draw(c: any): void;
+  viewWindow(a: any, b: any): any;
+  drawPage(a: any): void;
+  getCursor(a: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
-  setCursor(c: any): any;
+  setCursor(a: any): any;
   updateQuests(): void;
-  viewInfoWindow(c: any): any;
-  viewConfirm(c: any): any;
-  checkFinish(c: any): any;
-  getSuccessItem(c: any): void;
-  addSuccessFaith(c: any, a: any): any;
-  firstAccess(c: any, a: any): void;
-  getGmChara(c: any): any;
-  loadTalkData(c: any): any;
-  firstGmAccess(c: any): void;
-  gmNohin(c: any): void;
-  inGuildMokutekichi(c: any, a: any): void;
-  getQuestMessage(c: any): any;
-  oneActionFinishAction(c: any, a: any, b: any): void;
-  oneActionFinishAction_guildtargetitem(c: any, a: any): void;
+  viewInfoWindow(a: any): any;
+  viewConfirm(a: any): any;
+  checkFinish(a: any): any;
+  getSuccessItem(a: any): void;
+  addSuccessFaith(a: any, b: any): any;
+  firstAccess(a: any, b: any): void;
+  getGmChara(a: any): any;
+  loadTalkData(a: any): any;
+  firstGmAccess(a: any): void;
+  gmNohin(a: any): void;
+  inGuildMokutekichi(a: any, b: any): void;
+  getQuestMessage(a: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_guildtargetitem(a: any, b: any): void;
 }
 
 declare class tGameAffectMap {
@@ -297,8 +297,8 @@ declare class tGameAllocateStatusWindow {
   targets: any;
   init(a: any): void;
   clear(): void;
-  viewSetWindow(a: any, c: any): void;
-  view(a: any, c: any): any;
+  viewSetWindow(a: any, b: any): void;
+  view(a: any, b: any): any;
   drawPage(a: any): void;
   getCursor(a: any): any;
   setFrameEvent(a: any): void;
@@ -307,40 +307,40 @@ declare class tGameAllocateStatusWindow {
   setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
   setCursor(a: any): any;
-  drawSelectColumnData(a: any, c: any): void;
+  drawSelectColumnData(a: any, b: any): void;
   changeSelectColumnItem(a: any): void;
-  drawColumnData(a: any, c: any): any;
+  drawColumnData(a: any, b: any): any;
   okButtonColumnItem(a: any): any;
   viewPoint(): void;
 }
 
 declare class tGameAnimalWood {
   parent: any;
-  init(c: any): void;
-  tryMap(c: any): any;
+  init(a: any): void;
+  tryMap(a: any): any;
   createMap(): any;
   getMapId(): any;
-  createMap_act(c: any): any;
-  addCharactor(c: any, d: any): any;
-  affectBox(c: any, d: any): any;
-  oneActionFinishAction(c: any, d: any, a: any): void;
-  oneActionFinishAction_createanimalwood(c: any, d: any): any;
+  createMap_act(a: any): any;
+  addCharactor(a: any, b: any): any;
+  affectBox(a: any, b: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_createanimalwood(a: any, b: any): any;
 }
 
 declare class tGameBaby {
   parent: any;
   data: any;
   range: any;
-  init(c: any): void;
+  init(a: any): void;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(c: any): any;
+  setSaveData(a: any): any;
   clearDatas(): void;
-  createBaby(c: any, a: any): any;
+  createBaby(a: any, b: any): any;
   getTogetherCharas(): any;
-  sleepTogether(c: any): void;
-  seicho(c: any, a: any): any;
-  setHikitsugiData(c: any, a: any): any;
+  sleepTogether(a: any): void;
+  seicho(a: any, b: any): any;
+  setHikitsugiData(a: any, b: any): any;
 }
 
 declare class tGameBazaarGenerator {
@@ -349,8 +349,8 @@ declare class tGameBazaarGenerator {
   init(a: any): void;
   tryMap(a: any): any;
   createMap(): any;
-  oneActionFinishAction(a: any, e: any, b: any): void;
-  oneActionFinishAction_createbazaar(a: any, e: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_createbazaar(a: any, b: any): any;
 }
 
 declare class tGameBgmResource {
@@ -372,13 +372,14 @@ declare class tGameBgmResource {
   startSound(a: any): any;
   removeSound(a: any, b: any): any;
   insertPlay(a: any, b: any): any;
-  insertPlay2(a: any, b: any, e: any): any;
+  insertPlay2(a: any, b: any, c: any): any;
   removeAllSound(a: any): void;
-  play(a: any, b: any, e: any, d: any): any;
+  play(a: any, b: any, c: any, d: any): any;
   setVolume(a: any): any;
   frameAction(a: any): void;
   reflectOption(a: any): void;
   overwriteBgm(a: any): void;
+  isPlayTargetBGM(a: any): any;
 }
 
 declare class tGameBlacksmith {
@@ -386,47 +387,47 @@ declare class tGameBlacksmith {
   viewData: any;
   maxNum: any;
   gineikesshoMaxNum: any;
-  init(b: any): void;
-  getMaterialMaxNum(b: any): any;
+  init(a: any): void;
+  getMaterialMaxNum(a: any): any;
   getGineikesshoMaxNum(): any;
   getSoukesshoNeedNum(): any;
-  create(b: any, c: any, a: any, f: any): void;
-  createMember(b: any, c: any, a: any, f: any): void;
-  selectMaterial(b: any, c: any): void;
-  selectEquipmentType2(b: any): any;
-  selectSoukessho(b: any): any;
-  getSuccessRate(b: any): any;
+  create(a: any, b: any, c: any, d: any): void;
+  createMember(a: any, b: any, c: any, d: any): void;
+  selectMaterial(a: any, b: any): void;
+  selectEquipmentType2(a: any): any;
+  selectSoukessho(a: any): any;
+  getSuccessRate(a: any): any;
   getMaxRank(): any;
   actBlacksmith(): void;
-  blacksmithResult(b: any, c: any): any;
-  getExp(b: any, c: any, a: any): any;
-  bunkai(b: any, c: any): void;
+  blacksmithResult(a: any, b: any): any;
+  getExp(a: any, b: any, c: any): any;
+  bunkai(a: any, b: any): void;
   getSoukesshoItems(): any;
   getGineikesshoItems(): any;
 }
 
 declare class tGameButsu {
   parent: any;
-  init(c: any): void;
-  tryCreate(c: any): any;
-  oneActionFinishAction(c: any, b: any, a: any): void;
-  oneActionFinishAction_butsuevent1(c: any, b: any): any;
-  oneActionFinishAction_butsubossgekiha(c: any, b: any): any;
-  oneActionFinishAction_butsufirst(c: any, b: any): any;
-  oneActionFinishAction_butsuchestopen(c: any, b: any): void;
-  viewMap(c: any): void;
+  init(a: any): void;
+  tryCreate(a: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_butsuevent1(a: any, b: any): any;
+  oneActionFinishAction_butsubossgekiha(a: any, b: any): any;
+  oneActionFinishAction_butsufirst(a: any, b: any): any;
+  oneActionFinishAction_butsuchestopen(a: any, b: any): void;
+  viewMap(a: any): void;
   deleteButsuCharactor(): any;
-  selectAnswer(c: any): any;
-  affectAnswer(c: any): void;
+  selectAnswer(a: any): any;
+  affectAnswer(a: any): void;
   calBasho(): any;
-  affectObject(c: any): any;
-  inTargetMap(c: any, b: any, a: any): any;
-  createTargetMap(c: any, b: any): void;
-  setTargetEvent(c: any, b: any): any;
-  action_playerAffect(c: any, b: any, a: any, h: any): any;
-  action_playerAffect2(c: any, b: any, a: any, h: any): any;
-  keibiKaiwa(c: any, b: any): void;
-  keibiEncount(c: any): any;
+  affectObject(a: any): any;
+  inTargetMap(a: any, b: any, c: any): any;
+  createTargetMap(a: any, b: any): void;
+  setTargetEvent(a: any, b: any): any;
+  action_playerAffect(a: any, b: any, c: any, d: any): any;
+  action_playerAffect2(a: any, b: any, c: any, d: any): any;
+  keibiKaiwa(a: any, b: any): void;
+  keibiEncount(a: any): any;
 }
 
 declare class tGameCalc {
@@ -440,15 +441,15 @@ declare class tGameCasino {
   init(a: any): void;
   initLoad(a: any): void;
   exCoin(a: any): void;
-  exItem(a: any, d: any): void;
+  exItem(a: any, b: any): void;
   createExItems(): any;
 }
 
 declare class tGameCastleGenerator {
   parent: any;
   init(a: any): void;
-  createCastleWithLoad(a: any, g: any): void;
-  createCastle(a: any, g: any): any;
+  createCastleWithLoad(a: any, b: any): void;
+  createCastle(a: any, b: any): any;
   actionPattern(a: any): any;
   updateActionPattern(a: any): any;
   actionPatternOne(a: any): any;
@@ -460,7 +461,7 @@ declare class tGameChangeProfile {
   init(a: any): void;
   initLoad(a: any): void;
   viewMember(a: any): void;
-  viewOne(a: any, h: any, f: any, b: any): void;
+  viewOne(a: any, b: any, c: any, d: any): void;
 }
 
 declare class tGameCharactor {
@@ -526,7 +527,7 @@ declare class tGameCharactor {
   action_noroikeshi(a: any, b: any, c: any): any;
   action_kantei(a: any, b: any, c: any): any;
   action_sokuji(a: any, b: any, c: any): any;
-  action_actionData(a: any, b: any, c: any, d: any, e: any, g: any): any;
+  action_actionData(a: any, b: any, c: any, d: any, e: any, f: any): any;
   action_moveTekiseiKyori(a: any, b: any, c: any, d: any): any;
   action_actionA(a: any, b: any): any;
   action_actionP(a: any, b: any): any;
@@ -544,16 +545,16 @@ declare class tGameCharactor {
   addMoney(a: any, b: any, c: any, d: any, e: any): any;
   removeItem(a: any, b: any, c: any, d: any): any;
   addItem(a: any, b: any, c: any, d: any): any;
-  addSkill(a: any, b: any, c: any, d: any, e: any, g: any): any;
-  addSkillAction(a: any, b: any, c: any, d: any, e: any, g: any): any;
+  addSkill(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  addSkillAction(a: any, b: any, c: any, d: any, e: any, f: any): any;
   removeSkillAction(a: any, b: any, c: any, d: any, e: any): any;
   giftItem(a: any, b: any, c: any, d: any, e: any): any;
   giftItem2(a: any, b: any, c: any, d: any, e: any): any;
-  giftItem3(a: any, b: any, c: any, d: any, e: any, g: any): any;
+  giftItem3(a: any, b: any, c: any, d: any, e: any, f: any): any;
   buyItem(a: any): any;
   buySkill(a: any): any;
   sellItem(a: any): any;
-  okuItem(a: any, b: any, c: any, d: any, e: any, g: any, f: any, h: any): any;
+  okuItem(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any): any;
   okuItemOkuLog(a: any, b: any, c: any, d: any): void;
   getPickupItemMaxNum(a: any, b: any): any;
   pickupItem(a: any): any;
@@ -566,7 +567,7 @@ declare class tGameCharactor {
   getSaveData(): any;
   setSaveData(a: any): any;
   setPlayerPosition(a: any, b: any, c: any): any;
-  joinPlayerTeam(a: any, b: any, c: any, d: any, e: any, g: any): any;
+  joinPlayerTeam(a: any, b: any, c: any, d: any, e: any, f: any): any;
   setFukidashi(a: any): any;
   getFspTalkTarget(a: any): any;
   setFukidashiTalk(a: any, b: any): any;
@@ -579,7 +580,7 @@ declare class tGameCharactor {
   checkAttack(a: any, b: any): any;
   attack(a: any, b: any, c: any): any;
   longAttack(a: any, b: any, c: any): any;
-  usePlayerSkillAction(a: any, b: any, c: any, d: any, e: any, g: any): any;
+  usePlayerSkillAction(a: any, b: any, c: any, d: any, e: any, f: any): any;
   isCanAction(a: any, b: any, c: any, d: any, e: any): any;
   isCanUseItem(a: any, b: any): any;
   isCanUseSkillAction(a: any, b: any): any;
@@ -588,7 +589,7 @@ declare class tGameCharactor {
   getCdtBukizokusei(a: any): any;
   getAttackSkillAction(a: any): any;
   getLongAttackSkillAction(a: any): any;
-  useSkillAction(a: any, b: any, c: any, d: any, e: any, g: any, f: any, h: any, k: any, l: any, m: any, p: any): any;
+  useSkillAction(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any, i: any, j: any, k: any, l: any): any;
   nonBattleAction(a: any, b: any, c: any): any;
   getAptitudeDistance(a: any): any;
   battleAction(a: any, b: any, c: any): any;
@@ -659,7 +660,7 @@ declare class tGameCharactor {
   setSubTownCharaMap(a: any): void;
   isFreeCharactor(a: any, b: any): any;
   getFreeCharactors(): any;
-  judgeCondition(a: any, b: any, c: any, d: any, e: any, g: any, f: any): any;
+  judgeCondition(a: any, b: any, c: any, d: any, e: any, f: any, g: any): any;
   getConditionDefaultValue(a: any, b: any, c: any): any;
   removeOnemapTeam(a: any): void;
   addDeathAction(a: any, b: any, c: any): any;
@@ -708,7 +709,7 @@ declare class tGameCharactor {
   getHomeMap(a: any): any;
   getMemberSumSkillLevel(a: any, b: any): any;
   fovBattlePolice(): any;
-  pushCharaPosition(a: any, b: any, c: any, d: any, e: any, g: any): any;
+  pushCharaPosition(a: any, b: any, c: any, d: any, e: any, f: any): any;
   getCharactorCantPositionIdx(a: any, b: any): any;
   nakanaorishiyo(a: any, b: any): any;
   getAttackDamageAction(a: any, b: any, c: any): any;
@@ -818,63 +819,83 @@ declare class tGameCharactorData {
   elv2: any;
   belv: any;
   belv2: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  setLevel(c: any, b: any): void;
-  isHiddenStatus(c: any): any;
-  getCharactorData(c: any, b: any, f: any, d: any, a: any): any;
-  getSkillName(c: any): any;
-  getItem(c: any, b: any, f: any): any;
-  setEquipment(c: any, b: any, f: any, d: any, a: any, e: any): any;
-  getLevelToRank(c: any, b: any, f: any): any;
-  getRankToLevel(c: any): any;
-  setEquipment_quality(c: any, b: any): void;
-  setEquipment_weapons(c: any, b: any, f: any, d: any, a: any): any;
-  setEquipment_lweapons(c: any, b: any, f: any, d: any, a: any): any;
-  setEquipment_armors(c: any, b: any, f: any, d: any, a: any): any;
+  selv: any;
+  selv2: any;
+  bselv: any;
+  bselv2: any;
+  kelv: any;
+  kelv2: any;
+  kbelv: any;
+  kbelv2: any;
+  kselv: any;
+  kselv2: any;
+  kbselv: any;
+  kbselv2: any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  setLevel(a: any, b: any): void;
+  isHiddenStatus(a: any): any;
+  getCharactorData(a: any, b: any, c: any, d: any, e: any): any;
+  getSkillName(a: any): any;
+  getItem(a: any, b: any, c: any): any;
+  setEquipment(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  getLevelToRank(a: any, b: any, c: any): any;
+  getRankToLevel(a: any): any;
+  setEquipment_quality(a: any, b: any): void;
+  setEquipment_weapons(a: any, b: any, c: any, d: any, e: any): any;
+  setEquipment_lweapons(a: any, b: any, c: any, d: any, e: any): any;
+  setEquipment_armors(a: any, b: any, c: any, d: any, e: any): any;
   setRandomEnemySheet(): void;
   setRandomRaceEnemySheet(): void;
   setRandomBossSheet(): void;
   setRandomRaceBossSheet(): void;
   setRandomSlaveSheet(): void;
-  createRandomEnemy(c: any): any;
-  createRandomRaceEnemy(c: any): any;
-  getRandomBossId2(c: any, b: any, f: any): any;
-  getRandomBossId(c: any, b: any): any;
-  createRandomSlaveId(c: any): any;
-  getAllocateStatusSheet(c: any): any;
-  setAllocateStatusTargetLevel(c: any): any;
-  setAllocateStatusRandom(c: any, b: any): any;
-  getAllocateStatusGetPoint(c: any): any;
-  setSkills(c: any, b: any, f: any): any;
-  setAskills(c: any, b: any, f: any, d: any, a: any): any;
-  convertTypeToQuality(c: any): any;
-  convertTypeToTarget(c: any): any;
-  getJobBaseStatus(c: any): any;
+  createRandomEnemy(a: any): any;
+  createRandomRaceEnemy(a: any): any;
+  getRandomBossId2(a: any, b: any, c: any): any;
+  getRandomBossId(a: any, b: any): any;
+  createRandomSlaveId(a: any): any;
+  getAllocateStatusSheet(a: any): any;
+  setAllocateStatusTargetLevel(a: any): any;
+  setAllocateStatusRandom(a: any, b: any): any;
+  getAllocateStatusGetPoint(a: any): any;
+  setSkills(a: any, b: any, c: any): any;
+  setAskills(a: any, b: any, c: any, d: any, e: any): any;
+  convertTypeToQuality(a: any): any;
+  convertTypeToTarget(a: any): any;
+  getJobBaseStatus(a: any): any;
   getFavoriteItems(): any;
-  convertActionSkillLevel(c: any): void;
-  setSpecialEquipment(c: any): any;
-  getRaceNums(c: any): any;
+  convertActionSkillLevel(a: any): void;
+  setSpecialEquipment(a: any): any;
+  getRaceNums(a: any): any;
+  get_elv(): any;
+  get_elv2(): any;
+  get_belv(): any;
+  get_belv2(): any;
+  get_selv(): any;
+  get_selv2(): any;
+  get_bselv(): any;
+  get_bselv2(): any;
 }
 
 declare class tGameCharactorEquipRuleWindow {
   parent: any;
   viewData: any;
-  init(b: any): void;
-  viewCharactorRuleWindow(b: any, a: any): void;
+  init(a: any): void;
+  viewCharactorRuleWindow(a: any, b: any): void;
 }
 
 declare class tGameCharactorRuleWindow {
   parent: any;
   viewData: any;
-  init(b: any): void;
-  viewCharactorRuleWindow(b: any, a: any): void;
-  viewCharactorRule2Window(b: any, a: any): void;
-  viewCharactorRule3Window(b: any, a: any): void;
-  getCharaRule_townruleKantei(b: any): any;
-  getCharaRule_townruleNoroikeshi(b: any): any;
-  getCharaRule_townruleRustrepair(b: any): any;
-  getCharaRule_usenoroiitem(b: any): any;
+  init(a: any): void;
+  viewCharactorRuleWindow(a: any, b: any): void;
+  viewCharactorRule2Window(a: any, b: any): void;
+  viewCharactorRule3Window(a: any, b: any): void;
+  getCharaRule_townruleKantei(a: any): any;
+  getCharaRule_townruleNoroikeshi(a: any): any;
+  getCharaRule_townruleRustrepair(a: any): any;
+  getCharaRule_usenoroiitem(a: any): any;
 }
 
 declare class tGameChikaMakyo {
@@ -882,11 +903,11 @@ declare class tGameChikaMakyo {
   init(a: any): void;
   refreshDungeon(): any;
   createDungeon(a: any): any;
-  createChikaMakyo(a: any, c: any): any;
+  createChikaMakyo(a: any, b: any): any;
   firstGmAccess(a: any): void;
   setMaxFloor(a: any): void;
   resultGmAccess(a: any): void;
-  createDungeonFloorEnd(a: any, c: any): any;
+  createDungeonFloorEnd(a: any, b: any): any;
   getHoshuConvert(a: any): any;
 }
 
@@ -895,16 +916,16 @@ declare class tGameChipsetResource {
   chipsetLink: any;
   chipsetData: any;
   counters: any;
-  init(d: any): void;
-  getUseData(d: any): any;
-  getUseDataFromMap(d: any): any;
-  loadImage(d: any, e: any, c: any): void;
-  loadLinkJson(d: any): void;
-  loadAllImage(d: any): void;
-  getChipsetData(d: any): any;
-  getMyAdventurerChipData(d: any): any;
-  loadOverwrite(d: any): void;
-  loadOverwrite__chipset_chara(d: any): void;
+  init(a: any): void;
+  getUseData(a: any): any;
+  getUseDataFromMap(a: any): any;
+  loadImage(a: any, b: any, c: any): void;
+  loadLinkJson(a: any): void;
+  loadAllImage(a: any): void;
+  getChipsetData(a: any): any;
+  getMyAdventurerChipData(a: any): any;
+  loadOverwrite(a: any): void;
+  loadOverwrite__chipset_chara(a: any): void;
 }
 
 declare class tGameCommand {
@@ -915,36 +936,36 @@ declare class tGameCommand {
 declare class tGameCooking {
   parent: any;
   viewData: any;
-  init(d: any): void;
-  initLoad(d: any): void;
-  cooking(d: any, b: any, c: any): void;
-  cookingMember(d: any, b: any, c: any): void;
-  selectFood(d: any): void;
-  selectCmr(d: any): void;
-  getSuccessRate(d: any, b: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  cooking(a: any, b: any, c: any): void;
+  cookingMember(a: any, b: any, c: any): void;
+  selectFood(a: any): void;
+  selectCmr(a: any): void;
+  getSuccessRate(a: any, b: any): any;
   actCooking(): void;
-  cookResult(d: any, b: any): any;
-  getExp(d: any, b: any, c: any): any;
-  selectNum(d: any): any;
-  viewOutdoor(d: any): void;
+  cookResult(a: any, b: any): any;
+  getExp(a: any, b: any, c: any): any;
+  selectNum(a: any): any;
+  viewOutdoor(a: any): void;
 }
 
 declare class tGameCreateCharactor {
   parent: any;
   viewData: any;
   data: any;
-  init(b: any): void;
-  initLoad(b: any): void;
-  view(b: any, a: any): void;
-  changeView(b: any, a: any): void;
+  init(a: any): void;
+  initLoad(a: any): void;
+  view(a: any, b: any): void;
+  changeView(a: any, b: any): void;
   viewProfile(): void;
   viewProfile2(): void;
   viewJob(): void;
   viewBonus(): void;
-  viewConfirm(b: any): void;
-  updateCharaData(b: any): void;
+  viewConfirm(a: any): void;
+  updateCharaData(a: any): void;
   cancelConfirm(): void;
-  viewBuyWindow(b: any): void;
+  viewBuyWindow(a: any): void;
 }
 
 declare class tGameCreateUniqueCharactor {
@@ -968,27 +989,27 @@ declare class tGameCreateUniqueCharactor {
 declare class tGameCreateWindow {
   parent: any;
   viewData: any;
-  init(c: any): void;
-  viewCreateWindowWithMember(c: any, a: any): void;
-  viewCreateWindow(c: any, a: any): void;
-  isCreate(c: any, a: any, d: any): any;
-  viewBottomData(c: any): void;
-  getSuccessRate(c: any): any;
+  init(a: any): void;
+  viewCreateWindowWithMember(a: any, b: any): void;
+  viewCreateWindow(a: any, b: any): void;
+  isCreate(a: any, b: any, c: any): any;
+  viewBottomData(a: any): void;
+  getSuccessRate(a: any): any;
   actCreate(): void;
-  createResult(c: any, a: any): any;
-  getExp(c: any, a: any, d: any): any;
+  createResult(a: any, b: any): any;
+  getExp(a: any, b: any, c: any): any;
 }
 
 declare class tGameCriminalRouya {
   parent: any;
   criminalRouyaMaxNum: any;
-  init(b: any): void;
-  changeCtype(b: any): any;
-  affect(b: any, c: any): void;
-  viewList(b: any, c: any): void;
-  nakamani(b: any): any;
-  mytownhe(b: any): any;
-  boukenshahe(b: any): any;
+  init(a: any): void;
+  changeCtype(a: any): any;
+  affect(a: any, b: any): void;
+  viewList(a: any, b: any): void;
+  nakamani(a: any): any;
+  mytownhe(a: any): any;
+  boukenshahe(a: any): any;
 }
 
 declare class tGameCriminalWindow {
@@ -1002,30 +1023,30 @@ declare class tGameCriminalWindow {
   viewData: any;
   viewCharaMaxNum: any;
   cursor: any;
-  init(b: any): void;
-  initLoad(b: any): void;
+  init(a: any): void;
+  initLoad(a: any): void;
   clear(): void;
-  viewWindow(b: any, e: any): any;
-  drawPage(b: any): void;
-  getCursor(b: any): any;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
+  viewWindow(a: any, b: any): any;
+  drawPage(a: any): void;
+  getCursor(a: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
-  setCursor(b: any): any;
-  viewInfoWindow(b: any): any;
+  setCursor(a: any): any;
+  viewInfoWindow(a: any): any;
 }
 
 declare class tGameDairyQuest {
   parent: any;
-  init(e: any): void;
+  init(a: any): void;
   tryRefresh(): any;
   refreshQuest(): void;
-  createQuest(e: any, f: any): void;
-  viewWindow(e: any, f: any): any;
-  getWindowData(e: any, f: any): any;
-  addCount(e: any, f: any): any;
+  createQuest(a: any, b: any): void;
+  viewWindow(a: any, b: any): any;
+  getWindowData(a: any, b: any): any;
+  addCount(a: any, b: any): any;
 }
 
 declare class tGameData {
@@ -1049,14 +1070,14 @@ declare class tGameData {
 declare class tGameDesignedMap {
   parent: any;
   data: any;
-  init(d: any): void;
-  initLoad(d: any): void;
-  loadMapJs(d: any, c: any): void;
-  addInitMaps(d: any, c: any): void;
-  addTargetMap(d: any, c: any, h: any, e: any): void;
-  addInitMaps_etc(d: any, c: any): any;
-  getTargetChipsetPosition(d: any, c: any, h: any): any;
-  autoCreateExpand(d: any, c: any, h: any, e: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  loadMapJs(a: any, b: any): void;
+  addInitMaps(a: any, b: any): void;
+  addTargetMap(a: any, b: any, c: any, d: any): void;
+  addInitMaps_etc(a: any, b: any): any;
+  getTargetChipsetPosition(a: any, b: any, c: any): any;
+  autoCreateExpand(a: any, b: any, c: any, d: any): any;
 }
 
 declare class tGameDialog {
@@ -1076,89 +1097,89 @@ declare class tGameDialog {
 declare class tGameDungeonGenerator {
   parent: any;
   bossFloors: any;
-  init(c: any): void;
+  init(a: any): void;
   getBaseAttr(): any;
   getAppearAttr(): any;
-  convertData(c: any): any;
-  createDungeonName(c: any, l: any): any;
-  getDungeonNameFromDungeonData(c: any, l: any, e: any, a: any): any;
-  getDungeonName(c: any, l: any, e: any, a: any, d: any): any;
-  getKaidanObjectId(c: any, l: any): any;
-  createEntrance(c: any, l: any): void;
-  createBossFloor(c: any, l: any): any;
-  setEntranceEventData(c: any, l: any): void;
-  setRoad(c: any): any;
-  jumpDungeonFloor(c: any, l: any, e: any, a: any, d: any, b: any): any;
-  nextDungeonFloor(c: any, l: any, e: any, a: any, d: any): any;
-  prevDungeonFloor(c: any, l: any, e: any, a: any, d: any): any;
-  checkEmptyPosition(c: any, l: any): any;
-  createFloor(c: any, l: any): any;
-  isCloseRoom(c: any, l: any): any;
-  createFloor_field(c: any, l: any): any;
-  createFloor_maze(c: any, l: any): any;
-  createFloor_long(c: any, l: any): any;
-  setMonstorHouse(c: any, l: any, e: any, a: any, d: any): void;
-  setRestRoom(c: any, l: any, e: any, a: any, d: any): void;
-  setHogyokuRoom(c: any, l: any, e: any, a: any, d: any): void;
-  setFishingRoom(c: any, l: any, e: any, a: any, d: any): void;
-  setOtakaraRoom(c: any, l: any, e: any, a: any, d: any): void;
-  setShopRoom(c: any, l: any, e: any, a: any): any;
-  getRectSpace(c: any, l: any): any;
-  getRectSpace2(c: any, l: any): any;
-  getRectSpace2FreeSpace(c: any, l: any): any;
-  selectItemType(c: any): any;
-  getFloorItemRank(c: any): any;
-  setDungeonItem(c: any, l: any, e: any, a: any): any;
-  setDungeonPortalEdgeAction(c: any, l: any, e: any): any;
-  setDungeonChest(c: any, l: any, e: any, a: any): any;
-  setDungeonMonsterChest(c: any, l: any, e: any, a: any): any;
-  setDungeonHibi(c: any, l: any, e: any, a: any): any;
-  setDungeonTrap(c: any, l: any, e: any, a: any): any;
-  setDungeonGoodTrap(c: any, l: any, e: any, a: any): any;
-  setDungeonJumpTrap(c: any, l: any, e: any, a: any): any;
-  setDungeonEnemy(c: any, l: any, e: any, a: any, d: any, b: any, k: any): any;
-  setDungeonMaterial(c: any, l: any, e: any, a: any): any;
-  setDungeonObject(c: any, l: any, e: any): any;
-  setDungeonCantMoveFloor(c: any, l: any, e: any, a: any, d: any, b: any): any;
-  setDungeonCanMoveFloor(c: any, l: any, e: any, a: any, d: any, b: any): any;
-  setDungeonDamageFloor(c: any, l: any, e: any, a: any, d: any): any;
-  setDungeonAdventurerCharactor(c: any, l: any, e: any, a: any): any;
-  setDungeonCriminalCharactor(c: any, l: any, e: any, a: any): any;
-  oneActionFinishAction(c: any, l: any, e: any): void;
-  oneActionFinishAction_crdungeonteleport(c: any, l: any): any;
-  oneActionFinishAction_monsterhouse(c: any, l: any): any;
-  oneActionFinishAction_dungeonautocdt(c: any, l: any): any;
-  oneActionFinishAction_crdungeon3turn(c: any, l: any): void;
-  oneActionFinishAction_yatoboss(c: any, l: any): any;
-  oneActionFinishAction_crdungeon3boss(c: any, l: any): any;
-  oneActionFinishAction_crdungeon7boss(c: any, l: any): any;
-  oneActionFinishAction_crdungeon7boss_bosshp(c: any, l: any): any;
-  oneActionFinishAction_bossgekiha(c: any, l: any): any;
-  bossgekihaEvent(c: any, l: any): void;
-  isEnableSetObject(c: any, l: any, e: any, a: any): any;
-  isEnableSetObject2(c: any, l: any, e: any): any;
-  getMapGimmickFloorInfo(c: any, l: any, e: any, a: any, d: any): any;
-  getMapGimmickSpace(c: any, l: any, e: any): any;
-  setDungeonTypeMap(c: any, l: any, e: any, a: any, d: any): any;
-  viewInfoWindow(c: any, l: any): any;
+  convertData(a: any): any;
+  createDungeonName(a: any, b: any): any;
+  getDungeonNameFromDungeonData(a: any, b: any, c: any, d: any): any;
+  getDungeonName(a: any, b: any, c: any, d: any, e: any): any;
+  getKaidanObjectId(a: any, b: any): any;
+  createEntrance(a: any, b: any): void;
+  createBossFloor(a: any, b: any): any;
+  setEntranceEventData(a: any, b: any): void;
+  setRoad(a: any): any;
+  jumpDungeonFloor(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  nextDungeonFloor(a: any, b: any, c: any, d: any, e: any): any;
+  prevDungeonFloor(a: any, b: any, c: any, d: any, e: any): any;
+  checkEmptyPosition(a: any, b: any): any;
+  createFloor(a: any, b: any): any;
+  isCloseRoom(a: any, b: any): any;
+  createFloor_field(a: any, b: any): any;
+  createFloor_maze(a: any, b: any): any;
+  createFloor_long(a: any, b: any): any;
+  setMonstorHouse(a: any, b: any, c: any, d: any, e: any): void;
+  setRestRoom(a: any, b: any, c: any, d: any, e: any): void;
+  setHogyokuRoom(a: any, b: any, c: any, d: any, e: any): void;
+  setFishingRoom(a: any, b: any, c: any, d: any, e: any): void;
+  setOtakaraRoom(a: any, b: any, c: any, d: any, e: any): void;
+  setShopRoom(a: any, b: any, c: any, d: any): any;
+  getRectSpace(a: any, b: any): any;
+  getRectSpace2(a: any, b: any): any;
+  getRectSpace2FreeSpace(a: any, b: any): any;
+  selectItemType(a: any): any;
+  getFloorItemRank(a: any): any;
+  setDungeonItem(a: any, b: any, c: any, d: any): any;
+  setDungeonPortalEdgeAction(a: any, b: any, c: any): any;
+  setDungeonChest(a: any, b: any, c: any, d: any): any;
+  setDungeonMonsterChest(a: any, b: any, c: any, d: any): any;
+  setDungeonHibi(a: any, b: any, c: any, d: any): any;
+  setDungeonTrap(a: any, b: any, c: any, d: any): any;
+  setDungeonGoodTrap(a: any, b: any, c: any, d: any): any;
+  setDungeonJumpTrap(a: any, b: any, c: any, d: any): any;
+  setDungeonEnemy(a: any, b: any, c: any, d: any, e: any, f: any, g: any): any;
+  setDungeonMaterial(a: any, b: any, c: any, d: any): any;
+  setDungeonObject(a: any, b: any, c: any): any;
+  setDungeonCantMoveFloor(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  setDungeonCanMoveFloor(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  setDungeonDamageFloor(a: any, b: any, c: any, d: any, e: any): any;
+  setDungeonAdventurerCharactor(a: any, b: any, c: any, d: any): any;
+  setDungeonCriminalCharactor(a: any, b: any, c: any, d: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_crdungeonteleport(a: any, b: any): any;
+  oneActionFinishAction_monsterhouse(a: any, b: any): any;
+  oneActionFinishAction_dungeonautocdt(a: any, b: any): any;
+  oneActionFinishAction_crdungeon3turn(a: any, b: any): void;
+  oneActionFinishAction_yatoboss(a: any, b: any): any;
+  oneActionFinishAction_crdungeon3boss(a: any, b: any): any;
+  oneActionFinishAction_crdungeon7boss(a: any, b: any): any;
+  oneActionFinishAction_crdungeon7boss_bosshp(a: any, b: any): any;
+  oneActionFinishAction_bossgekiha(a: any, b: any): any;
+  bossgekihaEvent(a: any, b: any): void;
+  isEnableSetObject(a: any, b: any, c: any, d: any): any;
+  isEnableSetObject2(a: any, b: any, c: any): any;
+  getMapGimmickFloorInfo(a: any, b: any, c: any, d: any, e: any): any;
+  getMapGimmickSpace(a: any, b: any, c: any): any;
+  setDungeonTypeMap(a: any, b: any, c: any, d: any, e: any): any;
+  viewInfoWindow(a: any, b: any): any;
   viewViewMapFukidashi(): void;
-  createSaveFloor(c: any, l: any): any;
-  createSaveJumpEscFloor(c: any, l: any): any;
-  changeMap(c: any): void;
-  getBassgekihaHoushu(c: any): void;
-  setAutoCdt(c: any, l: any): any;
-  setSpecialEvent(c: any, l: any): any;
-  setDungeonEnemy_god2dungeon2(c: any, l: any, e: any, a: any, d: any, b: any): any;
-  addTargetDungeon(c: any, l: any, e: any, a: any): void;
-  loadDungeonJs(c: any, l: any): void;
+  createSaveFloor(a: any, b: any): any;
+  createSaveJumpEscFloor(a: any, b: any): any;
+  changeMap(a: any): void;
+  getBassgekihaHoushu(a: any): void;
+  setAutoCdt(a: any, b: any): any;
+  setSpecialEvent(a: any, b: any): any;
+  setDungeonEnemy_god2dungeon2(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  addTargetDungeon(a: any, b: any, c: any, d: any): void;
+  loadDungeonJs(a: any, b: any): void;
 }
 
 declare class tGameEditMember {
   parent: any;
   hiddenCanvases: any;
-  init(d: any): void;
-  view(d: any): any;
-  viewConfirm(d: any): void;
+  init(a: any): void;
+  view(a: any): any;
+  viewConfirm(a: any): void;
 }
 
 declare class tGameEffect {
@@ -1168,25 +1189,25 @@ declare class tGameEffect {
   canvases: any;
   effectTextPositionHistories: any;
   aY: any;
-  init(e: any): void;
-  initLoad(e: any): void;
-  addEffect(e: any): any;
-  frameActionDraw(e: any): void;
-  draw(e: any): any;
-  drawEffectMap(e: any, l: any, g: any): any;
-  effectSimple(e: any, l: any): any;
-  effectBottomText(e: any, l: any): any;
-  getEffectTextDelay(e: any): any;
-  effectText(e: any, l: any): any;
-  effectSmallText(e: any, l: any): any;
-  viewMapName(e: any, l: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  addEffect(a: any): any;
+  frameActionDraw(a: any): void;
+  draw(a: any): any;
+  drawEffectMap(a: any, b: any, c: any): any;
+  effectSimple(a: any, b: any): any;
+  effectBottomText(a: any, b: any): any;
+  getEffectTextDelay(a: any): any;
+  effectText(a: any, b: any): any;
+  effectSmallText(a: any, b: any): any;
+  viewMapName(a: any, b: any): any;
   clear(): void;
-  effectDeath(e: any, l: any): any;
-  effectVanish(e: any, l: any): any;
-  effectUpObject(e: any, l: any): any;
-  effectSimpleCut(e: any): any;
-  effectLine(e: any, l: any): any;
-  viewBigText(e: any, l: any): any;
+  effectDeath(a: any, b: any): any;
+  effectVanish(a: any, b: any): any;
+  effectUpObject(a: any, b: any): any;
+  effectSimpleCut(a: any): any;
+  effectLine(a: any, b: any): any;
+  viewBigText(a: any, b: any): any;
 }
 
 declare class tGameEmotionResource {
@@ -1200,61 +1221,61 @@ declare class tGameEmotionResource {
 declare class tGameEnchantment {
   parent: any;
   viewData: any;
-  init(d: any): void;
-  fromEquipment(d: any, b: any, f: any, a: any): void;
-  fromMaterial(d: any, b: any, f: any, a: any): void;
-  fromEquipmentMember(d: any, b: any, f: any, a: any): void;
-  fromMaterialMember(d: any, b: any, f: any, a: any): void;
-  getCanEnchantmentNum(d: any): any;
-  getUsedEnchantmentNum(d: any): any;
-  isCanEnchantmentPair(d: any, b: any): any;
-  getPrice(d: any, b: any, f: any, a: any): any;
-  selectEquipment(d: any, b: any): void;
-  selectMaterial(d: any, b: any): void;
-  getItemIndex(d: any, b: any): any;
-  getSuccessRate(d: any, b: any): any;
+  init(a: any): void;
+  fromEquipment(a: any, b: any, c: any, d: any): void;
+  fromMaterial(a: any, b: any, c: any, d: any): void;
+  fromEquipmentMember(a: any, b: any, c: any, d: any): void;
+  fromMaterialMember(a: any, b: any, c: any, d: any): void;
+  getCanEnchantmentNum(a: any): any;
+  getUsedEnchantmentNum(a: any): any;
+  isCanEnchantmentPair(a: any, b: any): any;
+  getPrice(a: any, b: any, c: any, d: any): any;
+  selectEquipment(a: any, b: any): void;
+  selectMaterial(a: any, b: any): void;
+  getItemIndex(a: any, b: any): any;
+  getSuccessRate(a: any, b: any): any;
   actEnchantment(): void;
   requestEnchantment(): void;
-  enchantmentResult(d: any, b: any): any;
-  getExp(d: any, b: any, f: any): any;
-  rmvEquipment(d: any, b: any): void;
+  enchantmentResult(a: any, b: any): any;
+  getExp(a: any, b: any, c: any): any;
+  rmvEquipment(a: any, b: any): void;
 }
 
 declare class tGameEnsei {
   parent: any;
   nextUpdateTime: any;
   bokenshaMaxLevel: any;
-  init(b: any): void;
+  init(a: any): void;
   updateKouho(): any;
-  convertItem(b: any): any;
-  viewWindow(b: any): void;
-  createEnseiField(b: any, a: any): void;
-  createKyoten(b: any, a: any): any;
-  createBoukensha(b: any, a: any, c: any): void;
-  createDungeon(b: any, a: any, c: any): any;
+  convertItem(a: any): any;
+  viewWindow(a: any): void;
+  createEnseiField(a: any, b: any): void;
+  createKyoten(a: any, b: any): any;
+  createBoukensha(a: any, b: any, c: any): void;
+  createDungeon(a: any, b: any, c: any): any;
   deleteEnseiData(): any;
-  backToHome(b: any): void;
-  enseiExit(b: any): any;
+  backToHome(a: any): void;
+  enseiExit(a: any): any;
 }
 
 declare class tGameEquipRankup {
   parent: any;
   viewData: any;
-  init(d: any): void;
+  init(a: any): void;
   getAddRank(): any;
-  getMaxRank(d: any): any;
-  getRankupRequireMaterials(d: any): any;
-  fromEquipment(d: any, a: any, f: any, e: any): void;
-  fromEquipmentMember(d: any, a: any, f: any, e: any): void;
-  getCanEquipRankup(d: any): any;
-  selectEquipment(d: any, a: any): void;
-  getItemIndex(d: any, a: any): any;
-  getSuccessRate(d: any): any;
+  getMaxRank(a: any): any;
+  getRankupRequireMaterials(a: any): any;
+  fromEquipment(a: any, b: any, c: any, d: any): void;
+  fromEquipmentMember(a: any, b: any, c: any, d: any): void;
+  getCanEquipRankup(a: any): any;
+  selectEquipment(a: any, b: any): void;
+  getItemIndex(a: any, b: any): any;
+  getSuccessRate(a: any): any;
   actEquipRankup(): void;
-  equiprankupResult(d: any, a: any): any;
-  getExp(d: any, a: any, f: any): any;
-  viewBottomData(d: any): any;
-  isCreate(d: any, a: any, f: any): any;
+  equiprankupResult(a: any, b: any): any;
+  getExp(a: any, b: any, c: any): any;
+  viewBottomData(a: any): any;
+  isCreate(a: any, b: any, c: any): any;
 }
 
 declare class tGameEquipmentWindow {
@@ -1271,7 +1292,7 @@ declare class tGameEquipmentWindow {
   cursor: any;
   equipTypes: any;
   init(a: any): void;
-  viewEquipmentWindow(a: any, d: any): any;
+  viewEquipmentWindow(a: any, b: any): any;
   drawObject(): void;
   getCursor(a: any): any;
   setFrameEvent(a: any): void;
@@ -1282,7 +1303,7 @@ declare class tGameEquipmentWindow {
   setCursor(a: any): any;
   viewEquipmentWindowContinue(): void;
   selectItem(): void;
-  viewEquipHikaku(a: any, d: any): any;
+  viewEquipHikaku(a: any, b: any): any;
 }
 
 declare class tGameEtc {
@@ -1296,7 +1317,7 @@ declare class tGameEtc {
   setSaveData(a: any): any;
   initLoad(a: any): void;
   loadAllImage(a: any): void;
-  loadImage(a: any, c: any): void;
+  loadImage(a: any, b: any): void;
 }
 
 declare class tGameEtcTown {
@@ -1312,16 +1333,16 @@ declare class tGameEvent {
   eventDatas: any;
   init(a: any): void;
   loadEvent(a: any, b: any): any;
-  eventAffectCharactor(a: any, b: any, d: any): void;
+  eventAffectCharactor(a: any, b: any, c: any): void;
   checkChangeMapEvent(): void;
   changeMapEvent(a: any, b: any): void;
   addAffectNonBattleAnswers(a: any): void;
   addAffectNonBattleAnswers_kenkyu(a: any): void;
   addAffectNonBattleAnswers_magicalgirl(a: any): void;
-  knockDown(a: any, b: any, d: any): void;
+  knockDown(a: any, b: any, c: any): void;
   viewMap(a: any): void;
   dropItem(a: any): void;
-  oneActionFinishAction(a: any, b: any, d: any): void;
+  oneActionFinishAction(a: any, b: any, c: any): void;
   revivalEventCharas(a: any): any;
 }
 
@@ -1330,7 +1351,7 @@ declare class tGameEventAnimation {
   animationData: any;
   moveSpeed: any;
   init(a: any): void;
-  animation(a: any, c: any): void;
+  animation(a: any, b: any): void;
   convertAnimationData_chara(a: any): any;
   setFrameEvent(a: any): void;
   setFrameEvent_dispose(a: any): void;
@@ -1361,14 +1382,14 @@ declare class tGameExMapData {
   parent: any;
   version: any;
   importData: any;
-  init(f: any): void;
-  exportMapData(f: any, b: any): void;
-  createOutputMapData(f: any, b: any, a: any): any;
-  importMapData(f: any, b: any): void;
-  clearImportMapDataFile(f: any): void;
-  selectedImportMapDataFile(f: any): any;
-  selectedImportMapDataFileCommon(f: any, b: any, a: any, h: any): void;
-  exportK1up(f: any, b: any): void;
+  init(a: any): void;
+  exportMapData(a: any, b: any): void;
+  createOutputMapData(a: any, b: any, c: any): any;
+  importMapData(a: any, b: any): void;
+  clearImportMapDataFile(a: any): void;
+  selectedImportMapDataFile(a: any): any;
+  selectedImportMapDataFileCommon(a: any, b: any, c: any, d: any): void;
+  exportK1up(a: any, b: any): void;
 }
 
 declare class tGameFaceResource {
@@ -1380,10 +1401,10 @@ declare class tGameFaceResource {
   getSomeFace(a: any): any;
   getFace(a: any): any;
   getChipsetFace(a: any): any;
-  loadImage(a: any, c: any, f: any): void;
+  loadImage(a: any, b: any, c: any): void;
   loadAllImage(a: any): void;
   loadLinkJson(a: any): void;
-  getRandomCharactor(a: any, c: any, f: any, b: any, d: any, h: any): any;
+  getRandomCharactor(a: any, b: any, c: any, d: any, e: any, f: any): any;
   getRandomObjectId(a: any): any;
   getRandomFaceId(a: any): any;
   loadOverwrite(a: any): void;
@@ -1392,32 +1413,32 @@ declare class tGameFaceResource {
 
 declare class tGameFaith {
   parent: any;
-  init(b: any): void;
-  addTownFaith(b: any): any;
+  init(a: any): void;
+  addTownFaith(a: any): any;
   getRivalCharas(): any;
-  getBossChara(b: any): any;
-  maoushutsugen(b: any, f: any): void;
+  getBossChara(a: any): any;
+  maoushutsugen(a: any, b: any): void;
   updateMaouAction(): void;
-  updateMaouTimeOver(b: any, f: any): void;
+  updateMaouTimeOver(a: any, b: any): void;
   updateRivalAction(): void;
-  updateTownsConnect(b: any): void;
+  updateTownsConnect(a: any): void;
   isHendo(): any;
   createFaithLowDungeon(): any;
-  createStartFloor(b: any, f: any): any;
-  createHaikaiFloor(b: any, f: any): any;
-  createSuiminFloor(b: any, f: any): any;
-  setRandomHone(b: any, f: any): void;
-  oneActionFinishAction(b: any, f: any, a: any): void;
-  oneActionFinishAction_faithlowhaikaichikai(b: any, f: any): void;
-  viewShuki(b: any, f: any): void;
-  createOtasuke(b: any, f: any, a: any): any;
-  createBossFloor(b: any, f: any): any;
-  bossEvent(b: any): void;
-  oneActionFinishAction_faithlowbossgekiha(b: any, f: any): any;
+  createStartFloor(a: any, b: any): any;
+  createHaikaiFloor(a: any, b: any): any;
+  createSuiminFloor(a: any, b: any): any;
+  setRandomHone(a: any, b: any): void;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_faithlowhaikaichikai(a: any, b: any): void;
+  viewShuki(a: any, b: any): void;
+  createOtasuke(a: any, b: any, c: any): any;
+  createBossFloor(a: any, b: any): any;
+  bossEvent(a: any): void;
+  oneActionFinishAction_faithlowbossgekiha(a: any, b: any): any;
   removeHone(): void;
-  clearTargetFaith(b: any, f: any): any;
-  shukka(b: any): void;
-  viewFaithHoshu(b: any, f: any): void;
+  clearTargetFaith(a: any, b: any): any;
+  shukka(a: any): void;
+  viewFaithHoshu(a: any, b: any): void;
 }
 
 declare class tGameFaithWindow {
@@ -1427,143 +1448,143 @@ declare class tGameFaithWindow {
   textSpace: any;
   ccvs: any;
   cctx: any;
-  init(h: any): void;
+  init(a: any): void;
   clearCanvas(): void;
-  view(h: any, B: any): any;
+  view(a: any, b: any): any;
 }
 
 declare class tGameFarm {
   parent: any;
   farmData: any;
-  init(b: any): void;
-  initLoad(b: any): void;
-  loadFarm(b: any): void;
-  createObject(b: any): any;
-  checkGrow(b: any): any;
-  getExp(b: any, c: any, d: any): any;
-  updateWaterAll(b: any): any;
-  updateFarmObjects(b: any, c: any): void;
-  isWaterWeather(b: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  loadFarm(a: any): void;
+  createObject(a: any): any;
+  checkGrow(a: any): any;
+  getExp(a: any, b: any, c: any): any;
+  updateWaterAll(a: any): any;
+  updateFarmObjects(a: any, b: any): void;
+  isWaterWeather(a: any): any;
 }
 
 declare class tGameFieldGenerator {
   parent: any;
   csize: any;
   fieldEventData: any;
-  init(b: any): void;
-  createMainField(b: any, a: any): void;
-  createFieldWithLoad(b: any, a: any): void;
-  dungeonAreasIndex(b: any, a: any): any;
-  createField(b: any, a: any): void;
-  setSpreadChipset(b: any, a: any, d: any, e: any, c: any, f: any): void;
-  setRandomSpreadChipset(b: any): any;
-  getDungeonAreas(b: any): any;
-  getRandomTownPositions(b: any): any;
-  getRandomFreePositions(b: any): any;
-  inTown(b: any, a: any, d: any): any;
-  inSlum(b: any, a: any, d: any): any;
-  inMyTown(b: any, a: any, d: any): any;
-  inSubTown(b: any, a: any, d: any): any;
-  inNouchi(b: any, a: any, d: any): any;
-  inIkesu(b: any, a: any, d: any): any;
-  inSchool(b: any, a: any, d: any): any;
-  inCastle(b: any, a: any, d: any): any;
-  inEtcTown(b: any, a: any, d: any): any;
-  inDungeon(b: any, a: any, d: any, e: any): any;
-  inDungeonFloor1(b: any, a: any, d: any, e: any): any;
-  inMaterial(b: any, a: any, d: any): void;
+  init(a: any): void;
+  createMainField(a: any, b: any): void;
+  createFieldWithLoad(a: any, b: any): void;
+  dungeonAreasIndex(a: any, b: any): any;
+  createField(a: any, b: any): void;
+  setSpreadChipset(a: any, b: any, c: any, d: any, e: any, f: any): void;
+  setRandomSpreadChipset(a: any): any;
+  getDungeonAreas(a: any): any;
+  getRandomTownPositions(a: any): any;
+  getRandomFreePositions(a: any): any;
+  inTown(a: any, b: any, c: any): any;
+  inSlum(a: any, b: any, c: any): any;
+  inMyTown(a: any, b: any, c: any): any;
+  inSubTown(a: any, b: any, c: any): any;
+  inNouchi(a: any, b: any, c: any): any;
+  inIkesu(a: any, b: any, c: any): any;
+  inSchool(a: any, b: any, c: any): any;
+  inCastle(a: any, b: any, c: any): any;
+  inEtcTown(a: any, b: any, c: any): any;
+  inDungeon(a: any, b: any, c: any, d: any): any;
+  inDungeonFloor1(a: any, b: any, c: any, d: any): any;
+  inMaterial(a: any, b: any, c: any): void;
   updateAllField(): void;
-  autoCreateTown(b: any, a: any, d: any, e: any): void;
-  autoCreateSchool(b: any, a: any, d: any, e: any): void;
-  autoCreateCastle(b: any, a: any, d: any, e: any): void;
-  autoCreateSlum(b: any, a: any, d: any, e: any): void;
-  autoCreateDungeon(b: any, a: any): void;
-  getRandomDungeonType(b: any): any;
-  createDungeon(b: any): any;
-  inQuest1(b: any, a: any, d: any): any;
-  inQuest9(b: any, a: any, d: any): any;
-  inQuest10(b: any, a: any, d: any): any;
-  inQuest12(b: any, a: any, d: any): any;
-  searchTargetObject(b: any, a: any): any;
-  initFieldEvent(b: any): void;
-  checkMoveEvent(b: any): any;
-  checkTalkBossArea(b: any): any;
-  checkMoveEventForce(b: any): any;
+  autoCreateTown(a: any, b: any, c: any, d: any): void;
+  autoCreateSchool(a: any, b: any, c: any, d: any): void;
+  autoCreateCastle(a: any, b: any, c: any, d: any): void;
+  autoCreateSlum(a: any, b: any, c: any, d: any): void;
+  autoCreateDungeon(a: any, b: any): void;
+  getRandomDungeonType(a: any): any;
+  createDungeon(a: any): any;
+  inQuest1(a: any, b: any, c: any): any;
+  inQuest9(a: any, b: any, c: any): any;
+  inQuest10(a: any, b: any, c: any): any;
+  inQuest12(a: any, b: any, c: any): any;
+  searchTargetObject(a: any, b: any): any;
+  initFieldEvent(a: any): void;
+  checkMoveEvent(a: any): any;
+  checkTalkBossArea(a: any): any;
+  checkMoveEventForce(a: any): any;
   getPlayerPositionChipsetInfo(): any;
-  getTargetPositionOnemapId(b: any, a: any): any;
+  getTargetPositionOnemapId(a: any, b: any): any;
   getPlayerPositionOnemapId(): any;
-  emenyEncount(b: any): any;
-  questEnemyEncount(b: any, a: any): any;
-  peddlerEncount(b: any): any;
-  slavetraderEncount(b: any): any;
-  rescueEncount(b: any): any;
-  escortEncount(b: any): any;
-  restEncount(b: any, a: any, d: any, e: any): any;
-  kanteiEncount(b: any): any;
-  seishokushaEncount(b: any): any;
-  viewFieldMapAction(b: any): void;
+  emenyEncount(a: any): any;
+  questEnemyEncount(a: any, b: any): any;
+  peddlerEncount(a: any): any;
+  slavetraderEncount(a: any): any;
+  rescueEncount(a: any): any;
+  escortEncount(a: any): any;
+  restEncount(a: any, b: any, c: any, d: any): any;
+  kanteiEncount(a: any): any;
+  seishokushaEncount(a: any): any;
+  viewFieldMapAction(a: any): void;
   choiseRescueCharactor(): any;
   choiseEscortCharactor(): any;
-  clearEncountData(b: any): any;
-  criminalEncount(b: any, a: any): any;
-  viewMapCustomMenu(b: any): any;
-  refreshDungeons(b: any): any;
-  refreshDungeons2(b: any, a: any): any;
-  refreshTowns(b: any): any;
-  refreshSchools(b: any): any;
-  refreshCastles(b: any): any;
-  refreshSlums(b: any): any;
-  oneActionFinishAction(b: any, a: any, d: any): void;
-  oneActionFinishAction_checkfaithlow(b: any, a: any): any;
-  oneActionFinishAction_faithlowdungeonfirst(b: any, a: any): void;
-  oneActionFinishAction_maoushutsugen(b: any, a: any): any;
-  oneActionFinishAction_bossareabossgekiha(b: any, a: any): any;
-  oneActionFinishAction_bossareaenemygekiha(b: any, a: any): any;
-  oneActionFinishAction_osoudeath(b: any, a: any): any;
-  isMaouArea(b: any, a: any): any;
-  inMaou(b: any, a: any, d: any, e: any): any;
-  getTargetMap(b: any): any;
-  inTargetMap(b: any, a: any): any;
-  getMapName(b: any, a: any): any;
-  setMaouTeshitaShutugen(b: any, a: any, d: any): void;
-  createBuilding(b: any, a: any, d: any): void;
-  expandMap(b: any, a: any): any;
-  createFirstMap(b: any): void;
-  getRangeMap(b: any): any;
-  getKakuchoFame(b: any): any;
-  viewFieldHenkaWindow(b: any): void;
-  shokinkubidaEncount(b: any): any;
+  clearEncountData(a: any): any;
+  criminalEncount(a: any, b: any): any;
+  viewMapCustomMenu(a: any): any;
+  refreshDungeons(a: any): any;
+  refreshDungeons2(a: any, b: any): any;
+  refreshTowns(a: any): any;
+  refreshSchools(a: any): any;
+  refreshCastles(a: any): any;
+  refreshSlums(a: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_checkfaithlow(a: any, b: any): any;
+  oneActionFinishAction_faithlowdungeonfirst(a: any, b: any): void;
+  oneActionFinishAction_maoushutsugen(a: any, b: any): any;
+  oneActionFinishAction_bossareabossgekiha(a: any, b: any): any;
+  oneActionFinishAction_bossareaenemygekiha(a: any, b: any): any;
+  oneActionFinishAction_osoudeath(a: any, b: any): any;
+  isMaouArea(a: any, b: any): any;
+  inMaou(a: any, b: any, c: any, d: any): any;
+  getTargetMap(a: any): any;
+  inTargetMap(a: any, b: any): any;
+  getMapName(a: any, b: any): any;
+  setMaouTeshitaShutugen(a: any, b: any, c: any): void;
+  createBuilding(a: any, b: any, c: any): void;
+  expandMap(a: any, b: any): any;
+  createFirstMap(a: any): void;
+  getRangeMap(a: any): any;
+  getKakuchoFame(a: any): any;
+  viewFieldHenkaWindow(a: any): void;
+  shokinkubidaEncount(a: any): any;
   getFieldHenkaBottomData(): any;
-  createKodaiiseki(b: any, a: any): any;
-  updateBossArea(b: any): any;
-  bossAreaEncount(b: any): any;
-  bossAreaEncount_boss(b: any, a: any, d: any, e: any): any;
-  bossAreaEncount_enemy(b: any, a: any, d: any, e: any): any;
-  viewBossareaBoard(b: any, a: any): any;
-  refreshFaith(b: any): any;
-  shukeiFaith(b: any, a: any, d: any): any;
-  addMapTarget(b: any, a: any): any;
-  removeMapTarget(b: any, a: any): any;
-  clearConditionViewField(b: any): any;
-  setKojiki(b: any): void;
-  setOsouDeathAction(b: any): void;
-  fieldCreateRoad(b: any): any;
-  fixInEtcTown_hogyokuketsugo(b: any): void;
+  createKodaiiseki(a: any, b: any): any;
+  updateBossArea(a: any): any;
+  bossAreaEncount(a: any): any;
+  bossAreaEncount_boss(a: any, b: any, c: any, d: any): any;
+  bossAreaEncount_enemy(a: any, b: any, c: any, d: any): any;
+  viewBossareaBoard(a: any, b: any): any;
+  refreshFaith(a: any): any;
+  shukeiFaith(a: any, b: any, c: any): any;
+  addMapTarget(a: any, b: any): any;
+  removeMapTarget(a: any, b: any): any;
+  clearConditionViewField(a: any): any;
+  setKojiki(a: any): void;
+  setOsouDeathAction(a: any): void;
+  fieldCreateRoad(a: any): any;
+  fixInEtcTown_hogyokuketsugo(a: any): void;
 }
 
 declare class tGameFieldMaterial {
   parent: any;
   init(a: any): void;
   autoCreate(a: any): void;
-  getName(a: any, g: any): any;
-  createSpot(a: any, g: any): any;
+  getName(a: any, b: any): any;
+  createSpot(a: any, b: any): any;
   convertData(a: any): any;
-  createSaikutsujo(a: any, g: any): any;
-  createSaishujo(a: any, g: any): any;
-  createHoujou(a: any, g: any): any;
-  isEnableSetObject(a: any, g: any, b: any): any;
+  createSaikutsujo(a: any, b: any): any;
+  createSaishujo(a: any, b: any): any;
+  createHoujou(a: any, b: any): any;
+  isEnableSetObject(a: any, b: any, c: any): any;
   getFreeSpace(a: any): any;
-  inMaterial(a: any, g: any, b: any): any;
+  inMaterial(a: any, b: any, c: any): any;
   changeMap(a: any): void;
 }
 
@@ -1586,7 +1607,7 @@ declare class tGameFishing {
   setFrameEvent_frame(a: any): void;
   setFrameEvent_draw(a: any): void;
   addTime(a: any): void;
-  getExp(a: any, b: any, e: any): any;
+  getExp(a: any, b: any, c: any): any;
 }
 
 declare class tGameFukidashiResource {
@@ -1594,9 +1615,9 @@ declare class tGameFukidashiResource {
   fukidashiLink: any;
   cvs: any;
   ctx: any;
-  init(b: any): void;
-  initLoad(b: any): void;
-  createFukidashi(b: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  createFukidashi(a: any): any;
 }
 
 declare class tGameFullscreenLog {
@@ -1624,8 +1645,8 @@ declare class tGameGameClear {
 declare class tGameGameOptionWindow {
   parent: any;
   viewData: any;
-  init(d: any): void;
-  viewOptionWindow(d: any, a: any): void;
+  init(a: any): void;
+  viewOptionWindow(a: any, b: any): void;
 }
 
 declare class tGameGameOver {
@@ -1701,48 +1722,48 @@ declare class tGameGamePadEditor {
   buttons: any;
   l2r2Data: any;
   init(): void;
-  initFrame(b: any): void;
-  viewKeyEditWindow(b: any): void;
-  viewPressButtonWindow(b: any): void;
+  initFrame(a: any): void;
+  viewKeyEditWindow(a: any): void;
+  viewPressButtonWindow(a: any): void;
 }
 
 declare class tGameGod {
   parent: any;
-  init(d: any): void;
-  viewMapWarikomi(d: any): void;
-  getCastleEventData(d: any): any;
-  viewMapWarikomiAction(d: any, a: any, c: any): void;
-  viewMapWarikomiAction_godtoujou(d: any, a: any): void;
-  viewMapWarikomiAction_godcastle1(d: any, a: any): void;
-  viewMapWarikomiAction_godcastle2(d: any, a: any): void;
-  viewMapWarikomiAction_godfaith1(d: any, a: any): void;
-  viewMapWarikomiAction_godmonderu(d: any, a: any): void;
-  viewMapWarikomiAction_monderu2(d: any, a: any): void;
-  viewMapWarikomiAction_clear3towers(d: any, a: any): void;
-  viewMapWarikomiAction_megamigekihafield(d: any, a: any): void;
-  viewMapWarikomiAction_god2_tojo(d: any, a: any): void;
-  viewMapWarikomiAction_god2_junbiok(d: any, a: any): void;
-  viewMapWarikomiAction_god2_lasthe(d: any, a: any): void;
-  checkOverwriteBossFloor(d: any, a: any): any;
-  oneActionFinishAction(d: any, a: any, c: any): void;
-  talkDungeonBoss(d: any, a: any, c: any): any;
-  viewMap(d: any): void;
-  oneActionFinishAction_nuebattlechecktimeout(d: any, a: any): any;
-  autoCreateExpand(d: any, a: any, c: any, e: any): void;
-  getDungeonRandomPos(d: any): any;
+  init(a: any): void;
+  viewMapWarikomi(a: any): void;
+  getCastleEventData(a: any): any;
+  viewMapWarikomiAction(a: any, b: any, c: any): void;
+  viewMapWarikomiAction_godtoujou(a: any, b: any): void;
+  viewMapWarikomiAction_godcastle1(a: any, b: any): void;
+  viewMapWarikomiAction_godcastle2(a: any, b: any): void;
+  viewMapWarikomiAction_godfaith1(a: any, b: any): void;
+  viewMapWarikomiAction_godmonderu(a: any, b: any): void;
+  viewMapWarikomiAction_monderu2(a: any, b: any): void;
+  viewMapWarikomiAction_clear3towers(a: any, b: any): void;
+  viewMapWarikomiAction_megamigekihafield(a: any, b: any): void;
+  viewMapWarikomiAction_god2_tojo(a: any, b: any): void;
+  viewMapWarikomiAction_god2_junbiok(a: any, b: any): void;
+  viewMapWarikomiAction_god2_lasthe(a: any, b: any): void;
+  checkOverwriteBossFloor(a: any, b: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  talkDungeonBoss(a: any, b: any, c: any): any;
+  viewMap(a: any): void;
+  oneActionFinishAction_nuebattlechecktimeout(a: any, b: any): any;
+  autoCreateExpand(a: any, b: any, c: any, d: any): void;
+  getDungeonRandomPos(a: any): any;
 }
 
 declare class tGameGoodTrap {
   parent: any;
-  init(b: any): void;
-  convertData(b: any): any;
-  getTrapToObject(b: any, c: any): any;
-  getTrapObjectId(b: any): any;
-  getTrapName(b: any): any;
-  oneActionTrap(b: any): any;
-  affect(b: any): any;
-  runTrap(b: any, c: any): any;
-  tryBreak(b: any): void;
+  init(a: any): void;
+  convertData(a: any): any;
+  getTrapToObject(a: any, b: any): any;
+  getTrapObjectId(a: any): any;
+  getTrapName(a: any): any;
+  oneActionTrap(a: any): any;
+  affect(a: any): any;
+  runTrap(a: any, b: any): any;
+  tryBreak(a: any): void;
 }
 
 declare class tGameGuide {
@@ -1750,12 +1771,12 @@ declare class tGameGuide {
   init(a: any): void;
   checkChangeMapGuideEvent(): void;
   checkMoveGuideEvent(a: any): any;
-  checkAffectObjectGuideEvent(a: any, d: any): any;
-  checkElfdungeonJoinEvent(a: any, d: any): any;
-  checkMagicalGirlAuEvent(a: any, d: any): any;
-  changeMapEvent(a: any, d: any): void;
-  gameStartEvent(a: any, d: any): any;
-  checkMaouShutsugenEvent(a: any, d: any): any;
+  checkAffectObjectGuideEvent(a: any, b: any): any;
+  checkElfdungeonJoinEvent(a: any, b: any): any;
+  checkMagicalGirlAuEvent(a: any, b: any): any;
+  changeMapEvent(a: any, b: any): void;
+  gameStartEvent(a: any, b: any): any;
+  checkMaouShutsugenEvent(a: any, b: any): any;
 }
 
 declare class tGameHelp {
@@ -1777,15 +1798,15 @@ declare class tGameHelp {
   viewDocumentData: any;
   viewItemMaxNum: any;
   cursor: any;
-  init(l: any): void;
-  initLoad(l: any): void;
-  viewHelp(l: any): void;
-  viewCategoryWindow(l: any, k: any): void;
-  viewCategoryItemWindow(l: any, k: any, c: any): void;
-  viewSelectWindow(l: any, k: any, c: any, r: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  viewHelp(a: any): void;
+  viewCategoryWindow(a: any, b: any): void;
+  viewCategoryItemWindow(a: any, b: any, c: any): void;
+  viewSelectWindow(a: any, b: any, c: any, d: any): any;
   getCategories(): any;
-  getCategoryItems(l: any): any;
-  viewDocument(l: any, k: any): any;
+  getCategoryItems(a: any): any;
+  viewDocument(a: any, b: any): any;
   setMessage(): void;
   convertButtonLabel(): void;
 }
@@ -1793,23 +1814,23 @@ declare class tGameHelp {
 declare class tGameHikitsugi {
   parent: any;
   version: any;
-  init(c: any): void;
-  getHikitsugiData(c: any): any;
-  setHikitsugiData(c: any): any;
+  init(a: any): void;
+  getHikitsugiData(a: any): any;
+  setHikitsugiData(a: any): any;
   getStorage(): any;
   getSozaifukuro(): any;
   getShokuzaifukuro(): any;
   getRyourifukuro(): any;
-  getActionSkills(c: any, a: any): any;
-  getSkills(c: any): any;
+  getActionSkills(a: any, b: any): any;
+  getSkills(a: any): any;
   getGift(): any;
   getRecipe(): any;
   getMapEditor(): any;
   getItemRecord(): any;
   getMamonoRecord(): any;
-  setWindow(c: any): void;
-  save(c: any, a: any): void;
-  load(c: any): void;
+  setWindow(a: any): void;
+  save(a: any, b: any): void;
+  load(a: any): void;
 }
 
 declare class tGameHikitsugiNakama {
@@ -1817,40 +1838,40 @@ declare class tGameHikitsugiNakama {
   max: any;
   version: any;
   myData: any;
-  init(f: any): void;
-  initLoad(f: any): void;
+  init(a: any): void;
+  initLoad(a: any): void;
   initData(): any;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(f: any): any;
-  save(f: any): void;
-  load(f: any): void;
-  getLocalStorageData(f: any): void;
-  setWindow(f: any): void;
-  view(f: any): void;
-  convertChara2Data(f: any): any;
-  viewYobidasu(f: any): void;
-  getItemDescription(f: any, a: any): any;
+  setSaveData(a: any): any;
+  save(a: any): void;
+  load(a: any): void;
+  getLocalStorageData(a: any): void;
+  setWindow(a: any): void;
+  view(a: any): void;
+  convertChara2Data(a: any): any;
+  viewYobidasu(a: any): void;
+  getItemDescription(a: any, b: any): any;
 }
 
 declare class tGameHikyo {
   parent: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  loadLinkJson(c: any): void;
-  setHikyoDummyObjects(c: any): any;
-  setHikyoDummyObjects_act(c: any, d: any): any;
-  hakken(c: any, d: any): any;
-  matakita(c: any, d: any): void;
-  drawHikyo(c: any, d: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  loadLinkJson(a: any): void;
+  setHikyoDummyObjects(a: any): any;
+  setHikyoDummyObjects_act(a: any, b: any): any;
+  hakken(a: any, b: any): any;
+  matakita(a: any, b: any): void;
+  drawHikyo(a: any, b: any): any;
 }
 
 declare class tGameHoridashimono {
   parent: any;
   nextUpdateTime: any;
-  init(b: any): void;
-  view(b: any): void;
-  tryRefresh(b: any): any;
+  init(a: any): void;
+  view(a: any): void;
+  tryRefresh(a: any): any;
   createItem(): any;
 }
 
@@ -1863,30 +1884,30 @@ declare class tGameHyk {
   logoFileName: any;
   textLengthMode: any;
   list: any;
-  init(g: any): void;
-  initLoad(g: any, l: any): any;
-  loadLinkJson(g: any): void;
-  loadLOADDATA(g: any, l: any): void;
-  getTableStrings(g: any, l: any): void;
-  getTableString__default(g: any, l: any, e: any): void;
-  getTableString__talk(g: any, l: any, e: any): void;
-  getTableString__talkevent(g: any, l: any, e: any): void;
-  getTableString__askill(g: any, l: any, e: any): void;
-  getTableString__charactor(g: any, l: any, e: any): void;
-  getTableString__kucho(g: any, l: any, e: any): void;
-  getTableString__item(g: any, l: any, e: any): void;
-  getTableString__job(g: any, l: any, e: any): void;
-  getTableString__map(g: any, l: any, e: any): void;
-  getTableString__mapeditor(g: any, l: any, e: any): void;
-  getTableString__name(g: any, l: any, e: any): void;
-  getTableString__poker(g: any, l: any, e: any): void;
-  getTableString__shortevent(g: any, l: any, e: any): void;
-  getTableString__skill(g: any, l: any, e: any): void;
-  getTableString__war(g: any, l: any, e: any): void;
-  getTableString__help(g: any, l: any, e: any): void;
-  addExCsvs(g: any, l: any): void;
-  importLanguageCsv(g: any): any;
-  reflectLanguageLOADDATA(g: any, l: any): any;
+  init(a: any): void;
+  initLoad(a: any, b: any): any;
+  loadLinkJson(a: any): void;
+  loadLOADDATA(a: any, b: any): void;
+  getTableStrings(a: any, b: any): void;
+  getTableString__default(a: any, b: any, c: any): void;
+  getTableString__talk(a: any, b: any, c: any): void;
+  getTableString__talkevent(a: any, b: any, c: any): void;
+  getTableString__askill(a: any, b: any, c: any): void;
+  getTableString__charactor(a: any, b: any, c: any): void;
+  getTableString__kucho(a: any, b: any, c: any): void;
+  getTableString__item(a: any, b: any, c: any): void;
+  getTableString__job(a: any, b: any, c: any): void;
+  getTableString__map(a: any, b: any, c: any): void;
+  getTableString__mapeditor(a: any, b: any, c: any): void;
+  getTableString__name(a: any, b: any, c: any): void;
+  getTableString__poker(a: any, b: any, c: any): void;
+  getTableString__shortevent(a: any, b: any, c: any): void;
+  getTableString__skill(a: any, b: any, c: any): void;
+  getTableString__war(a: any, b: any, c: any): void;
+  getTableString__help(a: any, b: any, c: any): void;
+  addExCsvs(a: any, b: any): void;
+  importLanguageCsv(a: any): any;
+  reflectLanguageLOADDATA(a: any, b: any): any;
   createMonsterList(): void;
 }
 
@@ -1974,12 +1995,12 @@ declare class tGameItem {
   getItemHikitsugi(a: any): any;
   getItemRare(a: any): any;
   getSimpleItemName(a: any): any;
-  getItemName(a: any, b: any, c: any, f: any): any;
+  getItemName(a: any, b: any, c: any, d: any): any;
   getEnableGroupItem(a: any): any;
   getItemRank(a: any): any;
   getItemSpaceMaster(a: any): any;
   getItemPriceMaster(a: any, b: any): any;
-  getItemPrice(a: any, b: any, c: any, f: any, e: any): any;
+  getItemPrice(a: any, b: any, c: any, d: any, e: any): any;
   getItemSpace(a: any): any;
   getItemDescriptionSub(a: any): any;
   getItemDescription(a: any): any;
@@ -2013,7 +2034,7 @@ declare class tGameItem {
   createMeetItem(a: any): any;
   createRandomFoodItem(a: any): any;
   createItem(a: any): any;
-  convertRankEquipment(a: any, b: any, c: any, f: any): void;
+  convertRankEquipment(a: any, b: any, c: any, d: any): void;
   setEquipmentAccessoryData(a: any, b: any, c: any): void;
   updateEquipmentName(a: any): any;
   updateEquipmentTargetName(a: any, b: any): any;
@@ -2023,21 +2044,21 @@ declare class tGameItem {
   getEnchantmentTypeIndex(a: any): any;
   getEnableEnchantmentList(a: any, b: any): any;
   getEnableEquipSkillList(a: any, b: any): any;
-  setEquipmentQualityEnchantment(a: any, b: any, c: any, f: any): any;
+  setEquipmentQualityEnchantment(a: any, b: any, c: any, d: any): any;
   setEquipmentQualitySkill(a: any, b: any): any;
   setEquipmentCounterAskill(a: any, b: any, c: any): void;
   createEquipment(a: any): any;
-  useSpecialItem(a: any, b: any, c: any, f: any): any;
-  noroitaiseiPlusItem(a: any, b: any, c: any, f: any): any;
-  noroitaiseiMinusItem(a: any, b: any, c: any, f: any): any;
-  jakukataiseiPlusItem(a: any, b: any, c: any, f: any): any;
-  jakukataiseiMinusItem(a: any, b: any, c: any, f: any): any;
-  equipmentPlus(a: any, b: any, c: any, f: any): any;
-  equipmentMinus(a: any, b: any, c: any, f: any, e: any, d: any): any;
-  kanteiItem(a: any, b: any, c: any, f: any, e: any): any;
+  useSpecialItem(a: any, b: any, c: any, d: any): any;
+  noroitaiseiPlusItem(a: any, b: any, c: any, d: any): any;
+  noroitaiseiMinusItem(a: any, b: any, c: any, d: any): any;
+  jakukataiseiPlusItem(a: any, b: any, c: any, d: any): any;
+  jakukataiseiMinusItem(a: any, b: any, c: any, d: any): any;
+  equipmentPlus(a: any, b: any, c: any, d: any): any;
+  equipmentMinus(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  kanteiItem(a: any, b: any, c: any, d: any, e: any): any;
   mikanteiItem(a: any, b: any): any;
-  noroikeshiItem(a: any, b: any, c: any, f: any, e: any): any;
-  noroiItem(a: any, b: any, c: any, f: any, e: any, d: any): any;
+  noroikeshiItem(a: any, b: any, c: any, d: any, e: any): any;
+  noroiItem(a: any, b: any, c: any, d: any, e: any, f: any): any;
   getItemTextColorCode(a: any): any;
   getItemUseMessage(a: any): any;
   usedFootItem(a: any): any;
@@ -2062,8 +2083,8 @@ declare class tGameItem {
   setRareRandomRates(): void;
   getRareRandomRateItem(): any;
   convertTargetRankEquipment(a: any, b: any): any;
-  equipRankupItem(a: any, b: any, c: any, f: any): any;
-  askillLevelupItem(a: any, b: any, c: any, f: any): any;
+  equipRankupItem(a: any, b: any, c: any, d: any): any;
+  askillLevelupItem(a: any, b: any, c: any, d: any): any;
   equipmentRename(a: any, b: any): void;
   equipmentChangeChip(a: any, b: any): void;
   askillRename(a: any, b: any): void;
@@ -2073,8 +2094,8 @@ declare class tGameItem {
   getEquipmentDiff(a: any, b: any): any;
   getCharaItemAskillRank(a: any, b: any): any;
   getKodaiisekiItem(a: any): any;
-  equipmentKeiryoka(a: any, b: any, c: any, f: any): any;
-  equipmentJuryoka(a: any, b: any, c: any, f: any): any;
+  equipmentKeiryoka(a: any, b: any, c: any, d: any): any;
+  equipmentJuryoka(a: any, b: any, c: any, d: any): any;
   getHoseiLevel(a: any, b: any): any;
   getWeaponMainZokusei(a: any): any;
   createLockID(): any;
@@ -2093,8 +2114,8 @@ declare class tGameItemInfoWindow {
   cvs: any;
   ctx: any;
   fontSize: any;
-  init(c: any): void;
-  viewInfoWindow(c: any): any;
+  init(a: any): void;
+  viewInfoWindow(a: any): any;
 }
 
 declare class tGameItemWindow {
@@ -2113,11 +2134,11 @@ declare class tGameItemWindow {
   init(a: any): void;
   clear(): void;
   updateBottomData(a: any): void;
-  getCharactorBottomData(a: any, c: any): any;
+  getCharactorBottomData(a: any, b: any): any;
   getStorageBottomData(a: any): any;
   getMyShopBottomData(a: any): any;
   getMoneyIcon(a: any): any;
-  viewItemWindow(a: any, c: any): any;
+  viewItemWindow(a: any, b: any): any;
   drawPage(a: any): void;
   getCursor(a: any): any;
   setFrameEvent(a: any): void;
@@ -2127,29 +2148,29 @@ declare class tGameItemWindow {
   clearCanvas(): void;
   setCursor(a: any): any;
   updateItems(a: any): void;
-  viewBottomWindow(a: any, c: any): any;
+  viewBottomWindow(a: any, b: any): any;
   getItemShortCuts(): void;
 }
 
 declare class tGameJashin {
   parent: any;
-  init(c: any): void;
+  init(a: any): void;
   createEventDungeon(): any;
-  viewAdventureGuildBoard(c: any, b: any): any;
-  viewAdventureGuildBoard2(c: any, b: any): void;
-  oneActionFinishAction(c: any, b: any, a: any): void;
-  oneActionFinishAction_jashinboss(c: any, b: any): any;
-  oneActionFinishAction_jashinboss2(c: any, b: any): any;
-  createBossFloor(c: any): void;
-  affectZou(c: any, b: any): any;
+  viewAdventureGuildBoard(a: any, b: any): any;
+  viewAdventureGuildBoard2(a: any, b: any): void;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_jashinboss(a: any, b: any): any;
+  oneActionFinishAction_jashinboss2(a: any, b: any): any;
+  createBossFloor(a: any): void;
+  affectZou(a: any, b: any): any;
 }
 
 declare class tGameJinja {
   parent: any;
-  init(m: any): void;
-  affectSaisenbako(m: any, h: any): any;
-  kau(m: any, h: any): void;
-  kau2(m: any, h: any): void;
+  init(a: any): void;
+  affectSaisenbako(a: any, b: any): any;
+  kau(a: any, b: any): void;
+  kau2(a: any, b: any): void;
 }
 
 declare class tGameJob {
@@ -2170,11 +2191,11 @@ declare class tGameJob {
 declare class tGameJobChange {
   parent: any;
   data: any;
-  init(b: any): void;
-  initLoad(b: any): void;
-  view(b: any, n: any): void;
-  viewOne(b: any, n: any, c: any, d: any): void;
-  enableJobChange(b: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  view(a: any, b: any): void;
+  viewOne(a: any, b: any, c: any, d: any): void;
+  enableJobChange(a: any): any;
 }
 
 declare class tGameK1up {
@@ -2201,38 +2222,40 @@ declare class tGameK1up {
   scrollEventData: any;
   apiUrl: any;
   key: any;
-  init(u: any): void;
+  init(a: any): void;
   getApiUrl(): any;
-  setText(u: any, n: any): void;
-  setErrorView(u: any): void;
-  viewUploadMyTown(u: any, n: any): any;
-  viewListMyTown(u: any, n: any): any;
-  viewUploadFace(u: any, n: any): any;
-  viewListFace(u: any, n: any): any;
-  viewUploadItem(u: any, n: any): any;
-  viewListItem(u: any, n: any): any;
-  viewUploadChipset(u: any, n: any): any;
-  viewListChipset(u: any, n: any): any;
-  viewUploadTalk(u: any, n: any): any;
-  viewListTalk(u: any, n: any): any;
-  viewImportFace(u: any, n: any): any;
-  viewImportItem(u: any, n: any): any;
-  viewImportChipset(u: any, n: any): any;
-  viewImportTalk(u: any, n: any): any;
-  viewTitleMenu(u: any): void;
-  viewUploadMyAdventurerCharactor(u: any, n: any): any;
-  viewUploadMyAdventurerCharactor2(u: any, n: any): any;
-  viewListMyAdventurerCharactor(u: any, n: any): any;
-  initScrollEvent(u: any): void;
-  setScrollEvent(u: any): void;
-  isMove(u: any, n: any): any;
-  viewManualFace(u: any, n: any): any;
-  viewManualItem(u: any, n: any): any;
-  viewManualChipset1(u: any, n: any): any;
-  viewManualChipset2(u: any, n: any): any;
-  viewManualTalk(u: any, n: any): any;
+  setText(a: any, b: any): void;
+  setErrorView(a: any): void;
+  viewUploadMyTown(a: any, b: any): any;
+  viewListMyTown(a: any, b: any): any;
+  viewUploadFace(a: any, b: any): any;
+  viewListFace(a: any, b: any): any;
+  viewUploadItem(a: any, b: any): any;
+  viewListItem(a: any, b: any): any;
+  viewUploadChipset(a: any, b: any): any;
+  viewListChipset(a: any, b: any): any;
+  viewUploadTalk(a: any, b: any): any;
+  viewListTalk(a: any, b: any): any;
+  viewImportFace(a: any, b: any): any;
+  viewImportItem(a: any, b: any): any;
+  viewImportChipset(a: any, b: any): any;
+  viewImportTalk(a: any, b: any): any;
+  viewTitleMenu(a: any): void;
+  viewUploadMyAdventurerCharactor(a: any, b: any): any;
+  viewUploadMyAdventurerCharactor2(a: any, b: any): any;
+  viewListMyAdventurerCharactor(a: any, b: any): any;
+  initScrollEvent(a: any): void;
+  setScrollEvent(a: any): void;
+  isMove(a: any, b: any): any;
+  viewManualFace(a: any, b: any): any;
+  viewManualItem(a: any, b: any): any;
+  viewManualChipset1(a: any, b: any): any;
+  viewManualChipset2(a: any, b: any): any;
+  viewManualTalk(a: any, b: any): any;
   getOverwriteItemList(): any;
-  refreshOverwriteItem(u: any, n: any): any;
+  refreshOverwriteItem(a: any, b: any): any;
+  initSearchBox(a: any): void;
+  updateSearchForm(a: any): void;
 }
 
 declare class tGameKeyboard {
@@ -2251,32 +2274,32 @@ declare class tGameKeyboard {
   isPreventDefault: any;
   isEnableBlock: any;
   init(): void;
-  loadKeyMap(d: any): void;
-  initEvent(d: any): void;
+  loadKeyMap(a: any): void;
+  initEvent(a: any): void;
   calKey(): void;
-  frameAction(d: any): void;
-  isForceDown(d: any): any;
-  isDown(d: any): any;
-  isDoubleDown(d: any): any;
-  isClick(d: any): any;
-  isDoubleClick(d: any): any;
-  isPress(d: any): any;
-  isDoublePress(d: any): any;
-  isLongPress(d: any): any;
-  isWordClick(d: any): any;
+  frameAction(a: any): void;
+  isForceDown(a: any): any;
+  isDown(a: any): any;
+  isDoubleDown(a: any): any;
+  isClick(a: any): any;
+  isDoubleClick(a: any): any;
+  isPress(a: any): any;
+  isDoublePress(a: any): any;
+  isLongPress(a: any): any;
+  isWordClick(a: any): any;
   clearPressKeys(): void;
   getDownKeys(): any;
   setEnablePreventDefault(): void;
   setDisablePreventDefault(): void;
-  sendKeyDown(d: any): void;
-  sendKeyUp(d: any): void;
+  sendKeyDown(a: any): void;
+  sendKeyUp(a: any): void;
 }
 
 declare class tGameLakeZou {
   parent: any;
-  init(d: any): void;
-  view(d: any, k: any): void;
-  act(d: any): any;
+  init(a: any): void;
+  view(a: any, b: any): void;
+  act(a: any): any;
 }
 
 declare class tGameLoading {
@@ -2300,10 +2323,10 @@ declare class tGameLoading2 {
   targets: any;
   errorHeightMin: any;
   init(): void;
-  initObjs(c: any): any;
-  searchTarget(c: any): any;
-  view(c: any, b: any, e: any, d: any): any;
-  hidden(c: any): void;
+  initObjs(a: any): any;
+  searchTarget(a: any): any;
+  view(a: any, b: any, c: any, d: any): any;
+  hidden(a: any): void;
 }
 
 declare class tGameLog {
@@ -2332,35 +2355,35 @@ declare class tGameLog {
 
 declare class tGameMagicalGirl {
   parent: any;
-  init(d: any): void;
-  isWarikomi(d: any, b: any): any;
-  actWarikomi(d: any, b: any): void;
-  oneActionFinishAction(d: any, b: any, a: any): void;
-  oneActionFinishAction_magicalgirlgekiha(d: any, b: any): any;
-  okoru(d: any): any;
-  viewMap(d: any): void;
+  init(a: any): void;
+  isWarikomi(a: any, b: any): any;
+  actWarikomi(a: any, b: any): void;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_magicalgirlgekiha(a: any, b: any): any;
+  okoru(a: any): any;
+  viewMap(a: any): void;
   getMoriPositions(): any;
 }
 
 declare class tGameMaigo {
   parent: any;
-  init(b: any): void;
-  tryCreate(b: any): any;
-  oneActionFinishAction(b: any, c: any, a: any): void;
-  oneActionFinishAction_maigofirst(b: any, c: any): any;
-  oneActionFinishAction_maigoevent1(b: any, c: any): void;
-  oneActionFinishAction_maigoevent2(b: any, c: any): void;
-  oneActionFinishAction_maigobossgekiha(b: any, c: any): any;
-  viewMap(b: any): void;
+  init(a: any): void;
+  tryCreate(a: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_maigofirst(a: any, b: any): any;
+  oneActionFinishAction_maigoevent1(a: any, b: any): void;
+  oneActionFinishAction_maigoevent2(a: any, b: any): void;
+  oneActionFinishAction_maigobossgekiha(a: any, b: any): any;
+  viewMap(a: any): void;
   deleteMaigoCharactor(): any;
-  affectAnswer(b: any): void;
+  affectAnswer(a: any): void;
   calBasho(): any;
-  affectObject(b: any): any;
-  inTargetMap(b: any, c: any, a: any): any;
-  createTargetMap(b: any, c: any): any;
-  errorFix(b: any, c: any): any;
-  setTargetEvent1(b: any, c: any): any;
-  setTargetEvent2(b: any, c: any): any;
+  affectObject(a: any): any;
+  inTargetMap(a: any, b: any, c: any): any;
+  createTargetMap(a: any, b: any): any;
+  errorFix(a: any, b: any): any;
+  setTargetEvent1(a: any, b: any): any;
+  setTargetEvent2(a: any, b: any): any;
 }
 
 declare class tGameMain {
@@ -2571,71 +2594,72 @@ declare class tGameMain {
   firstLogData: any;
   windowLabelMaxWidth: any;
   limitLevel: any;
-  init(b: any): void;
-  initNext(b: any): void;
-  initLoad(b: any): void;
+  init(a: any): void;
+  initNext(a: any): void;
+  initLoad(a: any): void;
   initFrame(): void;
-  frameAction(b: any): void;
-  refreshCanvas(b: any): void;
-  subFrameAction(b: any): void;
-  subRefreshCanvas(b: any): void;
-  loadJsData(b: any, a: any, c: any, d: any, e: any): void;
-  loadJsDataText(b: any, a: any, c: any): any;
-  loadImageBase(b: any, a: any, c: any, d: any): any;
-  loadImage(b: any, a: any, c: any, d: any): any;
+  frameAction(a: any): void;
+  refreshCanvas(a: any): void;
+  subFrameAction(a: any): void;
+  subRefreshCanvas(a: any): void;
+  loadJsData(a: any, b: any, c: any, d: any, e: any): void;
+  loadJsDataText(a: any, b: any, c: any): any;
+  loadImageBase(a: any, b: any, c: any, d: any): any;
+  loadImage(a: any, b: any, c: any, d: any): any;
   /**
    * 乱数を取得する
    * @param min 最小値
    * @param max 最大値
    */
   getRandom(min: number, max: number): number;
-  clearAllCanvase(b: any, a: any): void;
-  hiddenCanvases(b: any): void;
-  viewCanvases(b: any): void;
-  clearBlurCanvases(b: any): void;
-  setBlurCanvases(b: any): void;
+  clearAllCanvase(a: any, b: any): void;
+  hiddenCanvases(a: any): void;
+  viewCanvases(a: any): void;
+  clearBlurCanvases(a: any): void;
+  setBlurCanvases(a: any): void;
   checkLoadFinish(): any;
   getBrowser(): any;
-  getRandomBias(b: any, a: any): any;
-  log(b: any, a: any): void;
-  clog(b: any, a: any, c: any): void;
-  shuffleArray(b: any): void;
+  getRandomBias(a: any, b: any): any;
+  log(a: any, b: any): void;
+  clog(a: any, b: any, c: any): void;
+  shuffleArray(a: any): void;
   close(): void;
   reload(): void;
-  changeScreenSize(b: any): any;
-  startNewGame(b: any, a: any, c: any): void;
-  outputMap(b: any, a: any, c: any): any;
-  outputRoom(b: any, a: any, c: any): any;
-  setViewPosition(b: any): void;
-  convertCsv(b: any): any;
-  loadJsPngWorker(b: any, a: any, c: any): any;
-  loadJsPng2Worker(b: any, a: any, c: any): any;
+  changeScreenSize(a: any): any;
+  startNewGame(a: any, b: any, c: any): void;
+  outputMap(a: any, b: any, c: any): any;
+  outputRoom(a: any, b: any, c: any): any;
+  setViewPosition(a: any): void;
+  convertCsv(a: any): any;
+  loadJsPngWorker(a: any, b: any, c: any): any;
+  loadJsPng2Worker(a: any, b: any, c: any): any;
   isTr(): any;
   getGameType(): any;
   getGameTypeSub(): any;
-  actJsPngWorker(b: any, a: any): void;
-  actJsPng2Worker(b: any, a: any): void;
+  actJsPngWorker(a: any, b: any): void;
+  actJsPng2Worker(a: any, b: any): void;
   initJsError(): void;
   initFirstLog(): void;
   getCachePrefix(): any;
   loadFont(): void;
-  activeAchievement(b: any, a: any): any;
+  activeAchievement(a: any, b: any): any;
+  getGameNanido(a: any, b: any): any;
 }
 
 declare class tGameMamonoJisho {
   parent: any;
-  init(c: any): void;
+  init(a: any): void;
   getDungeonTypes(): any;
-  getDungeonEnemyIds(c: any): any;
-  getDungeonObjectId(c: any): any;
-  getTargetEnemyLevel(c: any): any;
-  getTargetEnemyBaseData(c: any): any;
-  createcharactor(c: any): any;
-  getDropItems(c: any): any;
-  view(c: any, k: any): void;
-  viewMamonoInfo(c: any, k: any, a: any): any;
-  viewDropItems(c: any, k: any): void;
-  unlock(c: any, k: any): void;
+  getDungeonEnemyIds(a: any): any;
+  getDungeonObjectId(a: any): any;
+  getTargetEnemyLevel(a: any): any;
+  getTargetEnemyBaseData(a: any): any;
+  createcharactor(a: any): any;
+  getDropItems(a: any): any;
+  view(a: any, b: any): void;
+  viewMamonoInfo(a: any, b: any, c: any): any;
+  viewDropItems(a: any, b: any): void;
+  unlock(a: any, b: any): void;
 }
 
 declare class tGameMaou {
@@ -2643,30 +2667,30 @@ declare class tGameMaou {
   data: any;
   images: any;
   tobatsuLvs: any;
-  init(b: any): void;
-  createMap(b: any, c: any): void;
-  createAlly(b: any, c: any): void;
-  setMaou(b: any, c: any, a: any): any;
-  createEnemy(b: any, c: any, a: any): void;
-  getMaouMapAll(b: any): any;
-  getMaouMaps(b: any): any;
-  getMaouObject(b: any): any;
-  getMaouBarriers(b: any, c: any): any;
-  getRandomMaouId(b: any): any;
-  getPayment(b: any): any;
-  getNextPaymentTime(b: any): any;
+  init(a: any): void;
+  createMap(a: any, b: any): void;
+  createAlly(a: any, b: any): void;
+  setMaou(a: any, b: any, c: any): any;
+  createEnemy(a: any, b: any, c: any): void;
+  getMaouMapAll(a: any): any;
+  getMaouMaps(a: any): any;
+  getMaouObject(a: any): any;
+  getMaouBarriers(a: any, b: any): any;
+  getRandomMaouId(a: any): any;
+  getPayment(a: any): any;
+  getNextPaymentTime(a: any): any;
   createFieldData(): any;
-  setTimeOverFaith(b: any, c: any): void;
-  checkTimeOver(b: any): any;
-  destroyWorld(b: any, c: any): void;
-  getFreeCollaborator(b: any): any;
-  getSetsumei(b: any, c: any, a: any): any;
-  getItemSetsumei(b: any): any;
-  viewAdventureGuildBoard(b: any, c: any): void;
-  getPayItems(b: any): any;
-  oneActionFinishAction(b: any, c: any, a: any): void;
-  oneActionFinishAction_maougekiha(b: any, c: any): any;
-  oneActionFinishAction_maouteshitashutsugen(b: any, c: any): any;
+  setTimeOverFaith(a: any, b: any): void;
+  checkTimeOver(a: any): any;
+  destroyWorld(a: any, b: any): void;
+  getFreeCollaborator(a: any): any;
+  getSetsumei(a: any, b: any, c: any): any;
+  getItemSetsumei(a: any): any;
+  viewAdventureGuildBoard(a: any, b: any): void;
+  getPayItems(a: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_maougekiha(a: any, b: any): any;
+  oneActionFinishAction_maouteshitashutsugen(a: any, b: any): any;
 }
 
 declare class tGameMap {
@@ -2691,56 +2715,56 @@ declare class tGameMap {
   init(): void;
   getChipDataByFieldChip(a: any): any;
   getChipData(a: any): any;
-  getYukaChip(a: any, f: any, c: any, b: any, g: any): any;
+  getYukaChip(a: any, b: any, c: any, d: any, e: any): any;
   initLoad(a: any): void;
   addMap(a: any): any;
   removeMap(a: any): any;
   drawSmallMap(a: any): any;
   getSmallMapData(a: any): any;
-  drawGroundOver(a: any, f: any): any;
-  drawGround(a: any, f: any): void;
+  drawGroundOver(a: any, b: any): any;
+  drawGround(a: any, b: any): void;
   drawOutSightGround(a: any): void;
-  drawObject(a: any, f: any): void;
-  drawOver(a: any, f: any): void;
+  drawObject(a: any, b: any): void;
+  drawOver(a: any, b: any): void;
   getFovCharactors(a: any): any;
-  convertMapData(a: any, f: any, c: any, b: any): any;
-  convertMapData2(a: any, f: any, c: any, b: any): any;
+  convertMapData(a: any, b: any, c: any, d: any): any;
+  convertMapData2(a: any, b: any, c: any, d: any): any;
   getFov(a: any): any;
   getAroundCanMove(a: any): any;
   dropItem(a: any): any;
-  removeObject(a: any, f: any): any;
+  removeObject(a: any, b: any): any;
   initSaveData(): void;
   getSaveData(): any;
   setSaveData(a: any): any;
   getMap(a: any): any;
-  getRoute(a: any, f: any, c: any, b: any, g: any, d: any, e: any): any;
+  getRoute(a: any, b: any, c: any, d: any, e: any, f: any, g: any): any;
   nextTrunFukidashi(a: any): any;
   nextTrunEmotion(a: any): any;
-  getFreeSpaces(a: any, f: any, c: any, b: any, g: any): any;
-  checkObjectSpace(a: any, f: any, c: any, b: any): any;
-  searchMapObject(a: any, f: any): any;
-  searchMapObjectType(a: any, f: any): any;
-  getObjectSmap(a: any, f: any, c: any): any;
-  checkAdjacentCharactor(a: any, f: any): any;
+  getFreeSpaces(a: any, b: any, c: any, d: any, e: any): any;
+  checkObjectSpace(a: any, b: any, c: any, d: any): any;
+  searchMapObject(a: any, b: any): any;
+  searchMapObjectType(a: any, b: any): any;
+  getObjectSmap(a: any, b: any, c: any): any;
+  checkAdjacentCharactor(a: any, b: any): any;
   getRandomSpace(a: any): any;
   getRandomSpace2(a: any): any;
-  getDistance(a: any, f: any): any;
-  getDistance2(a: any, f: any): any;
-  getCharactorDistances(a: any, f: any): any;
-  getDirection(a: any, f: any, c: any): any;
-  getMapSpData(a: any, f: any): any;
+  getDistance(a: any, b: any): any;
+  getDistance2(a: any, b: any): any;
+  getCharactorDistances(a: any, b: any): any;
+  getDirection(a: any, b: any, c: any): any;
+  getMapSpData(a: any, b: any): any;
   removeMapObjects(a: any): any;
-  takeSkillAction(a: any, f: any, c: any, b: any, g: any): any;
+  takeSkillAction(a: any, b: any, c: any, d: any, e: any): any;
   clearCacheViewMap(): void;
   cloneMap(a: any): any;
-  getInMapPosition(a: any, f: any): any;
-  dropMap(a: any, f: any): any;
+  getInMapPosition(a: any, b: any): any;
+  dropMap(a: any, b: any): any;
   setCommonObjectCharactors(a: any): void;
-  getIncludeAreas(a: any, f: any, c: any): any;
-  getTargetAreaCanvas(a: any, f: any, c: any): any;
-  removeOneActionFinishAction(a: any, f: any): any;
-  setGroundOverTarget(a: any, f: any, c: any): void;
-  getAroundFreePositions(a: any, f: any, c: any): any;
+  getIncludeAreas(a: any, b: any, c: any): any;
+  getTargetAreaCanvas(a: any, b: any, c: any): any;
+  removeOneActionFinishAction(a: any, b: any): any;
+  setGroundOverTarget(a: any, b: any, c: any): void;
+  getAroundFreePositions(a: any, b: any, c: any): any;
   getCalMoveMap(a: any): any;
   drawLevel(a: any): void;
   createFieldRoad(a: any): any;
@@ -2751,60 +2775,60 @@ declare class tGameMap {
 declare class tGameMapCharaCommonAction {
   parent: any;
   init(a: any): void;
-  actionBeforePatternOne(a: any, c: any, b: any, d: any): void;
-  actionPatternOne(a: any, c: any): any;
-  viewMapActionPatternOne(a: any, c: any): any;
-  actionPatternType_counter(a: any, c: any): any;
-  viewMapActionPatternOne_myhome(a: any, c: any): any;
-  viewMapActionPatternOne_counter(a: any, c: any): any;
-  viewMapActionPatternOne_bed(a: any, c: any, b: any): any;
-  viewMapActionPatternOne_chair(a: any, c: any, b: any): any;
-  viewMapActionPatternOne_diningchair(a: any, c: any, b: any): any;
-  viewMapActionPatternOne_farm(a: any, c: any): any;
-  viewMapActionPatternOne_goei(a: any, c: any): any;
-  viewMapActionPatternOne_kenkyu(a: any, c: any): any;
-  viewMapActionPatternOne_imushitsu(a: any, c: any): any;
-  actionPatternType_myhome(a: any, c: any): any;
-  actionPatternType_myhomecenter(a: any, c: any): any;
-  actionPatternType_kenkyu(a: any, c: any): any;
-  actionPatternType_imushitsu(a: any, c: any): any;
-  actionPatternType_animalwood(a: any, c: any): any;
-  actionPatternType_bed(a: any, c: any, b: any): any;
-  actionPatternType_noriaibasha(a: any, c: any): any;
-  actionPatternType_aroundtypedataposition(a: any, c: any): any;
-  actionPatternType_randompoint(a: any, c: any): any;
-  actionPatternType_chair(a: any, c: any, b: any): any;
-  actionPatternType_diningchair(a: any, c: any, b: any): any;
-  actionPatternType_adventureguild(a: any, c: any, b: any): any;
-  actionPatternType_goei(a: any, c: any): any;
-  moveTargetPoint(a: any, c: any): any;
-  actionPatternBeforeAction(a: any, c: any, b: any, d: any): void;
-  actionPatternType_farm(a: any, c: any): any;
+  actionBeforePatternOne(a: any, b: any, c: any, d: any): void;
+  actionPatternOne(a: any, b: any): any;
+  viewMapActionPatternOne(a: any, b: any): any;
+  actionPatternType_counter(a: any, b: any): any;
+  viewMapActionPatternOne_myhome(a: any, b: any): any;
+  viewMapActionPatternOne_counter(a: any, b: any): any;
+  viewMapActionPatternOne_bed(a: any, b: any, c: any): any;
+  viewMapActionPatternOne_chair(a: any, b: any, c: any): any;
+  viewMapActionPatternOne_diningchair(a: any, b: any, c: any): any;
+  viewMapActionPatternOne_farm(a: any, b: any): any;
+  viewMapActionPatternOne_goei(a: any, b: any): any;
+  viewMapActionPatternOne_kenkyu(a: any, b: any): any;
+  viewMapActionPatternOne_imushitsu(a: any, b: any): any;
+  actionPatternType_myhome(a: any, b: any): any;
+  actionPatternType_myhomecenter(a: any, b: any): any;
+  actionPatternType_kenkyu(a: any, b: any): any;
+  actionPatternType_imushitsu(a: any, b: any): any;
+  actionPatternType_animalwood(a: any, b: any): any;
+  actionPatternType_bed(a: any, b: any, c: any): any;
+  actionPatternType_noriaibasha(a: any, b: any): any;
+  actionPatternType_aroundtypedataposition(a: any, b: any): any;
+  actionPatternType_randompoint(a: any, b: any): any;
+  actionPatternType_chair(a: any, b: any, c: any): any;
+  actionPatternType_diningchair(a: any, b: any, c: any): any;
+  actionPatternType_adventureguild(a: any, b: any, c: any): any;
+  actionPatternType_goei(a: any, b: any): any;
+  moveTargetPoint(a: any, b: any): any;
+  actionPatternBeforeAction(a: any, b: any, c: any, d: any): void;
+  actionPatternType_farm(a: any, b: any): any;
   updateActionPattern(a: any): any;
   getCharactorObjects(a: any): any;
-  selectEatTarget(a: any, c: any): any;
-  selectRandomTarget(a: any, c: any): any;
-  selectRandomNightTarget(a: any, c: any): any;
-  selectBedTarget(a: any, c: any): any;
-  updateActionPattern_default(a: any, c: any): any;
-  updateActionPattern_outmain(a: any, c: any): any;
-  updateActionPattern_shop(a: any, c: any): any;
-  updateActionPattern_shop2(a: any, c: any): any;
-  updateActionPattern_housemain(a: any, c: any): any;
-  updateActionPattern_farmor(a: any, c: any): any;
-  updateActionPattern_king(a: any, c: any): any;
-  updateActionPattern_goei(a: any, c: any): any;
-  updateActionPattern_kenkyu(a: any, c: any): any;
-  updateActionPattern_isha(a: any, c: any): any;
-  updateActionPattern_animalwood(a: any, c: any): any;
-  updateActionPattern_tougijo_uketsuke(a: any, c: any): any;
-  updateActionPattern_casino_dealer(a: any, c: any): any;
-  updateActionPattern_casino_chonin(a: any, c: any): any;
-  updateActionPattern_noriai(a: any, c: any): any;
-  updateActionPattern_shitaiasari(a: any, c: any): any;
-  addTimeAction(a: any, c: any, b: any): any;
+  selectEatTarget(a: any, b: any): any;
+  selectRandomTarget(a: any, b: any): any;
+  selectRandomNightTarget(a: any, b: any): any;
+  selectBedTarget(a: any, b: any): any;
+  updateActionPattern_default(a: any, b: any): any;
+  updateActionPattern_outmain(a: any, b: any): any;
+  updateActionPattern_shop(a: any, b: any): any;
+  updateActionPattern_shop2(a: any, b: any): any;
+  updateActionPattern_housemain(a: any, b: any): any;
+  updateActionPattern_farmor(a: any, b: any): any;
+  updateActionPattern_king(a: any, b: any): any;
+  updateActionPattern_goei(a: any, b: any): any;
+  updateActionPattern_kenkyu(a: any, b: any): any;
+  updateActionPattern_isha(a: any, b: any): any;
+  updateActionPattern_animalwood(a: any, b: any): any;
+  updateActionPattern_tougijo_uketsuke(a: any, b: any): any;
+  updateActionPattern_casino_dealer(a: any, b: any): any;
+  updateActionPattern_casino_chonin(a: any, b: any): any;
+  updateActionPattern_noriai(a: any, b: any): any;
+  updateActionPattern_shitaiasari(a: any, b: any): any;
+  addTimeAction(a: any, b: any, c: any): any;
   viewMapFixPosition(a: any): void;
-  okiru(a: any, c: any): any;
+  okiru(a: any, b: any): any;
 }
 
 declare class tGameMapEditor {
@@ -2899,9 +2923,9 @@ declare class tGameMatsuri {
   createMap(): any;
   getMapId(): any;
   createMap_act(a: any): any;
-  addCharactor(a: any, d: any): any;
-  oneActionFinishAction(a: any, d: any, b: any): void;
-  oneActionFinishAction_creatematsuri(a: any, d: any): any;
+  addCharactor(a: any, b: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_creatematsuri(a: any, b: any): any;
 }
 
 declare class tGameMeiro {
@@ -2918,12 +2942,12 @@ declare class tGameMeiro {
   init(a: any): void;
   tryMap(a: any): any;
   createMap(): any;
-  affectDoor(a: any, c: any): void;
-  affect(a: any, c: any, b: any): void;
+  affectDoor(a: any, b: any): void;
+  affect(a: any, b: any, c: any): void;
   isHoshu(): any;
   hoshu(a: any): void;
-  oneActionFinishAction(a: any, c: any, b: any): void;
-  oneActionFinishAction_createmeiro(a: any, c: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_createmeiro(a: any, b: any): any;
   initLoad(a: any): any;
   loadLinkJson(a: any): void;
   initFrame(a: any): void;
@@ -2937,7 +2961,7 @@ declare class tGameMeiro {
   setStage(a: any): void;
   drawView(): void;
   draw3DMeiro(): any;
-  getTargetPosition(a: any, c: any): any;
+  getTargetPosition(a: any, b: any): any;
   drawBg(): any;
   drawMap(): void;
   actDeguchi(): void;
@@ -2946,29 +2970,29 @@ declare class tGameMeiro {
 
 declare class tGameMenu {
   parent: any;
-  init(b: any): void;
-  viewMenu(b: any, c: any): void;
-  viewItem(b: any, c: any): void;
-  viewEquipment(b: any, c: any): void;
-  viewSkillAction(b: any, c: any): void;
-  viewSkill(b: any, c: any): void;
-  viewStatus(b: any, c: any): void;
-  viewAllocateStatus(b: any): void;
-  viewReceivedQuest(b: any): void;
-  viewDairyQuest(b: any): void;
-  viewOptionGroup(b: any, c: any): void;
-  viewOption(b: any): void;
-  viewOption2(b: any): void;
-  viewOption3(b: any): void;
-  viewMenuShortcut(b: any): void;
-  viewGameOption(b: any): void;
-  viewHelp(b: any): void;
-  viewEditMyTown(b: any, c: any): void;
-  viewEditSubTown(b: any, c: any): void;
-  viewEditNouchi(b: any, c: any): void;
-  viewEditMember(b: any, c: any): void;
-  viewLog(b: any, c: any): void;
-  viewSubInfo(b: any): void;
+  init(a: any): void;
+  viewMenu(a: any, b: any): void;
+  viewItem(a: any, b: any): void;
+  viewEquipment(a: any, b: any): void;
+  viewSkillAction(a: any, b: any): void;
+  viewSkill(a: any, b: any): void;
+  viewStatus(a: any, b: any): void;
+  viewAllocateStatus(a: any): void;
+  viewReceivedQuest(a: any): void;
+  viewDairyQuest(a: any): void;
+  viewOptionGroup(a: any, b: any): void;
+  viewOption(a: any): void;
+  viewOption2(a: any): void;
+  viewOption3(a: any): void;
+  viewMenuShortcut(a: any): void;
+  viewGameOption(a: any): void;
+  viewHelp(a: any): void;
+  viewEditMyTown(a: any, b: any): void;
+  viewEditSubTown(a: any, b: any): void;
+  viewEditNouchi(a: any, b: any): void;
+  viewEditMember(a: any, b: any): void;
+  viewLog(a: any, b: any): void;
+  viewSubInfo(a: any): void;
 }
 
 declare class tGameMenuShortcutWindow {
@@ -2982,20 +3006,20 @@ declare class tGameMenuShortcutWindow {
   viewData: any;
   viewItemMaxNum: any;
   cursor: any;
-  init(b: any): void;
+  init(a: any): void;
   clear(): void;
-  viewWindow(b: any, c: any): any;
-  drawPage(b: any): void;
-  getCursor(b: any): any;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
+  viewWindow(a: any, b: any): any;
+  drawPage(a: any): void;
+  getCursor(a: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
-  setCursor(b: any): any;
+  setCursor(a: any): any;
   getShortCuts(): void;
   viewBottomWindow(): any;
-  updateItems(b: any): void;
+  updateItems(a: any): void;
 }
 
 declare class tGameMessageWindow {
@@ -3010,7 +3034,7 @@ declare class tGameMessageWindow {
   defaultViewItemMaxNum: any;
   viewItemMaxNum: any;
   init(a: any): void;
-  viewMessageWindow(a: any, c: any): any;
+  viewMessageWindow(a: any, b: any): any;
   drawAnswers(a: any): any;
   getCursor(a: any): any;
   setFrameEvent(a: any): void;
@@ -3019,36 +3043,36 @@ declare class tGameMessageWindow {
   setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
   drawPage(a: any): void;
-  convertContinuationMessages(a: any, c: any): any;
-  viewContinuationMessageWindow(a: any, c: any): void;
+  convertContinuationMessages(a: any, b: any): any;
+  viewContinuationMessageWindow(a: any, b: any): void;
 }
 
 declare class tGameMyAdventurerCharactor {
   parent: any;
   max: any;
   myData: any;
-  init(d: any): void;
-  initLoad(d: any): void;
+  init(a: any): void;
+  initLoad(a: any): void;
   initData(): any;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(d: any): any;
-  save(d: any): void;
-  load(d: any): void;
-  getLocalStorageData(d: any): void;
-  view(d: any, c: any): void;
-  convertChara2Mydata(d: any, c: any): any;
-  convertImport2Mydata(d: any): any;
-  getItemDescription(d: any, c: any): any;
-  viewError(d: any): void;
-  export(d: any, c: any): any;
-  exportK1up(d: any, c: any): void;
-  convertTextB64(d: any, c: any): void;
-  confirmImport(d: any): any;
-  refreshOverwriteTargets(d: any, c: any): void;
+  setSaveData(a: any): any;
+  save(a: any): void;
+  load(a: any): void;
+  getLocalStorageData(a: any): void;
+  view(a: any, b: any): void;
+  convertChara2Mydata(a: any, b: any): any;
+  convertImport2Mydata(a: any): any;
+  getItemDescription(a: any, b: any): any;
+  viewError(a: any): void;
+  export(a: any, b: any): any;
+  exportK1up(a: any, b: any): void;
+  convertTextB64(a: any, b: any): void;
+  confirmImport(a: any): any;
+  refreshOverwriteTargets(a: any, b: any): void;
   getOverwriteFaceList(): any;
-  getOverwriteChipsetList(d: any): any;
-  viewSelectOverwriteTalkTargetWindow(d: any): void;
+  getOverwriteChipsetList(a: any): any;
+  viewSelectOverwriteTalkTargetWindow(a: any): void;
   enableNew(): any;
 }
 
@@ -3059,23 +3083,23 @@ declare class tGameMyShop {
   tesuryoMax: any;
   data: any;
   viewData: any;
-  init(b: any): void;
+  init(a: any): void;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(b: any): any;
+  setSaveData(a: any): any;
   isViewSelectColumn(): any;
   getSelectColumn(): any;
-  view(b: any, a: any): void;
-  viewIn1(b: any): void;
-  viewIn2(b: any, a: any): void;
-  inItem(b: any): any;
-  viewOut1(b: any): void;
-  viewOut2(b: any): void;
-  outItem(b: any): any;
-  removeItem(b: any, a: any): any;
-  kakucho(b: any): void;
+  view(a: any, b: any): void;
+  viewIn1(a: any): void;
+  viewIn2(a: any, b: any): void;
+  inItem(a: any): any;
+  viewOut1(a: any): void;
+  viewOut2(a: any): void;
+  outItem(a: any): any;
+  removeItem(a: any, b: any): any;
+  kakucho(a: any): void;
   buy(): void;
-  getTesuryoRate(b: any, a: any): any;
+  getTesuryoRate(a: any, b: any): any;
 }
 
 declare class tGameMyTown {
@@ -3107,14 +3131,14 @@ declare class tGameMyTown {
 declare class tGameMyTownMeibo {
   parent: any;
   viewData: any;
-  init(c: any): void;
-  viewWindow(c: any): any;
-  getItemDescription(c: any, b: any): any;
-  changeCharaTown(c: any, b: any): any;
-  isEnableChangeJuninToNakama(c: any, b: any): any;
-  isEnableChangeNakamaToJunin(c: any): any;
-  changeJuninToNakama(c: any, b: any): any;
-  changeNakamaToJunin(c: any): any;
+  init(a: any): void;
+  viewWindow(a: any): any;
+  getItemDescription(a: any, b: any): any;
+  changeCharaTown(a: any, b: any): any;
+  isEnableChangeJuninToNakama(a: any, b: any): any;
+  isEnableChangeNakamaToJunin(a: any): any;
+  changeJuninToNakama(a: any, b: any): any;
+  changeNakamaToJunin(a: any): any;
 }
 
 declare class tGameMyTownRuleWindow {
@@ -3128,26 +3152,26 @@ declare class tGameMyTownRuleWindow {
 declare class tGameNakamaHaken {
   parent: any;
   viewData: any;
-  init(b: any): void;
-  view(b: any, a: any): void;
-  viewMenu(b: any): void;
-  viewSelectHakenNakama(b: any): void;
+  init(a: any): void;
+  view(a: any, b: any): void;
+  viewMenu(a: any): void;
+  viewSelectHakenNakama(a: any): void;
   getHakenKanouCharas(): any;
   getHakenchuCharas(): any;
-  isHakenKanouChara(b: any): any;
-  refreshDungeonLevel(b: any): void;
-  initCharaValue(b: any): void;
-  getDungeonNanido(b: any, a: any): any;
-  isHakenNow(b: any): any;
-  getHakenTime(b: any, a: any): any;
-  registHaken(b: any, a: any, e: any): void;
-  setHakenClose(b: any): void;
-  registHakenCancel(b: any, a: any): void;
-  viewHakenchuNakama(b: any): void;
-  setResultInfo(b: any): void;
-  getHoshuBUnkatsu(b: any): any;
-  viewResult(b: any, a: any): void;
-  unlockRandomMamono(b: any): any;
+  isHakenKanouChara(a: any): any;
+  refreshDungeonLevel(a: any): void;
+  initCharaValue(a: any): void;
+  getDungeonNanido(a: any, b: any): any;
+  isHakenNow(a: any): any;
+  getHakenTime(a: any, b: any): any;
+  registHaken(a: any, b: any, c: any): void;
+  setHakenClose(a: any): void;
+  registHakenCancel(a: any, b: any): void;
+  viewHakenchuNakama(a: any): void;
+  setResultInfo(a: any): void;
+  getHoshuBUnkatsu(a: any): any;
+  viewResult(a: any, b: any): void;
+  unlockRandomMamono(a: any): any;
 }
 
 declare class tGameName {
@@ -3175,17 +3199,17 @@ declare class tGameNaraku {
 
 declare class tGameNoriai {
   parent: any;
-  init(b: any): void;
-  selectMokutekichi(b: any): any;
-  moveEvent(b: any): any;
-  start(b: any): void;
+  init(a: any): void;
+  selectMokutekichi(a: any): any;
+  moveEvent(a: any): any;
+  start(a: any): void;
   createRestMap(): any;
-  restFinish(b: any): any;
-  yatouFinish(b: any): any;
-  addTime(b: any): any;
+  restFinish(a: any): any;
+  yatouFinish(a: any): any;
+  addTime(a: any): any;
   createYatouMap(): any;
-  finishYatou(b: any): any;
-  removeNoriaiBashaObject(b: any): void;
+  finishYatou(a: any): any;
+  removeNoriaiBashaObject(a: any): void;
 }
 
 declare class tGameNouchi {
@@ -3216,16 +3240,16 @@ declare class tGameNumWindow {
   cursor: any;
   textBox: any;
   keypadData: any;
-  init(b: any): void;
+  init(a: any): void;
   isEnableKeypad(): any;
-  inputKeypad(b: any): void;
-  viewNumWindow(b: any, c: any): any;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
+  inputKeypad(a: any): void;
+  viewNumWindow(a: any, b: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
-  setNum(b: any, c: any, a: any): any;
+  setNum(a: any, b: any, c: any): any;
   getInputValue(): any;
 }
 
@@ -3236,7 +3260,7 @@ declare class tGameNumWindow2 {
   cursor: any;
   keys: any;
   init(a: any): void;
-  viewNumWindow(a: any, c: any): void;
+  viewNumWindow(a: any, b: any): void;
   setFrameEvent(a: any): void;
   setFrameEvent_dispose(a: any): void;
   setFrameEvent_frame(a: any): void;
@@ -3275,16 +3299,16 @@ declare class tGameNw {
   setSaveData(a: any, b: any, c: any): any;
   setSaveDataBackup(a: any, b: any): any;
   deleteSaveData(a: any, b: any): any;
-  changeContentSize(a: any, b: any, c: any, e: any): void;
-  changeContentSize__resize(a: any, b: any, c: any, e: any): void;
-  changeContentSize__fullscreen(a: any, b: any, c: any, e: any): void;
+  changeContentSize(a: any, b: any, c: any, d: any): void;
+  changeContentSize__resize(a: any, b: any, c: any, d: any): void;
+  changeContentSize__fullscreen(a: any, b: any, c: any, d: any): void;
   sendJsSysError(a: any, b: any): void;
-  exportMyAdventurerCharactor(a: any, b: any, c: any, e: any, d: any): any;
-  getExportMyAdventurerCharactorK1upData(a: any, b: any, c: any, e: any, d: any): any;
+  exportMyAdventurerCharactor(a: any, b: any, c: any, d: any, e: any): any;
+  getExportMyAdventurerCharactorK1upData(a: any, b: any, c: any, d: any, e: any): any;
   importMyAdventurerCharactor(a: any): void;
   importMyAdventurerCharactor2FromBase64Data0(a: any, b: any): void;
   importMyAdventurerCharactor2FromData0(a: any, b: any): any;
-  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, e: any, d: any, f: any): any;
+  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, d: any, e: any, f: any): any;
   sendIsTr(): void;
   exportMpaData(a: any, b: any): any;
   importMapData(a: any): void;
@@ -3297,7 +3321,7 @@ declare class tGameNw {
   overwriteMydataFace(a: any, b: any, c: any): any;
   overwriteMydataItem(a: any, b: any, c: any): any;
   overwriteMydataChipset(a: any, b: any, c: any): any;
-  overwriteMydataTalk(a: any, b: any, c: any, e: any): any;
+  overwriteMydataTalk(a: any, b: any, c: any, d: any): any;
   getTargetImageBase64(a: any, b: any): any;
   openBrowser(a: any, b: any): void;
   outputFile(a: any, b: any): void;
@@ -3307,59 +3331,59 @@ declare class tGameObjectResource {
   parent: any;
   objectData: any;
   cantMoveMap: any;
-  init(b: any): void;
-  loadObject(b: any): void;
+  init(a: any): void;
+  loadObject(a: any): void;
   createID(): any;
-  getMapEditorData(b: any): any;
-  convertData(b: any): any;
-  convertDoorObject(b: any): any;
-  tryOpenDoor(b: any): any;
-  tryOpenStorage(b: any): any;
-  tryOpenChest(b: any): any;
-  tryOpenMonsterChest(b: any, a: any): any;
-  openDoor(b: any): any;
-  closeDoor(b: any): any;
-  getOpenDoorInfo(b: any): any;
-  getOpenStorageInfo(b: any): any;
-  getOpenChestInfo(b: any): any;
-  affect(b: any): any;
-  getCantMoveMap(b: any): any;
-  createFwood(b: any): any;
-  yurasuFwood(b: any, a: any): void;
-  inStorageItem(b: any, a: any, c: any, e: any, g: any): any;
-  outStorageItem(b: any, a: any, c: any, e: any, g: any): any;
-  getStorageMaxSpace(b: any): any;
-  getStorageSpace(b: any): any;
-  addStorageItem(b: any, a: any, c: any, e: any, g: any): any;
-  removeStorageItem(b: any, a: any, c: any, e: any): any;
-  createStorage2(b: any): any;
-  createStorage3(b: any): any;
-  createStorage4(b: any): any;
-  createRankChest(b: any): any;
-  createLevelMonsterChest(b: any): any;
-  createChest(b: any): any;
-  createMonsterChest(b: any): any;
-  createRankHibi(b: any): any;
-  isTurnEventObject(b: any): any;
-  turnAction(b: any): any;
-  turnAction_bomb(b: any, a: any): any;
-  takeSkillAction(b: any, a: any, c: any, e: any, g: any, m: any): any;
-  takeSkillAction_yubaku(b: any, a: any, c: any, e: any, g: any, m: any): any;
-  viewUnlockLog(b: any, a: any): any;
-  affectWarikomi_dungeonnext(b: any, a: any): any;
-  affectStorage2(b: any, a: any): void;
-  viewHogyokuKetsugo(b: any, a: any): void;
-  kanteisosei(b: any, a: any): void;
-  trialErrorMessage(b: any, a: any): void;
+  getMapEditorData(a: any): any;
+  convertData(a: any): any;
+  convertDoorObject(a: any): any;
+  tryOpenDoor(a: any): any;
+  tryOpenStorage(a: any): any;
+  tryOpenChest(a: any): any;
+  tryOpenMonsterChest(a: any, b: any): any;
+  openDoor(a: any): any;
+  closeDoor(a: any): any;
+  getOpenDoorInfo(a: any): any;
+  getOpenStorageInfo(a: any): any;
+  getOpenChestInfo(a: any): any;
+  affect(a: any): any;
+  getCantMoveMap(a: any): any;
+  createFwood(a: any): any;
+  yurasuFwood(a: any, b: any): void;
+  inStorageItem(a: any, b: any, c: any, d: any, e: any): any;
+  outStorageItem(a: any, b: any, c: any, d: any, e: any): any;
+  getStorageMaxSpace(a: any): any;
+  getStorageSpace(a: any): any;
+  addStorageItem(a: any, b: any, c: any, d: any, e: any): any;
+  removeStorageItem(a: any, b: any, c: any, d: any): any;
+  createStorage2(a: any): any;
+  createStorage3(a: any): any;
+  createStorage4(a: any): any;
+  createRankChest(a: any): any;
+  createLevelMonsterChest(a: any): any;
+  createChest(a: any): any;
+  createMonsterChest(a: any): any;
+  createRankHibi(a: any): any;
+  isTurnEventObject(a: any): any;
+  turnAction(a: any): any;
+  turnAction_bomb(a: any, b: any): any;
+  takeSkillAction(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  takeSkillAction_yubaku(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  viewUnlockLog(a: any, b: any): any;
+  affectWarikomi_dungeonnext(a: any, b: any): any;
+  affectStorage2(a: any, b: any): void;
+  viewHogyokuKetsugo(a: any, b: any): void;
+  kanteisosei(a: any, b: any): void;
+  trialErrorMessage(a: any, b: any): void;
 }
 
 declare class tGameOnsen {
   parent: any;
-  init(h: any): void;
-  view(h: any, a: any): void;
-  view2(h: any, a: any): void;
-  hairu(h: any): void;
-  kyoka(h: any, a: any): any;
+  init(a: any): void;
+  view(a: any, b: any): void;
+  view2(a: any, b: any): void;
+  hairu(a: any): void;
+  kyoka(a: any, b: any): any;
 }
 
 declare class tGameOpening {
@@ -3370,13 +3394,13 @@ declare class tGameOpening {
   cvs: any;
   ctx: any;
   init(): void;
-  view(a: any, c: any): any;
+  view(a: any, b: any): any;
   view_k1(): void;
   view_k2(): void;
   view_k3(): void;
   view_k4(): void;
   view_k5(): void;
-  viewMessage(a: any, c: any, b: any): void;
+  viewMessage(a: any, b: any, c: any): void;
   createNohara(a: any): any;
   createAnkoku(a: any): any;
   createField(a: any): any;
@@ -3408,24 +3432,24 @@ declare class tGameOption {
 declare class tGameOptionWindow {
   parent: any;
   viewData: any;
-  init(e: any): void;
-  viewOptionWindow(e: any, a: any): void;
-  viewOptionWindow2(e: any, a: any): void;
-  viewOptionWindow3(e: any, a: any): void;
-  viewSysOptWindow(e: any, a: any): void;
+  init(a: any): void;
+  viewOptionWindow(a: any, b: any): void;
+  viewOptionWindow2(a: any, b: any): void;
+  viewOptionWindow3(a: any, b: any): void;
+  viewSysOptWindow(a: any, b: any): void;
 }
 
 declare class tGameOverMapResource {
   parent: any;
   chipsize: any;
   omapData: any;
-  init(b: any): void;
-  initLoad(b: any): void;
-  getOrderMap(b: any): any;
-  getRoundMap(b: any, a: any, c: any): any;
-  getEdgeChipset(b: any): any;
-  getChipsetIndex(b: any, a: any): any;
-  drawChipset(b: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  getOrderMap(a: any): any;
+  getRoundMap(a: any, b: any, c: any): any;
+  getEdgeChipset(a: any): any;
+  getChipsetIndex(a: any, b: any): any;
+  drawChipset(a: any): any;
 }
 
 declare class tGameParts {
@@ -3433,7 +3457,7 @@ declare class tGameParts {
   cvs: any;
   ctx: any;
   init(): void;
-  createProgressBar(f: any, b: any, g: any, h: any, d: any, e: any): any;
+  createProgressBar(a: any, b: any, c: any, d: any, e: any, f: any): any;
 }
 
 declare class tGamePlayerPartyInfo {
@@ -3502,24 +3526,24 @@ declare class tGameRecipe {
 
 declare class tGameRecord {
   parent: any;
-  init(e: any): void;
-  view(e: any, f: any): void;
-  view_chara(e: any, f: any): void;
-  view_item(e: any, f: any): void;
-  view_hikyo(e: any, f: any): void;
-  view_item2(e: any, f: any): void;
+  init(a: any): void;
+  view(a: any, b: any): void;
+  view_chara(a: any, b: any): void;
+  view_item(a: any, b: any): void;
+  view_hikyo(a: any, b: any): void;
+  view_item2(a: any, b: any): void;
 }
 
 declare class tGameRectArea {
   parent: any;
   init(a: any): void;
   getRectsOuterPoints(a: any): any;
-  getRandomRectPosition(a: any, b: any, e: any): any;
+  getRandomRectPosition(a: any, b: any, c: any): any;
   getMoveXY(a: any, b: any): any;
   getCoverRect(a: any, b: any): any;
   isCrossRect(a: any, b: any): any;
-  isCrossLine(a: any, b: any, e: any, k: any, f: any, g: any, c: any, h: any, l: any): any;
-  getCrossPosition(a: any, b: any, e: any, k: any, f: any, g: any, c: any, h: any): any;
+  isCrossLine(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any, i: any): any;
+  getCrossPosition(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any): any;
 }
 
 declare class tGameRefresh {
@@ -3583,19 +3607,19 @@ declare class tGameRoom {
   createCharactor(a: any): any;
   setOCharabject(a: any): any;
   createAnimals(a: any): any;
-  setOutFloorSubs(a: any, f: any): void;
+  setOutFloorSubs(a: any, b: any): void;
   getShops(): any;
-  setRandomShopTypes(a: any, f: any): any;
-  updateHmapTypes(a: any, f: any): void;
-  setDimensionStorage(a: any, f: any): any;
+  setRandomShopTypes(a: any, b: any): any;
+  updateHmapTypes(a: any, b: any): void;
+  setDimensionStorage(a: any, b: any): any;
   refillStorage(a: any): void;
-  getRandomTargetData(a: any, f: any): any;
-  convertCounterPos(a: any, f: any): any;
+  getRandomTargetData(a: any, b: any): any;
+  convertCounterPos(a: any, b: any): any;
   getRandomKyotenRoom(): any;
   setAroundMap(a: any): void;
   getTownRandomPosition(a: any): any;
   setRoomBoroiMap(a: any): void;
-  convertTatemonoKabe(a: any, f: any, h: any): any;
+  convertTatemonoKabe(a: any, b: any, c: any): any;
 }
 
 declare class tGameRoutineMap {
@@ -3625,19 +3649,19 @@ declare class tGameRoutineMap {
   setFrameAction(a: any): void;
   frameAction_dispose(a: any): void;
   frameAction_frame(a: any): void;
-  frameAction_draw(a: any, c: any): void;
+  frameAction_draw(a: any, b: any): void;
   updateLastConvertMapData(a: any): void;
   clearOneActionSyncAction(): void;
-  oneAction(a: any, c: any, b: any, d: any, f: any, e: any): void;
+  oneAction(a: any, b: any, c: any, d: any, e: any, f: any): void;
   oneActionAfterFinishAction(a: any): any;
   oneActionAfter(a: any): any;
   viewEffectLog(a: any): void;
-  oneActionForce(a: any, c: any): void;
+  oneActionForce(a: any, b: any): void;
   oneActionWalkAnimation(a: any): void;
   oneActionWalk(a: any): any;
   updateLookMap(a: any): void;
   convertObjectLookMap(a: any): any;
-  updateLookMapTarget(a: any, c: any, b: any): void;
+  updateLookMapTarget(a: any, b: any, c: any): void;
   updateLookMapAll(): void;
   updateLookMapDarkAll(): void;
   updateFovTargets(): any;
@@ -3645,38 +3669,38 @@ declare class tGameRoutineMap {
   affectTarget(a: any): any;
   clearDiaonalCanvas(): void;
   drawArrow(): void;
-  setMode(a: any, c: any): void;
-  getFootMessageData(a: any, c: any, b: any): any;
+  setMode(a: any, b: any): void;
+  getFootMessageData(a: any, b: any, c: any): any;
   viewPlayerPositionLog(): any;
   viewPlayerPositionOverlookLog(): void;
-  getCanMovePositions(a: any, c: any, b: any, d: any): any;
-  viewMap(a: any, c: any, b: any, d: any, f: any, e: any): any;
-  viewMap_action(a: any, c: any, b: any, d: any, f: any, e: any): any;
+  getCanMovePositions(a: any, b: any, c: any, d: any): any;
+  viewMap(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  viewMap_action(a: any, b: any, c: any, d: any, e: any, f: any): any;
   viewMapEvent(a: any): void;
-  setPlayerPosition(a: any, c: any): any;
+  setPlayerPosition(a: any, b: any): any;
   drawForce(a: any): void;
-  edgeMove(a: any, c: any, b: any): any;
+  edgeMove(a: any, b: any, c: any): any;
   getMapType(): any;
   actionPlayerAutoTurn(a: any): any;
-  breakMap(a: any, c: any, b: any, d: any, f: any): any;
+  breakMap(a: any, b: any, c: any, d: any, e: any): any;
   checkPlayerTeamTimeLimit(a: any): any;
-  getPositionAffectList(a: any, c: any): any;
+  getPositionAffectList(a: any, b: any): any;
   addFinishAction(a: any): any;
-  yubakuAction(a: any, c: any): void;
-  attackDamageAction(a: any, c: any, b: any): void;
-  attackKaihiAction(a: any, c: any, b: any): void;
-  etcAfterAction(a: any, c: any): void;
+  yubakuAction(a: any, b: any): void;
+  attackDamageAction(a: any, b: any, c: any): void;
+  attackKaihiAction(a: any, b: any, c: any): void;
+  etcAfterAction(a: any, b: any): void;
   updateMapCharactorStatus(): any;
   updateMapInfoAll(a: any): void;
-  isInViewFrame(a: any, c: any): any;
+  isInViewFrame(a: any, b: any): any;
   playerDeathEvent(): any;
   kanpaAction(a: any): any;
   viewLinkMap(a: any): any;
   viewBackLinkMap(a: any): any;
-  playerAutoFootPickupItem(): any;
-  checkSpecialFlg(a: any, c: any): any;
+  playerAutoFootPickupItem(a: any): any;
+  checkSpecialFlg(a: any, b: any): any;
   getUtime(): any;
-  setTurnTimeFrameAction(a: any, c: any): void;
+  setTurnTimeFrameAction(a: any, b: any): void;
   changeOverCanvasView(a: any): void;
   setAutoOnmitsu(a: any): void;
 }
@@ -3689,8 +3713,8 @@ declare class tGameRoutineMapMove {
   move(a: any): any;
   setFrameAction(a: any): void;
   frameAction_dispose(a: any): void;
-  frameAction_frame(a: any, n: any): void;
-  frameAction_draw(a: any, n: any): void;
+  frameAction_frame(a: any, b: any): void;
+  frameAction_draw(a: any, b: any): void;
 }
 
 declare class tGameRyourifukuro {
@@ -3698,23 +3722,23 @@ declare class tGameRyourifukuro {
   data: any;
   itemType: any;
   itemIds: any;
-  init(b: any): void;
+  init(a: any): void;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(b: any): any;
-  addItem(b: any): any;
-  removeItem(b: any, c: any): any;
-  inCharaItem(b: any, c: any, a: any): any;
-  outCharaItem(b: any, c: any, a: any, d: any): any;
-  azukeru(b: any): void;
-  toridasu(b: any, c: any): void;
-  taberu(b: any, c: any): void;
-  view(b: any, c: any): void;
+  setSaveData(a: any): any;
+  addItem(a: any): any;
+  removeItem(a: any, b: any): any;
+  inCharaItem(a: any, b: any, c: any): any;
+  outCharaItem(a: any, b: any, c: any, d: any): any;
+  azukeru(a: any): void;
+  toridasu(a: any, b: any): void;
+  taberu(a: any, b: any): void;
+  view(a: any, b: any): void;
   getRyouriShunoMikanteiItems(): any;
   getRyouriShunoNoroiItems(): any;
-  kanteiItem(b: any, c: any, a: any): any;
-  noroikeshiItem(b: any, c: any, a: any): any;
-  npcHoju(b: any, c: any): void;
+  kanteiItem(a: any, b: any, c: any): any;
+  noroikeshiItem(a: any, b: any, c: any): any;
+  npcHoju(a: any, b: any): void;
 }
 
 declare class tGameSave {
@@ -3747,7 +3771,7 @@ declare class tGameSave {
   saveAndDownload(a: any): void;
   getSaveHeaders(a: any): void;
   splitSaveData(a: any): any;
-  loadAct(a: any, b: any, c: any, f: any): any;
+  loadAct(a: any, b: any, c: any, d: any): any;
   loadSuspended(a: any, b: any): void;
   load(a: any, b: any): void;
   convertBase64ToUint8Array(a: any): any;
@@ -3768,8 +3792,8 @@ declare class tGameSave {
 declare class tGameSchoolGenerator {
   parent: any;
   init(a: any): void;
-  createSchoolWithLoad(a: any, k: any): void;
-  createSchool(a: any, k: any): any;
+  createSchoolWithLoad(a: any, b: any): void;
+  createSchool(a: any, b: any): any;
   actionPattern(a: any): any;
   updateActionPattern(a: any): any;
   actionPatternOne(a: any): any;
@@ -3791,7 +3815,7 @@ declare class tGameSelectFovTarget {
   cursor: any;
   hiddenCanvases: any;
   init(a: any): void;
-  viewSelectTarget(a: any, c: any): any;
+  viewSelectTarget(a: any, b: any): any;
   setFrameEvent(a: any): void;
   setFrameEvent_dispose(a: any): void;
   setFrameEvent_frame(a: any): void;
@@ -3804,13 +3828,13 @@ declare class tGameSelectFovTargetSkill {
   viewData: any;
   cursor: any;
   hiddenCanvases: any;
-  init(b: any): void;
-  viewSelectTarget(b: any, a: any, g: any, e: any): void;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
-  changeTarget(b: any): any;
+  init(a: any): void;
+  viewSelectTarget(a: any, b: any, c: any, d: any, e: any): void;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
+  changeTarget(a: any): any;
   drawTarget(): void;
 }
 
@@ -3824,7 +3848,7 @@ declare class tGameSelectImageTarget {
   cursor: any;
   margin: any;
   init(a: any): void;
-  viewSelectTargetWindow(a: any, b: any, d: any): void;
+  viewSelectTargetWindow(a: any, b: any, c: any): void;
   clear(): void;
   getOnePageData(a: any): any;
   getOneSize(a: any): any;
@@ -3891,155 +3915,155 @@ declare class tGameSelectWindow {
 
 declare class tGameSfpc {
   parent: any;
-  init(b: any): void;
-  view(b: any, d: any): void;
-  act(b: any): any;
+  init(a: any): void;
+  view(a: any, b: any): void;
+  act(a: any): any;
 }
 
 declare class tGameShitaiasari {
   parent: any;
-  init(b: any): void;
-  tryCreate(b: any): any;
-  oneActionFinishAction(b: any, a: any, c: any): void;
-  oneActionFinishAction_shitaiasarifirst(b: any, a: any): any;
-  oneActionFinishAction_shitaiasariinmap(b: any, a: any): void;
-  oneActionFinishAction_shitaiasarichecktimeout(b: any, a: any): any;
-  viewMap(b: any): void;
+  init(a: any): void;
+  tryCreate(a: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_shitaiasarifirst(a: any, b: any): any;
+  oneActionFinishAction_shitaiasariinmap(a: any, b: any): void;
+  oneActionFinishAction_shitaiasarichecktimeout(a: any, b: any): any;
+  viewMap(a: any): void;
   deleteCharactor(): any;
-  selectAnswer(b: any): any;
-  affectAnswer(b: any): void;
+  selectAnswer(a: any): any;
+  affectAnswer(a: any): void;
   createTargetMap(): any;
-  affectEnemyHone(b: any, a: any): void;
-  timeoutEvent(b: any): void;
+  affectEnemyHone(a: any, b: any): void;
+  timeoutEvent(a: any): void;
 }
 
 declare class tGameShokuzaifukuro {
   parent: any;
   data: any;
   types: any;
-  init(c: any): void;
+  init(a: any): void;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(c: any): any;
-  addItem(c: any): any;
-  removeItem(c: any, b: any, a: any): any;
-  inCharaItem(c: any, b: any, a: any): any;
-  outCharaItem(c: any, b: any, a: any, d: any): any;
-  enableAzukeru(c: any): any;
-  azukeru(c: any): void;
-  toridasu(c: any, b: any): void;
-  view(c: any, b: any): void;
+  setSaveData(a: any): any;
+  addItem(a: any): any;
+  removeItem(a: any, b: any, c: any): any;
+  inCharaItem(a: any, b: any, c: any): any;
+  outCharaItem(a: any, b: any, c: any, d: any): any;
+  enableAzukeru(a: any): any;
+  azukeru(a: any): void;
+  toridasu(a: any, b: any): void;
+  view(a: any, b: any): void;
   getShokuzaiShunoMikanteiItems(): any;
   getShokuzaiShunoNoroiItems(): any;
-  kanteiItem(c: any, b: any, a: any): any;
-  noroikeshiItem(c: any, b: any, a: any): any;
-  searchItemId(c: any, b: any): any;
+  kanteiItem(a: any, b: any, c: any): any;
+  noroikeshiItem(a: any, b: any, c: any): any;
+  searchItemId(a: any, b: any): any;
 }
 
 declare class tGameShop {
   parent: any;
-  init(b: any): void;
-  checkNewItem(b: any, a: any): any;
-  buy(b: any): any;
-  sell(b: any): any;
-  newItem(b: any): void;
-  getLevelToStoreLevel(b: any, a: any): any;
-  getStoreMaxLevel(b: any): any;
-  isStoreLevelAnswer(b: any): any;
-  getShopRankPlus(b: any): any;
-  getRankUpPrice(b: any, a: any): any;
-  shopLevelUp(b: any): void;
-  getStoreScaleSpace(b: any): any;
-  isStoreScaleAnswer(b: any): any;
-  shopScaleUp(b: any): any;
+  init(a: any): void;
+  checkNewItem(a: any, b: any): any;
+  buy(a: any): any;
+  sell(a: any): any;
+  newItem(a: any): void;
+  getLevelToStoreLevel(a: any, b: any): any;
+  getStoreMaxLevel(a: any): any;
+  isStoreLevelAnswer(a: any): any;
+  getShopRankPlus(a: any): any;
+  getRankUpPrice(a: any, b: any): any;
+  shopLevelUp(a: any): void;
+  getStoreScaleSpace(a: any): any;
+  isStoreScaleAnswer(a: any): any;
+  shopScaleUp(a: any): any;
 }
 
 declare class tGameShortCut {
   parent: any;
   maxNum: any;
-  init(b: any): void;
+  init(a: any): void;
   getShortCut(): any;
-  setShortCutIdx(b: any, e: any, a: any, d: any): any;
-  getShortCutIdx(b: any, e: any): any;
-  actionShortCutIdx(b: any, e: any): any;
+  setShortCutIdx(a: any, b: any, c: any, d: any): any;
+  getShortCutIdx(a: any, b: any): any;
+  actionShortCutIdx(a: any, b: any): any;
 }
 
 declare class tGameShortEvent {
   parent: any;
   chips: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  loadLinkJson(c: any): void;
+  init(a: any): void;
+  initLoad(a: any): void;
+  loadLinkJson(a: any): void;
   initChipData(): void;
-  encount(c: any): any;
-  drawBackground(c: any, b: any, a: any): void;
-  choise(c: any): void;
-  choise_allmember(c: any): void;
-  choise_default(c: any): void;
-  choise_act(c: any, b: any): void;
-  choise_act_original(c: any, b: any): void;
-  choise_act_escape(c: any, b: any): void;
-  statusHenka(c: any): void;
-  escape(c: any): void;
-  finishNokoru(c: any): void;
-  finishMessage(c: any, b: any): void;
-  finishMessage2(c: any, b: any): void;
+  encount(a: any): any;
+  drawBackground(a: any, b: any, c: any): void;
+  choise(a: any): void;
+  choise_allmember(a: any): void;
+  choise_default(a: any): void;
+  choise_act(a: any, b: any): void;
+  choise_act_original(a: any, b: any): void;
+  choise_act_escape(a: any, b: any): void;
+  statusHenka(a: any): void;
+  escape(a: any): void;
+  finishNokoru(a: any): void;
+  finishMessage(a: any, b: any): void;
+  finishMessage2(a: any, b: any): void;
   getRandomCharactor(): any;
   getAllMember(): any;
-  getAroundSpaces(c: any, b: any): any;
-  getAroundSpacesTargetNum(c: any, b: any, a: any): any;
-  getAroundSpace(c: any): any;
-  choise_act_original_act_0001_0001(c: any, b: any): void;
-  choise_act_original_act_0001_0002(c: any, b: any): void;
-  choise_act_original_act_0001_0003(c: any, b: any): void;
-  choise_act_original_act_0002_0001(c: any, b: any): void;
-  choise_act_original_act_0002_0002(c: any, b: any): void;
-  choise_act_original_act_0002_0003(c: any, b: any): void;
-  choise_act_original_act_0003_0001(c: any, b: any): void;
-  choise_act_original_act_0003_0002(c: any, b: any): void;
-  choise_act_original_act_0003_0003(c: any, b: any): void;
-  choise_act_original_act_0004_0001(c: any, b: any): void;
-  choise_act_original_act_0004_0002(c: any, b: any): void;
-  choise_act_original_act_0004_0003(c: any, b: any): void;
-  choise_act_original_act_0005_0001(c: any, b: any): void;
-  choise_act_original_act_0005_0002(c: any, b: any): void;
-  choise_act_original_act_0006_0001(c: any, b: any): void;
-  choise_act_original_act_0006_0002(c: any, b: any): void;
-  choise_act_original_act_0007_0001(c: any, b: any): void;
-  choise_act_original_act_0008_0001(c: any, b: any): void;
-  choise_act_original_act_0009_0001(c: any, b: any): void;
-  choise_act_original_act_0009_0002(c: any, b: any): void;
-  choise_act_original_act_0010_0001(c: any, b: any): void;
-  choise_act_original_act_0010_0002(c: any, b: any): void;
-  choise_act_original_act_0011_0001(c: any, b: any): void;
-  choise_act_original_act_0011_0002(c: any, b: any): void;
-  choise_act_original_act_0012_0001(c: any, b: any): void;
-  choise_act_original_act_0012_0002(c: any, b: any): void;
-  choise_act_original_act_0013_0001(c: any, b: any): void;
-  choise_act_original_act_0013_0002(c: any, b: any): void;
-  choise_act_original_act_0013_0003(c: any, b: any): void;
-  choise_act_original_act_0014_0001(c: any, b: any): void;
-  choise_act_original_act_0015_0001(c: any, b: any): void;
-  choise_act_original_act_0015_0002(c: any, b: any): void;
-  choise_act_original_act_0016_0001(c: any, b: any): void;
-  choise_act_original_act_0017_0001(c: any, b: any): void;
-  choise_act_original_act_0018_0001(c: any, b: any): void;
-  choise_act_original_act_0018_0002(c: any, b: any): void;
+  getAroundSpaces(a: any, b: any): any;
+  getAroundSpacesTargetNum(a: any, b: any, c: any): any;
+  getAroundSpace(a: any): any;
+  choise_act_original_act_0001_0001(a: any, b: any): void;
+  choise_act_original_act_0001_0002(a: any, b: any): void;
+  choise_act_original_act_0001_0003(a: any, b: any): void;
+  choise_act_original_act_0002_0001(a: any, b: any): void;
+  choise_act_original_act_0002_0002(a: any, b: any): void;
+  choise_act_original_act_0002_0003(a: any, b: any): void;
+  choise_act_original_act_0003_0001(a: any, b: any): void;
+  choise_act_original_act_0003_0002(a: any, b: any): void;
+  choise_act_original_act_0003_0003(a: any, b: any): void;
+  choise_act_original_act_0004_0001(a: any, b: any): void;
+  choise_act_original_act_0004_0002(a: any, b: any): void;
+  choise_act_original_act_0004_0003(a: any, b: any): void;
+  choise_act_original_act_0005_0001(a: any, b: any): void;
+  choise_act_original_act_0005_0002(a: any, b: any): void;
+  choise_act_original_act_0006_0001(a: any, b: any): void;
+  choise_act_original_act_0006_0002(a: any, b: any): void;
+  choise_act_original_act_0007_0001(a: any, b: any): void;
+  choise_act_original_act_0008_0001(a: any, b: any): void;
+  choise_act_original_act_0009_0001(a: any, b: any): void;
+  choise_act_original_act_0009_0002(a: any, b: any): void;
+  choise_act_original_act_0010_0001(a: any, b: any): void;
+  choise_act_original_act_0010_0002(a: any, b: any): void;
+  choise_act_original_act_0011_0001(a: any, b: any): void;
+  choise_act_original_act_0011_0002(a: any, b: any): void;
+  choise_act_original_act_0012_0001(a: any, b: any): void;
+  choise_act_original_act_0012_0002(a: any, b: any): void;
+  choise_act_original_act_0013_0001(a: any, b: any): void;
+  choise_act_original_act_0013_0002(a: any, b: any): void;
+  choise_act_original_act_0013_0003(a: any, b: any): void;
+  choise_act_original_act_0014_0001(a: any, b: any): void;
+  choise_act_original_act_0015_0001(a: any, b: any): void;
+  choise_act_original_act_0015_0002(a: any, b: any): void;
+  choise_act_original_act_0016_0001(a: any, b: any): void;
+  choise_act_original_act_0017_0001(a: any, b: any): void;
+  choise_act_original_act_0018_0001(a: any, b: any): void;
+  choise_act_original_act_0018_0002(a: any, b: any): void;
 }
 
 declare class tGameShukkabako {
   parent: any;
   data: any;
-  init(b: any): void;
+  init(a: any): void;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(b: any): any;
-  createShukkabako(b: any): any;
-  viewWindow(b: any): void;
-  viewDefault(b: any, a: any): void;
-  uru(b: any): void;
-  addShopSeed(b: any): any;
-  kau(b: any): void;
+  setSaveData(a: any): any;
+  createShukkabako(a: any): any;
+  viewWindow(a: any): void;
+  viewDefault(a: any, b: any): void;
+  uru(a: any): void;
+  addShopSeed(a: any): any;
+  kau(a: any): void;
   hoju(): any;
 }
 
@@ -4047,10 +4071,10 @@ declare class tGameSkill {
   parent: any;
   skillData: any;
   npcSkills: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  getExp(c: any, a: any): any;
-  getLevelToExp(c: any, a: any, d: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  getExp(a: any, b: any): any;
+  getLevelToExp(a: any, b: any, c: any): any;
 }
 
 declare class tGameSkillAction {
@@ -4065,173 +4089,174 @@ declare class tGameSkillAction {
   setRankAskills2(): void;
   getSkillName(a: any): any;
   convertSkillData(a: any): any;
-  getSkillLanges(a: any, m: any): any;
-  calSkillArea(a: any, m: any, e: any): any;
-  viewEffect(a: any, m: any, e: any, d: any, n: any, t: any, u: any, w: any): void;
+  getSkillLanges(a: any, b: any): any;
+  calSkillArea(a: any, b: any, c: any): any;
+  viewEffect(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any): void;
   getSkillType(a: any): any;
   getTakeSkillActionResult(): any;
-  takeSkillAction_summon(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_summonboss(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_summonanimal(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_battlereset(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_teamonmitsu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_allkanpa(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_alerm(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_cure(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_rcure(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_removecondition(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_badcondition(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_badcondition2(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_badcondition3(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_badcondition4(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_goodcondition(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_addcounter(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_bukizokusei(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_grantup(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_grantdown(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_grantrateup(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_tetsuya(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_grantratedown(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_cdtdamage(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_mcure(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_mmcure(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_mcureremovecondition(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_mcurebadcondition(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_statusupbadcondition(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_attack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_food(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_light(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_weatherchange(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_warmeirei(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_warbomb(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_teleport(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_teleport2(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_poschange(a: any, m: any, e: any, d: any, n: any, t: any): any;
-  takeSkillAction_possekkin(a: any, m: any, e: any, d: any, n: any, t: any): any;
-  takeSkillAction_poschikaduke(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_chohatsu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_shugo(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_mitoosenu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_breaktrap(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_tagayasu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_farmsodatsu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_farmoishiku(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_mizumaki(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_seed(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_cookstart(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_chogostart(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_enchantmentstart(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_blacksmithstart(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_equiprankupstart(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_nejitaku(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_agechange(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_fspplus(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_fspminus(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_fspplus2(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_fspminus2(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_statusgrowth(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_statusgrowthlimit(a: any, m: any, e: any, d: any, n: any): any;
+  takeSkillAction_summon(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_summonboss(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_summonanimal(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_battlereset(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_teamonmitsu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_allkanpa(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_alerm(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_cure(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_rcure(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_removecondition(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_badcondition(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_badcondition2(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_badcondition3(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_badcondition4(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_goodcondition(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_addcounter(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_bukizokusei(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_grantup(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_grantdown(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_grantrateup(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_tetsuya(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_grantratedown(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_cdtdamage(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_mcure(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_mmcure(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_mcureremovecondition(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_mcurebadcondition(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_statusupbadcondition(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_attack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_food(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_light(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_weatherchange(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_warmeirei(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_warbomb(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_teleport(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_teleport2(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_poschange(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  takeSkillAction_possekkin(a: any, b: any, c: any, d: any, e: any, f: any): any;
+  takeSkillAction_poschikaduke(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_chohatsu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_shugo(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_mitoosenu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_breaktrap(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_tagayasu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_farmsodatsu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_farmoishiku(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_mizumaki(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_sozaisoujiki(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_seed(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_cookstart(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_chogostart(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_enchantmentstart(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_blacksmithstart(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_equiprankupstart(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_nejitaku(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_agechange(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_fspplus(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_fspminus(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_fspplus2(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_fspminus2(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_statusgrowth(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_statusgrowthlimit(a: any, b: any, c: any, d: any, e: any): any;
   createID(): any;
-  updateSkill(a: any, m: any): any;
+  updateSkill(a: any, b: any): any;
   createSkill(a: any): any;
-  getExp(a: any, m: any): any;
-  takeSkillAction_remote(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_shindou(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_bougen(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_remotebomb(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_statusup(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_statusdown(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_nanimoshinai(a: any, m: any, e: any, d: any, n: any): any;
-  getDescription(a: any, m: any): any;
-  takeSkillAction_bakuhatsu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_bakuhatsu2(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_yubaku(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_bombbakuhatsu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_music(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_hungry(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_damage(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_curse(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_rust(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_equipreinforce(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_equipkeiryoka(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_equipjuryoka(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_sennotobashi(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_sekkinattack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_shuryo(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_setreuse(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_poschangeattack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_haisuiattack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_mettazashi(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_gaichu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_nantokaball(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_nantokabomb(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_setsuri(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_shittoattack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_yumekuiattack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_noroiattack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_daichiattack(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_seimeisui(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_wariaidamage(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_randomspd(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_chokasoku(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_jigenyugami(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_pandorabox(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_zentaishiji(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_skillexp(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_randomkantei(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_randomnoroikeshi(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_noroitaiseiplus(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_jakukataiseiplus(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_noroitaiseiminus(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_jakukataiseiminus(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_enemykanyu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_bomb(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_fukitobasu(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_tosshin(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_createtrap(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_newskill(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_droprandomskill(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_skilllevelup(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_souden(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_henshin(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_hbook(a: any, m: any, e: any, d: any, n: any): any;
-  takeSkillAction_askillwakuplus(a: any, m: any, e: any, d: any, n: any): any;
-  shokujiResult(a: any, m: any): any;
+  getExp(a: any, b: any): any;
+  takeSkillAction_remote(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_shindou(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_bougen(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_remotebomb(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_statusup(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_statusdown(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_nanimoshinai(a: any, b: any, c: any, d: any, e: any): any;
+  getDescription(a: any, b: any): any;
+  takeSkillAction_bakuhatsu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_bakuhatsu2(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_yubaku(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_bombbakuhatsu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_music(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_hungry(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_damage(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_curse(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_rust(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_equipreinforce(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_equipkeiryoka(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_equipjuryoka(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_sennotobashi(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_sekkinattack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_shuryo(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_setreuse(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_poschangeattack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_haisuiattack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_mettazashi(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_gaichu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_nantokaball(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_nantokabomb(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_setsuri(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_shittoattack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_yumekuiattack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_noroiattack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_daichiattack(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_seimeisui(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_wariaidamage(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_randomspd(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_chokasoku(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_jigenyugami(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_pandorabox(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_zentaishiji(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_skillexp(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_randomkantei(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_randomnoroikeshi(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_noroitaiseiplus(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_jakukataiseiplus(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_noroitaiseiminus(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_jakukataiseiminus(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_enemykanyu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_bomb(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_fukitobasu(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_tosshin(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_createtrap(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_newskill(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_droprandomskill(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_skilllevelup(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_souden(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_henshin(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_hbook(a: any, b: any, c: any, d: any, e: any): any;
+  takeSkillAction_askillwakuplus(a: any, b: any, c: any, d: any, e: any): any;
+  shokujiResult(a: any, b: any): any;
   getMusicCondition(): any;
   getMusicActionCondition(): any;
   getScrollCondition(): any;
   getMagicCondition(): any;
   getActionCondition(): any;
-  getLevelToRank(a: any, m: any): any;
+  getLevelToRank(a: any, b: any): any;
   judgeCreateSkill(a: any): any;
-  getKeishoRate(a: any, m: any, e: any, d: any): any;
-  getVal(a: any, m: any, e: any): any;
-  checkTargetEquipment(a: any, m: any): any;
-  createItemSkill(a: any, m: any, e: any, d: any, n: any): any;
-  judgeAttackDamageAction(a: any, m: any, e: any, d: any): any;
-  judgeAttackKaihiAction(a: any, m: any, e: any, d: any): any;
-  getLuckRate(a: any, m: any, e: any): any;
-  judgeAttackKaihiAction_kaihiToTargetChara(a: any, m: any, e: any, d: any, n: any): any;
-  judgeAttackDamageAction_toTargetChara(a: any, m: any, e: any, d: any, n: any): any;
-  judgeAttackDamageAction_toTargetCharaPhysicsLong(a: any, m: any, e: any, d: any, n: any): any;
-  judgeAttackDamageAction_toTargetCharaElementalCounter(a: any, m: any, e: any, d: any, n: any): any;
-  judgeAttackDamageAction_toTargetCharaElemental2Counter(a: any, m: any, e: any, d: any, n: any): any;
-  judgeAttackDamageAction_toMyself(a: any, m: any, e: any, d: any, n: any): any;
-  judgeAttackDamageAction_toMyselfDying(a: any, m: any, e: any, d: any, n: any): any;
-  isUseAction(a: any, m: any, e: any): any;
-  getNewSkillLevel(a: any, m: any): any;
+  getKeishoRate(a: any, b: any, c: any, d: any): any;
+  getVal(a: any, b: any, c: any): any;
+  checkTargetEquipment(a: any, b: any): any;
+  createItemSkill(a: any, b: any, c: any, d: any, e: any): any;
+  judgeAttackDamageAction(a: any, b: any, c: any, d: any): any;
+  judgeAttackKaihiAction(a: any, b: any, c: any, d: any): any;
+  getLuckRate(a: any, b: any, c: any): any;
+  judgeAttackKaihiAction_kaihiToTargetChara(a: any, b: any, c: any, d: any, e: any): any;
+  judgeAttackDamageAction_toTargetChara(a: any, b: any, c: any, d: any, e: any): any;
+  judgeAttackDamageAction_toTargetCharaPhysicsLong(a: any, b: any, c: any, d: any, e: any): any;
+  judgeAttackDamageAction_toTargetCharaElementalCounter(a: any, b: any, c: any, d: any, e: any): any;
+  judgeAttackDamageAction_toTargetCharaElemental2Counter(a: any, b: any, c: any, d: any, e: any): any;
+  judgeAttackDamageAction_toMyself(a: any, b: any, c: any, d: any, e: any): any;
+  judgeAttackDamageAction_toMyselfDying(a: any, b: any, c: any, d: any, e: any): any;
+  isUseAction(a: any, b: any, c: any): any;
+  getNewSkillLevel(a: any, b: any): any;
   updateNantokaBall(a: any): void;
   updateNantokaBomb(a: any): void;
-  useSkillActionBefore(a: any, m: any, e: any, d: any, n: any, t: any, u: any, w: any, p: any, b: any, h: any): void;
+  useSkillActionBefore(a: any, b: any, c: any, d: any, e: any, f: any, g: any, h: any, i: any, j: any, k: any): void;
 }
 
 declare class tGameSkillActionBook {
   parent: any;
   randomTargets: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  createRandomItem(c: any): any;
-  createItem(c: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  createRandomItem(a: any): any;
+  createItem(a: any): any;
 }
 
 declare class tGameSkillActionInfoWindow {
@@ -4239,8 +4264,8 @@ declare class tGameSkillActionInfoWindow {
   cvs: any;
   ctx: any;
   fontSize: any;
-  init(b: any): void;
-  viewInfoWindow(b: any): any;
+  init(a: any): void;
+  viewInfoWindow(a: any): any;
 }
 
 declare class tGameSkillActionWindow {
@@ -4256,7 +4281,7 @@ declare class tGameSkillActionWindow {
   cursor: any;
   init(a: any): void;
   clear(): void;
-  viewSkillActionWindow(a: any, c: any): any;
+  viewSkillActionWindow(a: any, b: any): any;
   drawPage(a: any): void;
   getCursor(a: any): any;
   setFrameEvent(a: any): void;
@@ -4275,16 +4300,16 @@ declare class tGameSkillInfoWindow {
   cvs: any;
   ctx: any;
   fontSize: any;
-  init(b: any): void;
-  viewInfoWindow(b: any): any;
+  init(a: any): void;
+  viewInfoWindow(a: any): any;
 }
 
 declare class tGameSkillShop {
   parent: any;
-  init(b: any): void;
-  checkNewItem(b: any): any;
-  buyPlayerTeam(b: any): any;
-  buy(b: any): any;
+  init(a: any): void;
+  checkNewItem(a: any): any;
+  buyPlayerTeam(a: any): any;
+  buy(a: any): any;
 }
 
 declare class tGameSkillWindow {
@@ -4298,38 +4323,38 @@ declare class tGameSkillWindow {
   viewData: any;
   viewSkillMaxNum: any;
   cursor: any;
-  init(b: any): void;
+  init(a: any): void;
   clear(): void;
-  viewSkillWindow(b: any, c: any): any;
-  drawPage(b: any): void;
-  getCursor(b: any): any;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
+  viewSkillWindow(a: any, b: any): any;
+  drawPage(a: any): void;
+  getCursor(a: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
-  setCursor(b: any): any;
+  setCursor(a: any): any;
 }
 
 declare class tGameSlaveShop {
   parent: any;
-  init(b: any): void;
-  checkNewItem(b: any): any;
-  createSlaveCharactor(b: any): any;
-  buy(b: any): any;
+  init(a: any): void;
+  checkNewItem(a: any): any;
+  createSlaveCharactor(a: any): any;
+  buy(a: any): any;
 }
 
 declare class tGameSleep {
   parent: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  sleep(c: any, g: any): void;
-  sleepInn(c: any, g: any): void;
-  sleepAction(c: any, g: any, a: any, e: any): void;
+  init(a: any): void;
+  initLoad(a: any): void;
+  sleep(a: any, b: any): void;
+  sleepInn(a: any, b: any): void;
+  sleepAction(a: any, b: any, c: any, d: any): void;
   getTogetherCharas(): any;
-  sleepTogether(c: any, g: any): void;
-  getSleepTime(c: any, g: any): any;
-  sleepSave(c: any): any;
+  sleepTogether(a: any, b: any): void;
+  getSleepTime(a: any, b: any): any;
+  sleepSave(a: any): any;
 }
 
 declare class tGameSlot {
@@ -4378,8 +4403,8 @@ declare class tGameSlotReel {
 declare class tGameSlumGenerator {
   parent: any;
   init(a: any): void;
-  createSlumWithLoad(a: any, h: any): void;
-  createSlum(a: any, h: any): any;
+  createSlumWithLoad(a: any, b: any): void;
+  createSlum(a: any, b: any): any;
   actionPattern(a: any): any;
   updateActionPattern(a: any): any;
   actionPatternOne(a: any): any;
@@ -4389,15 +4414,15 @@ declare class tGameSoubifukuro {
   parent: any;
   max: any;
   nameMaxLength: any;
-  init(b: any): void;
+  init(a: any): void;
   getEquipList(): any;
-  searchTargetEquipment(b: any): any;
-  view(b: any, c: any): void;
+  searchTargetEquipment(a: any): any;
+  view(a: any, b: any): void;
   isEnableRegistEquips(): any;
-  registEquips(b: any): any;
-  soubihazusu(b: any): any;
-  soubiyobidasu(b: any, c: any): void;
-  getItemDescription(b: any, c: any): any;
+  registEquips(a: any): any;
+  soubihazusu(a: any): any;
+  soubiyobidasu(a: any, b: any): void;
+  getItemDescription(a: any, b: any): any;
 }
 
 declare class tGameSoundResource {
@@ -4423,30 +4448,30 @@ declare class tGameSozaifukuro {
   parent: any;
   data: any;
   types: any;
-  init(d: any): void;
+  init(a: any): void;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(d: any): any;
-  addItem(d: any): any;
-  removeItem(d: any, b: any, a: any): any;
-  inCharaItem(d: any, b: any, a: any): any;
-  outCharaItem(d: any, b: any, a: any, c: any): any;
-  azukeru(d: any): void;
-  toridasu(d: any, b: any): void;
-  view(d: any, b: any): void;
+  setSaveData(a: any): any;
+  addItem(a: any): any;
+  removeItem(a: any, b: any, c: any): any;
+  inCharaItem(a: any, b: any, c: any): any;
+  outCharaItem(a: any, b: any, c: any, d: any): any;
+  azukeru(a: any): void;
+  toridasu(a: any, b: any): void;
+  view(a: any, b: any): void;
   getSozaiShunoMikanteiItems(): any;
   getSozaiShunoNoroiItems(): any;
-  kanteiItem(d: any, b: any, a: any): any;
-  noroikeshiItem(d: any, b: any, a: any): any;
-  searchItemId(d: any, b: any): any;
+  kanteiItem(a: any, b: any, c: any): any;
+  noroikeshiItem(a: any, b: any, c: any): any;
+  searchItemId(a: any, b: any): any;
 }
 
 declare class tGameSpecialMap {
   parent: any;
   init(a: any): void;
   initLoad(a: any): void;
-  createQuest1Map(a: any, n: any): any;
-  createQuest9Map(a: any, n: any): any;
+  createQuest1Map(a: any, b: any): any;
+  createQuest9Map(a: any, b: any): any;
   createFreeMap(a: any): any;
   createFreeMap_act(a: any): any;
   setWood(a: any): void;
@@ -4455,7 +4480,7 @@ declare class tGameSpecialMap {
   setSaboten(a: any): void;
   setKirikabu(a: any): void;
   setItem(a: any): void;
-  getFreeMapStartPosition(a: any, n: any): any;
+  getFreeMapStartPosition(a: any, b: any): any;
 }
 
 declare class tGameStatusWindow {
@@ -4474,26 +4499,26 @@ declare class tGameStatusWindow {
   dctx: any;
   pcvs: any;
   pctx: any;
-  init(f: any): void;
+  init(a: any): void;
   clear(): void;
-  viewStatusWindow(f: any, k: any): any;
-  drawTable(f: any): any;
+  viewStatusWindow(a: any, b: any): any;
+  drawTable(a: any): any;
   drawProfile(): any;
   drawDefcdt(): any;
   drawCondition(): any;
   drawNpcEtc(): any;
-  drawPage(f: any): any;
-  drawPage_main(f: any): void;
-  drawPage_defcdt(f: any): void;
-  drawPage_condition(f: any): void;
-  drawPage_npcetc(f: any): void;
-  setFrameEvent(f: any): void;
-  setFrameEvent_dispose(f: any): void;
-  setFrameEvent_frame(f: any): void;
-  setFrameEvent_draw(f: any): void;
+  drawPage(a: any): any;
+  drawPage_main(a: any): void;
+  drawPage_defcdt(a: any): void;
+  drawPage_condition(a: any): void;
+  drawPage_npcetc(a: any): void;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
   updateStatus(): void;
-  isNpcEtc(f: any): any;
+  isNpcEtc(a: any): any;
 }
 
 declare class tGameSteal {
@@ -4607,44 +4632,45 @@ declare class tGameStgPoint {
 declare class tGameStorage {
   parent: any;
   data: any;
-  init(b: any): void;
+  init(a: any): void;
   initSaveData(): void;
   getSaveData(): any;
-  setSaveData(b: any): any;
-  createStorage(b: any): any;
-  viewWindow(b: any): any;
-  initTalk(b: any): void;
-  viewDefault(b: any, d: any): void;
-  viewArrears(b: any): void;
+  setSaveData(a: any): any;
+  createStorage(a: any): any;
+  viewWindow(a: any): any;
+  initTalk(a: any): void;
+  viewDefault(a: any, b: any): void;
+  viewArrears(a: any): void;
   pay(): void;
   getItemNum(): any;
-  payArrearsMoney(b: any): void;
-  addItem(b: any): any;
-  removeItem(b: any, d: any, a: any): any;
-  inCharaItem(b: any, d: any, a: any): any;
-  outCharaItem(b: any, d: any, a: any, c: any): any;
-  outOkuItem(b: any, d: any, a: any): any;
-  azukeru(b: any): void;
-  toridasu(b: any, d: any): void;
-  selectItem(b: any): void;
-  help(b: any): void;
-  maoupay(b: any, d: any): void;
+  payArrearsMoney(a: any): void;
+  addItem(a: any): any;
+  removeItem(a: any, b: any, c: any): any;
+  inCharaItem(a: any, b: any, c: any): any;
+  outCharaItem(a: any, b: any, c: any, d: any): any;
+  outOkuItem(a: any, b: any, c: any): any;
+  azukeru(a: any): void;
+  toridasu(a: any, b: any): void;
+  selectItem(a: any): void;
+  help(a: any): void;
+  maoupay(a: any, b: any): void;
   fusaiShometsu(): any;
-  sortItems(b: any): void;
-  setSortType(b: any, d: any): void;
-  setSortTypeWindow(b: any, d: any): void;
+  sortItems(a: any): void;
+  setSortType(a: any, b: any): void;
+  setSortTypeWindow(a: any, b: any): void;
   fixKakeraGroup(): void;
-  searchItemId(b: any, d: any): any;
+  searchItemId(a: any, b: any): any;
+  getPrice(): any;
 }
 
 declare class tGameStoryWindow {
   parent: any;
   fontSize: any;
   textSpace: any;
-  init(b: any): void;
+  init(a: any): void;
   clearCanvas(): void;
-  view(b: any): any;
-  drawDetail(b: any): void;
+  view(a: any): any;
+  drawDetail(a: any): void;
   getDetail_god(): any;
   getDetail_megamiev(): any;
   getDetail_kaichoev(): any;
@@ -4686,11 +4712,11 @@ declare class tGameSubTown {
 declare class tGameTableTalk {
   parent: any;
   viewData: any;
-  init(e: any): void;
-  view(e: any, a: any): any;
+  init(a: any): void;
+  view(a: any, b: any): any;
   viewSelectChara(): void;
-  talk(e: any): any;
-  talkStart(e: any): void;
+  talk(a: any): any;
+  talkStart(a: any): void;
 }
 
 declare class tGameTalkResource {
@@ -4698,50 +4724,50 @@ declare class tGameTalkResource {
   talkData: any;
   talkDataCache: any;
   emptyMsg: any;
-  init(d: any): void;
-  getCharaPlayerRelationKey(d: any): any;
-  convertTalk(d: any, e: any, f: any): any;
-  getChoiseMessage(d: any, e: any): any;
-  getChoiseJoinTeamMessage(d: any, e: any, f: any, c: any): any;
-  getChoiseRequestMyTownMessage(d: any, e: any, f: any, c: any): any;
-  getChoiseRemoveTeamMessage(d: any, e: any, f: any, c: any): any;
-  getChoiseQuestMessage(d: any, e: any, f: any, c: any): any;
-  getChoiseQuestConfirmMessage(d: any, e: any): any;
-  getChoiseQuestFinishMessage(d: any, e: any): any;
-  getChoiseQuestFailureMessage(d: any, e: any): any;
-  getChoiseNotItemMessage(d: any, e: any): any;
-  getChoiseNohinItemMessage(d: any, e: any): any;
-  getFukidashiMssage(d: any, e: any): any;
-  getCommonFukidashiMssage(d: any, e: any, f: any): any;
-  getChoiseCondition(d: any, e: any): any;
-  convertValue(d: any, e: any, f: any): any;
-  initLoad(d: any): void;
-  loadEventTalk(d: any, e: any): any;
-  getRescueChoiseMessage(d: any): any;
-  getRescueSuccessChoiseMessage(d: any): any;
-  getFreeChoiseMessage(d: any, e: any, f: any): any;
-  getFreeChoiseMessage2(d: any, e: any, f: any, c: any): any;
-  getFreeChoiseMessage3(d: any, e: any, f: any, c: any, a: any): any;
-  getFreeChoiseMessageList(d: any, e: any, f: any, c: any): any;
-  viewKnockDownChoiseMessage(d: any, e: any): any;
-  viewKnockDownCheerChoiseMessage(d: any, e: any): any;
-  getQuest4SuccessChoiseMessage(d: any): any;
-  getQuest4FailureChoiseMessage(d: any): any;
-  getChoiseRequestRemoveMyTownMessage(d: any, e: any): any;
-  getChoiseRequestRelationMessage(d: any, e: any, f: any, c: any): any;
-  getCommonTalk(d: any, e: any, f: any): any;
-  getTalkMessage(d: any, e: any, f: any): any;
-  getAroundTalks(d: any): any;
-  encodeMyTalkData(d: any): any;
-  decodeMyTalkData(d: any): any;
-  removeMyTlkDataToTalkData(d: any): void;
-  setMyTlkDataToTalkData(d: any, e: any): any;
-  loadMyTalkDataRange(d: any): void;
-  loadMyTalkData(d: any): void;
-  loadTargetMyTalkData(d: any, e: any): void;
-  getTextTalkData(d: any, e: any): void;
-  getTableTalkMessage(d: any, e: any, f: any): any;
-  getSleepTogetherMessage(d: any, e: any, f: any): any;
+  init(a: any): void;
+  getCharaPlayerRelationKey(a: any): any;
+  convertTalk(a: any, b: any, c: any): any;
+  getChoiseMessage(a: any, b: any): any;
+  getChoiseJoinTeamMessage(a: any, b: any, c: any, d: any): any;
+  getChoiseRequestMyTownMessage(a: any, b: any, c: any, d: any): any;
+  getChoiseRemoveTeamMessage(a: any, b: any, c: any, d: any): any;
+  getChoiseQuestMessage(a: any, b: any, c: any, d: any): any;
+  getChoiseQuestConfirmMessage(a: any, b: any): any;
+  getChoiseQuestFinishMessage(a: any, b: any): any;
+  getChoiseQuestFailureMessage(a: any, b: any): any;
+  getChoiseNotItemMessage(a: any, b: any): any;
+  getChoiseNohinItemMessage(a: any, b: any): any;
+  getFukidashiMssage(a: any, b: any): any;
+  getCommonFukidashiMssage(a: any, b: any, c: any): any;
+  getChoiseCondition(a: any, b: any): any;
+  convertValue(a: any, b: any, c: any): any;
+  initLoad(a: any): void;
+  loadEventTalk(a: any, b: any): any;
+  getRescueChoiseMessage(a: any): any;
+  getRescueSuccessChoiseMessage(a: any): any;
+  getFreeChoiseMessage(a: any, b: any, c: any): any;
+  getFreeChoiseMessage2(a: any, b: any, c: any, d: any): any;
+  getFreeChoiseMessage3(a: any, b: any, c: any, d: any, e: any): any;
+  getFreeChoiseMessageList(a: any, b: any, c: any, d: any): any;
+  viewKnockDownChoiseMessage(a: any, b: any): any;
+  viewKnockDownCheerChoiseMessage(a: any, b: any): any;
+  getQuest4SuccessChoiseMessage(a: any): any;
+  getQuest4FailureChoiseMessage(a: any): any;
+  getChoiseRequestRemoveMyTownMessage(a: any, b: any): any;
+  getChoiseRequestRelationMessage(a: any, b: any, c: any, d: any): any;
+  getCommonTalk(a: any, b: any, c: any): any;
+  getTalkMessage(a: any, b: any, c: any): any;
+  getAroundTalks(a: any): any;
+  encodeMyTalkData(a: any): any;
+  decodeMyTalkData(a: any): any;
+  removeMyTlkDataToTalkData(a: any): void;
+  setMyTlkDataToTalkData(a: any, b: any): any;
+  loadMyTalkDataRange(a: any): void;
+  loadMyTalkData(a: any): void;
+  loadTargetMyTalkData(a: any, b: any): void;
+  getTextTalkData(a: any, b: any): void;
+  getTableTalkMessage(a: any, b: any, c: any): any;
+  getSleepTogetherMessage(a: any, b: any, c: any): any;
   updateButtonKeyLabel(): void;
 }
 
@@ -4755,7 +4781,7 @@ declare class tGameText {
   textSpace: any;
   lineHeight: any;
   init(a: any): void;
-  setFont(a: any, b: any, l: any): void;
+  setFont(a: any, b: any, c: any): void;
   createTextSingleLine(a: any): any;
   createText(a: any): any;
   createText_en(a: any): any;
@@ -4774,12 +4800,12 @@ declare class tGameTextInputWindow {
   fontSize: any;
   viewData: any;
   textBox: any;
-  init(b: any): void;
-  viewTextInputWindow(b: any, d: any): any;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
+  init(a: any): void;
+  viewTextInputWindow(a: any, b: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
 }
 
@@ -4790,7 +4816,7 @@ declare class tGameTextInputWindow2 {
   cursor: any;
   keys: any;
   init(a: any): void;
-  viewTextInputWindow(a: any, c: any): void;
+  viewTextInputWindow(a: any, b: any): void;
   setFrameEvent(a: any): void;
   setFrameEvent_dispose(a: any): void;
   setFrameEvent_frame(a: any): void;
@@ -4833,12 +4859,12 @@ declare class tGameTime {
 declare class tGameTitle {
   parent: any;
   images: any;
-  init(b: any): void;
-  initLoad(b: any): void;
+  init(a: any): void;
+  initLoad(a: any): void;
   viewTitle(): void;
-  drawBackground(b: any, c: any): any;
-  drawBackground_etc(b: any, c: any): any;
-  drawBackground_title(b: any): void;
+  drawBackground(a: any, b: any): any;
+  drawBackground_etc(a: any, b: any): any;
+  drawBackground_title(a: any): void;
 }
 
 declare class tGameTitleWindow {
@@ -4854,27 +4880,27 @@ declare class tGameTitleWindow {
   cursor: any;
   clearBottomData: any;
   optionClearData: any;
-  init(b: any): void;
+  init(a: any): void;
   clear(): void;
-  viewSaveWindow(b: any, a: any, c: any): void;
-  drawPage(b: any): void;
-  getCursor(b: any): any;
-  setFrameEvent(b: any): void;
-  setFrameEvent_dispose(b: any): void;
-  setFrameEvent_frame(b: any): void;
-  setFrameEvent_draw(b: any): void;
+  viewSaveWindow(a: any, b: any, c: any): void;
+  drawPage(a: any): void;
+  getCursor(a: any): any;
+  setFrameEvent(a: any): void;
+  setFrameEvent_dispose(a: any): void;
+  setFrameEvent_frame(a: any): void;
+  setFrameEvent_draw(a: any): void;
   clearCanvas(): void;
-  setCursor(b: any): any;
-  selectItem(b: any): void;
-  deleteSave(b: any): void;
-  updateItems(b: any): void;
-  newGameBefore(b: any): void;
-  newGame(b: any, a: any): void;
-  startNewGame(b: any, a: any, c: any): void;
-  viewError(b: any): void;
-  checkMismatchSaveData(b: any): any;
-  checkMismatchVersionSaveData(b: any): any;
-  checkGameTypeSaveData(b: any): any;
+  setCursor(a: any): any;
+  selectItem(a: any): void;
+  deleteSave(a: any): void;
+  updateItems(a: any): void;
+  newGameBefore(a: any): void;
+  newGame(a: any, b: any): void;
+  startNewGame(a: any, b: any, c: any): void;
+  viewError(a: any): void;
+  checkMismatchSaveData(a: any): any;
+  checkMismatchVersionSaveData(a: any): any;
+  checkGameTypeSaveData(a: any): any;
   removeOptionInitButton(): void;
   setOptionInitButton(): void;
   viewOptionInitMenu(): void;
@@ -4883,48 +4909,48 @@ declare class tGameTitleWindow {
 declare class tGameTougijo {
   parent: any;
   data: any;
-  init(c: any): void;
-  initLoad(c: any): void;
-  gotoBattleMap(c: any, a: any): any;
+  init(a: any): void;
+  initLoad(a: any): void;
+  gotoBattleMap(a: any, b: any): any;
   createMap(): any;
-  entry(c: any): void;
-  escapeBattle(c: any): any;
+  entry(a: any): void;
+  escapeBattle(a: any): any;
   setBackMapData(): any;
-  setEnemy(c: any, a: any): any;
-  victoryBattle(c: any): any;
-  oneActionFinishAction(c: any, a: any, b: any): void;
-  oneActionFinishAction_victorybattle(c: any, a: any): any;
-  getHoshu(c: any, a: any): any;
-  getRankToLevel(c: any): any;
-  getRankToMoney(c: any, a: any): any;
+  setEnemy(a: any, b: any): any;
+  victoryBattle(a: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_victorybattle(a: any, b: any): any;
+  getHoshu(a: any, b: any): any;
+  getRankToLevel(a: any): any;
+  getRankToMoney(a: any, b: any): any;
   updateHoshu(): any;
 }
 
 declare class tGameTownGenerator {
   parent: any;
   townTypes: any;
-  init(c: any): void;
-  createTownWithLoad(c: any, m: any): void;
-  createTown(c: any, m: any): any;
-  actionPattern(c: any): any;
-  updateActionPattern(c: any): any;
-  actionPatternOne(c: any): any;
-  setYukiObjects(c: any): void;
+  init(a: any): void;
+  createTownWithLoad(a: any, b: any): void;
+  createTown(a: any, b: any): any;
+  actionPattern(a: any): any;
+  updateActionPattern(a: any): any;
+  actionPatternOne(a: any): any;
+  setYukiObjects(a: any): void;
 }
 
 declare class tGameTrap {
   parent: any;
   trapTypes: any;
-  init(b: any): void;
-  convertData(b: any): any;
-  getRandomTrapToObject(b: any): any;
-  getTrapToObject(b: any, e: any): any;
-  getTrapObjectId(b: any): any;
-  getTrapName(b: any): any;
-  oneActionTrap(b: any): any;
-  affect(b: any): any;
-  runTrap(b: any, e: any): any;
-  tryBreak(b: any): void;
+  init(a: any): void;
+  convertData(a: any): any;
+  getRandomTrapToObject(a: any): any;
+  getTrapToObject(a: any, b: any): any;
+  getTrapObjectId(a: any): any;
+  getTrapName(a: any): any;
+  oneActionTrap(a: any): any;
+  affect(a: any): any;
+  runTrap(a: any, b: any): any;
+  tryBreak(a: any): void;
 }
 
 declare class tGameTutorial {
@@ -4934,7 +4960,7 @@ declare class tGameTutorial {
   hiddenCanvases: any;
   init(a: any): void;
   initLoad(a: any): void;
-  updateLock(a: any, c: any, b: any): void;
+  updateLock(a: any, b: any, c: any): void;
   confirmView(a: any): void;
   createMap(a: any): any;
   viewPage1(): any;
@@ -4946,67 +4972,67 @@ declare class tGameTutorial {
   viewPage7(): any;
   viewPage8(): any;
   viewPage9(): any;
-  oneActionFinishAction(a: any, c: any, b: any): void;
-  oneActionFinishAction_p1move(a: any, c: any): any;
-  oneActionFinishAction_tutorialp5gekiha(a: any, c: any): void;
-  oneActionFinishAction_tutorialp6gekiha(a: any, c: any): void;
-  oneActionFinishAction_tutorialp7gekiha(a: any, c: any): void;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_p1move(a: any, b: any): any;
+  oneActionFinishAction_tutorialp5gekiha(a: any, b: any): void;
+  oneActionFinishAction_tutorialp6gekiha(a: any, b: any): void;
+  oneActionFinishAction_tutorialp7gekiha(a: any, b: any): void;
   createCharactor(): any;
   affectCharactor(a: any): any;
-  affectCharactor_p2(a: any, c: any): void;
-  affectCharactor_p3(a: any, c: any): void;
-  affectCharactor_p4(a: any, c: any): void;
+  affectCharactor_p2(a: any, b: any): void;
+  affectCharactor_p3(a: any, b: any): void;
+  affectCharactor_p4(a: any, b: any): void;
   edgeActionCallBack(a: any): any;
 }
 
 declare class tGameUniqueQuest {
   parent: any;
-  init(b: any): void;
-  viewMap(b: any): void;
-  tryCreate(b: any): any;
-  tryCreate_kantei(b: any): any;
-  tryCreate_guild(b: any): any;
-  tryCreate_ryoriya(b: any): any;
-  tryCreate_mahouten(b: any): any;
-  tryCreate_sakaba(b: any): any;
-  tryCreate_seishokusha(b: any): any;
-  tryCreate_nouka(b: any): any;
-  tryCreate_kyoushi(b: any): any;
-  tryCreate_kajiya(b: any): any;
-  tryCreate_shonin(b: any): any;
-  tryCreate_yadoya(b: any): any;
-  tryCreate_shinan(b: any): any;
-  getTargetChara(b: any, c: any, d: any): any;
-  isCreate(b: any, c: any): any;
-  actEventFinish(b: any, c: any, d: any): any;
-  isEventNow(b: any, c: any): any;
-  initEvEmptyData(b: any, c: any): void;
-  setEvData(b: any, c: any, d: any): void;
-  oneActionFinishAction(b: any, c: any, d: any): any;
-  oneActionFinishAction_first(b: any, c: any, d: any): any;
-  oneActionFinishAction_finish(b: any, c: any, d: any): any;
-  oneActionFinishAction_ryoriya_enemy_nigetaka(b: any, c: any): any;
-  oneActionFinishAction_uniquequestbossgekiha(b: any, c: any): any;
-  oneActionFinishAction_seishokusha_hakahenka(b: any, c: any): any;
-  oneActionFinishAction_kyoushi_wana(b: any, c: any): any;
-  oneActionFinishAction_kajiya_hakai(b: any, c: any): any;
-  getQuestKeys(b: any): any;
-  getAffectAnswerKey(b: any): any;
-  addAffectNonBattleAnswers(b: any): void;
-  selectedAnswer(b: any, c: any): void;
-  gotoQuestMap(b: any, c: any, d: any): void;
-  gotoQuestMap_kantei(b: any, c: any, d: any): void;
-  gotoQuestMap_guild(b: any, c: any, d: any): any;
-  gotoQuestMap_ryoriya(b: any, c: any, d: any): void;
-  gotoQuestMap_mahouten(b: any, c: any, d: any): any;
-  gotoQuestMap_sakaba(b: any, c: any, d: any): any;
-  gotoQuestMap_seishokusha(b: any, c: any, d: any): void;
-  gotoQuestMap_nouka(b: any, c: any, d: any): any;
-  gotoQuestMap_kyoushi(b: any, c: any, d: any): void;
-  gotoQuestMap_kajiya(b: any, c: any, d: any): void;
-  gotoQuestMap_shonin(b: any, c: any, d: any): any;
-  gotoQuestMap_yadoya(b: any, c: any, d: any): any;
-  gotoQuestMap_shinan(b: any, c: any, d: any): any;
+  init(a: any): void;
+  viewMap(a: any): void;
+  tryCreate(a: any): any;
+  tryCreate_kantei(a: any): any;
+  tryCreate_guild(a: any): any;
+  tryCreate_ryoriya(a: any): any;
+  tryCreate_mahouten(a: any): any;
+  tryCreate_sakaba(a: any): any;
+  tryCreate_seishokusha(a: any): any;
+  tryCreate_nouka(a: any): any;
+  tryCreate_kyoushi(a: any): any;
+  tryCreate_kajiya(a: any): any;
+  tryCreate_shonin(a: any): any;
+  tryCreate_yadoya(a: any): any;
+  tryCreate_shinan(a: any): any;
+  getTargetChara(a: any, b: any, c: any): any;
+  isCreate(a: any, b: any): any;
+  actEventFinish(a: any, b: any, c: any): any;
+  isEventNow(a: any, b: any): any;
+  initEvEmptyData(a: any, b: any): void;
+  setEvData(a: any, b: any, c: any): void;
+  oneActionFinishAction(a: any, b: any, c: any): any;
+  oneActionFinishAction_first(a: any, b: any, c: any): any;
+  oneActionFinishAction_finish(a: any, b: any, c: any): any;
+  oneActionFinishAction_ryoriya_enemy_nigetaka(a: any, b: any): any;
+  oneActionFinishAction_uniquequestbossgekiha(a: any, b: any): any;
+  oneActionFinishAction_seishokusha_hakahenka(a: any, b: any): any;
+  oneActionFinishAction_kyoushi_wana(a: any, b: any): any;
+  oneActionFinishAction_kajiya_hakai(a: any, b: any): any;
+  getQuestKeys(a: any): any;
+  getAffectAnswerKey(a: any): any;
+  addAffectNonBattleAnswers(a: any): void;
+  selectedAnswer(a: any, b: any): void;
+  gotoQuestMap(a: any, b: any, c: any): void;
+  gotoQuestMap_kantei(a: any, b: any, c: any): void;
+  gotoQuestMap_guild(a: any, b: any, c: any): any;
+  gotoQuestMap_ryoriya(a: any, b: any, c: any): void;
+  gotoQuestMap_mahouten(a: any, b: any, c: any): any;
+  gotoQuestMap_sakaba(a: any, b: any, c: any): any;
+  gotoQuestMap_seishokusha(a: any, b: any, c: any): void;
+  gotoQuestMap_nouka(a: any, b: any, c: any): any;
+  gotoQuestMap_kyoushi(a: any, b: any, c: any): void;
+  gotoQuestMap_kajiya(a: any, b: any, c: any): void;
+  gotoQuestMap_shonin(a: any, b: any, c: any): any;
+  gotoQuestMap_yadoya(a: any, b: any, c: any): any;
+  gotoQuestMap_shinan(a: any, b: any, c: any): any;
 }
 
 declare class tGameVersion {
@@ -5145,8 +5171,8 @@ declare class tGameWar {
 
 declare class tGameWeading {
   parent: any;
-  init(h: any): void;
-  view(h: any): void;
+  init(a: any): void;
+  view(a: any): void;
 }
 
 declare class tGameWeather {
@@ -5154,8 +5180,8 @@ declare class tGameWeather {
   weatherData: any;
   init(a: any): void;
   initLoad(a: any): void;
-  updateWeather(a: any, d: any): any;
-  setWeather(a: any, d: any, b: any): any;
+  updateWeather(a: any, b: any): any;
+  setWeather(a: any, b: any, c: any): any;
   viewWeather(): void;
   viewTargetWeather(a: any): void;
 }
@@ -5165,10 +5191,10 @@ declare class tGameWindowResource {
   wcvs: any;
   wctx: any;
   windowData: any;
-  init(e: any): void;
-  loadWindow(e: any): void;
-  createWindowFrame(e: any, l: any, h: any): any;
-  createPixelWindowFrame(e: any, l: any, h: any): any;
+  init(a: any): void;
+  loadWindow(a: any): void;
+  createWindowFrame(a: any, b: any, c: any): any;
+  createPixelWindowFrame(a: any, b: any, c: any): any;
 }
 
 declare class tGameWindows {
@@ -5178,43 +5204,43 @@ declare class tGameWindows {
   callObj: any;
   callBacks: any;
   bSteamBigPictureMode: any;
-  init(d: any): void;
-  initLoad(d: any): any;
+  init(a: any): void;
+  initLoad(a: any): any;
   pageClose(): void;
   pageReload(): void;
-  getSaveList(d: any): void;
-  getSaveData(d: any, c: any): void;
-  setSaveData(d: any, c: any, b: any): void;
-  deleteSaveData(d: any, c: any): void;
-  changeContentSize(d: any, c: any, b: any, a: any): void;
-  sendJsSysError(d: any, c: any): void;
-  exportMyAdventurerCharactor(d: any, c: any, b: any, a: any, e: any): void;
-  getExportMyAdventurerCharactorK1upData(d: any, c: any, b: any, a: any, e: any): void;
-  importMyAdventurerCharactor(d: any): void;
-  importMyAdventurerCharactor2FromBase64Data0(d: any, c: any): void;
-  overwriteMyAdventurerCharactorData(d: any, c: any, b: any, a: any, e: any, f: any): void;
+  getSaveList(a: any): void;
+  getSaveData(a: any, b: any): void;
+  setSaveData(a: any, b: any, c: any): void;
+  deleteSaveData(a: any, b: any): void;
+  changeContentSize(a: any, b: any, c: any, d: any): void;
+  sendJsSysError(a: any, b: any): void;
+  exportMyAdventurerCharactor(a: any, b: any, c: any, d: any, e: any): void;
+  getExportMyAdventurerCharactorK1upData(a: any, b: any, c: any, d: any, e: any): void;
+  importMyAdventurerCharactor(a: any): void;
+  importMyAdventurerCharactor2FromBase64Data0(a: any, b: any): void;
+  overwriteMyAdventurerCharactorData(a: any, b: any, c: any, d: any, e: any, f: any): void;
   sendIsTr(): void;
-  exportMpaData(d: any, c: any): void;
-  importMapData(d: any): void;
+  exportMpaData(a: any, b: any): void;
+  importMapData(a: any): void;
   closeGame(): void;
-  activeAchievement(d: any, c: any): any;
-  initMydata(d: any): any;
-  getControllerType(d: any): any;
-  isSteamInBigPictureMode(d: any): any;
-  overwriteMydataFace(d: any, c: any, b: any): void;
-  overwriteMydataItem(d: any, c: any, b: any): void;
-  overwriteMydataChipset(d: any, c: any, b: any): void;
-  overwriteMydataTalk(d: any, c: any, b: any, a: any): void;
-  getTargetImageBase64(d: any, c: any): void;
-  openBrowser(d: any, c: any): void;
-  outputFile(d: any, c: any): void;
-  openDirectory(d: any, c: any): void;
+  activeAchievement(a: any, b: any): any;
+  initMydata(a: any): any;
+  getControllerType(a: any): any;
+  isSteamInBigPictureMode(a: any): any;
+  overwriteMydataFace(a: any, b: any, c: any): void;
+  overwriteMydataItem(a: any, b: any, c: any): void;
+  overwriteMydataChipset(a: any, b: any, c: any): void;
+  overwriteMydataTalk(a: any, b: any, c: any, d: any): void;
+  getTargetImageBase64(a: any, b: any): void;
+  openBrowser(a: any, b: any): void;
+  outputFile(a: any, b: any): void;
+  openDirectory(a: any, b: any): void;
 }
 
 declare class tGameYagi {
   parent: any;
-  init(b: any): void;
-  affect(b: any): any;
+  init(a: any): void;
+  affect(a: any): any;
   tryRefresh(): any;
 }
 
@@ -5228,13 +5254,13 @@ declare class tGameYubiwadukuri {
   getKisekiMaxNum(): any;
   getGineikesshoMaxNum(): any;
   getSoukesshoNeedNum(): any;
-  create(a: any, c: any, b: any): void;
-  createMember(a: any, c: any, b: any): void;
-  selectMaterial(a: any, c: any): void;
+  create(a: any, b: any, c: any): void;
+  createMember(a: any, b: any, c: any): void;
+  selectMaterial(a: any, b: any): void;
   selectSoukessho(a: any): any;
   getMaxRank(): any;
   actYubiwadukuri(): void;
-  getExp(a: any, c: any, b: any): any;
+  getExp(a: any, b: any, c: any): any;
   getSoukesshoItems(): any;
   getGineikesshoItems(): any;
 }
@@ -5244,10 +5270,10 @@ declare class tGameYukigassen {
   init(a: any): void;
   tryMap(a: any): any;
   createMap(): any;
-  affect(a: any, e: any, d: any): void;
+  affect(a: any, b: any, c: any): void;
   isHoshu(): any;
   hoshu(a: any): void;
-  oneActionFinishAction(a: any, e: any, d: any): void;
-  oneActionFinishAction_createyukigassen(a: any, e: any): any;
+  oneActionFinishAction(a: any, b: any, c: any): void;
+  oneActionFinishAction_createyukigassen(a: any, b: any): any;
 }
 declare var tWgm: tGameMain;
