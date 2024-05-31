@@ -23,7 +23,7 @@ The same applies to other versions.
 As shown in the installation command examples, the major and minor versions of this package follows the version of the game.  
 The patch version will be incremented when we have independent fixes or updates to this package.  
 
-After running `npm install`, you need to config your project to reference the type definitions provided by this package. Follow one of the steps below.
+After running `npm install`, you need to configure your project to reference the type definitions provided by this package. Follow one of the steps below.
 
 ## (A) If you have `types` in your tsconfig already
 Include `maginai-game-types` in the existing `types` array.
