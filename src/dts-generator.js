@@ -36,6 +36,13 @@ function run() {
         fields.tGameJobSlumGenerator.type = 'tGameSlumGenerator';
         fields.tGameMenuShortcut.type = 'tGameShortCut';
       }
+
+      // tGameDataを追加
+      fields.tGameData = {
+        name: 'tGameData',
+        docs: '',
+        type: 'tGameData',
+      };
     });
 
     edit(tGameMain.methods.getRandom, (getRandom) => {
@@ -76,7 +83,16 @@ function run() {
   s += generate(globalVariable);
 
   // tWgmの型を追加
+  s += '\n';
   s += 'declare var tWgm: tGameMain;\n';
+
+  // tFnの型を追加
+  s += '\n';
+  s += 'interface tFn {\n';
+  s += '  t: tDefault;\n';
+  s += '}\n';
+  s += '\n';
+  s += 'declare var tFn: tFn;\n';
 
   fs.writeFileSync(OUTPUT_FILE, s);
 
