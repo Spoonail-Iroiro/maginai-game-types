@@ -94,12 +94,12 @@ declare class tEvent {
 }
 
 declare class tGameAcn {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
 }
 
 declare class tGameAdventurerGuild {
-  parent: any;
+  parent: tGameMain;
   questMaxNum: any;
   nextCreateTime: any;
   quests: any;
@@ -205,7 +205,7 @@ declare class tGameAdventurerGuild {
 }
 
 declare class tGameAdventurerGuildConfirmWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -230,7 +230,7 @@ declare class tGameAdventurerGuildConfirmWindow {
 }
 
 declare class tGameAdventurerGuildWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -270,12 +270,12 @@ declare class tGameAdventurerGuildWindow {
 }
 
 declare class tGameAffectMap {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
 }
 
 declare class tGameAkumuDungeon {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   isSetAkumu(a: any): any;
   getDungeonLevel(a: any): any;
@@ -285,7 +285,7 @@ declare class tGameAkumuDungeon {
 }
 
 declare class tGameAllocateStatusWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -315,7 +315,7 @@ declare class tGameAllocateStatusWindow {
 }
 
 declare class tGameAnimalWood {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   tryMap(a: any): any;
   createMap(): any;
@@ -328,7 +328,7 @@ declare class tGameAnimalWood {
 }
 
 declare class tGameBaby {
-  parent: any;
+  parent: tGameMain;
   data: any;
   range: any;
   init(a: any): void;
@@ -344,7 +344,7 @@ declare class tGameBaby {
 }
 
 declare class tGameBazaarGenerator {
-  parent: any;
+  parent: tGameMain;
   nextUpdateTime: any;
   init(a: any): void;
   tryMap(a: any): any;
@@ -354,7 +354,7 @@ declare class tGameBazaarGenerator {
 }
 
 declare class tGameBgmResource {
-  parent: any;
+  parent: tGameMain;
   soundData: any;
   playSounds: any;
   oggOrM4a: any;
@@ -383,7 +383,7 @@ declare class tGameBgmResource {
 }
 
 declare class tGameBlacksmith {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   maxNum: any;
   gineikesshoMaxNum: any;
@@ -407,7 +407,7 @@ declare class tGameBlacksmith {
 }
 
 declare class tGameButsu {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   tryCreate(a: any): any;
   oneActionFinishAction(a: any, b: any, c: any): void;
@@ -431,12 +431,12 @@ declare class tGameButsu {
 }
 
 declare class tGameCalc {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
 }
 
 declare class tGameCasino {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -446,7 +446,7 @@ declare class tGameCasino {
 }
 
 declare class tGameCastleGenerator {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   createCastleWithLoad(a: any, b: any): void;
   createCastle(a: any, b: any): any;
@@ -456,7 +456,7 @@ declare class tGameCastleGenerator {
 }
 
 declare class tGameChangeProfile {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -465,7 +465,7 @@ declare class tGameChangeProfile {
 }
 
 declare class tGameCharactor {
-  parent: any;
+  parent: tGameMain;
   charas: any;
   teams: any;
   levelFraction: any;
@@ -804,7 +804,7 @@ declare class tGameCharactor {
 }
 
 declare class tGameCharactorData {
-  parent: any;
+  parent: tGameMain;
   characotrData: any;
   allocateStatusData: any;
   allocateStatusVals: any;
@@ -879,14 +879,14 @@ declare class tGameCharactorData {
 }
 
 declare class tGameCharactorEquipRuleWindow {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   viewCharactorRuleWindow(a: any, b: any): void;
 }
 
 declare class tGameCharactorRuleWindow {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   viewCharactorRuleWindow(a: any, b: any): void;
@@ -899,7 +899,7 @@ declare class tGameCharactorRuleWindow {
 }
 
 declare class tGameChikaMakyo {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   refreshDungeon(): any;
   createDungeon(a: any): any;
@@ -912,7 +912,7 @@ declare class tGameChikaMakyo {
 }
 
 declare class tGameChipsetResource {
-  parent: any;
+  parent: tGameMain;
   chipsetLink: any;
   chipsetData: any;
   counters: any;
@@ -929,12 +929,12 @@ declare class tGameChipsetResource {
 }
 
 declare class tGameCommand {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
 }
 
 declare class tGameCooking {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -951,7 +951,7 @@ declare class tGameCooking {
 }
 
 declare class tGameCreateCharactor {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   data: any;
   init(a: any): void;
@@ -969,7 +969,7 @@ declare class tGameCreateCharactor {
 }
 
 declare class tGameCreateUniqueCharactor {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   addCharactors(): any;
   addMegamiCharactor(a: any): any;
@@ -987,7 +987,7 @@ declare class tGameCreateUniqueCharactor {
 }
 
 declare class tGameCreateWindow {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   viewCreateWindowWithMember(a: any, b: any): void;
@@ -1001,7 +1001,7 @@ declare class tGameCreateWindow {
 }
 
 declare class tGameCriminalRouya {
-  parent: any;
+  parent: tGameMain;
   criminalRouyaMaxNum: any;
   init(a: any): void;
   changeCtype(a: any): any;
@@ -1013,7 +1013,7 @@ declare class tGameCriminalRouya {
 }
 
 declare class tGameCriminalWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -1039,7 +1039,7 @@ declare class tGameCriminalWindow {
 }
 
 declare class tGameDairyQuest {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   tryRefresh(): any;
   refreshQuest(): void;
@@ -1050,7 +1050,7 @@ declare class tGameDairyQuest {
 }
 
 declare class tGameData {
-  parent: any;
+  parent: tGameMain;
   masterData: any;
   myData: any;
   init(a: any): void;
@@ -1068,7 +1068,7 @@ declare class tGameData {
 }
 
 declare class tGameDesignedMap {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -1081,7 +1081,7 @@ declare class tGameDesignedMap {
 }
 
 declare class tGameDialog {
-  parent: any;
+  parent: tGameMain;
   objs: any;
   initFlg: any;
   bg2CloseTimer: any;
@@ -1095,7 +1095,7 @@ declare class tGameDialog {
 }
 
 declare class tGameDungeonGenerator {
-  parent: any;
+  parent: tGameMain;
   bossFloors: any;
   init(a: any): void;
   getBaseAttr(): any;
@@ -1175,7 +1175,7 @@ declare class tGameDungeonGenerator {
 }
 
 declare class tGameEditMember {
-  parent: any;
+  parent: tGameMain;
   hiddenCanvases: any;
   init(a: any): void;
   view(a: any): any;
@@ -1183,7 +1183,7 @@ declare class tGameEditMember {
 }
 
 declare class tGameEffect {
-  parent: any;
+  parent: tGameMain;
   effectLink: any;
   effectData: any;
   canvases: any;
@@ -1211,7 +1211,7 @@ declare class tGameEffect {
 }
 
 declare class tGameEmotionResource {
-  parent: any;
+  parent: tGameMain;
   emotionLink: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -1219,7 +1219,7 @@ declare class tGameEmotionResource {
 }
 
 declare class tGameEnchantment {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   fromEquipment(a: any, b: any, c: any, d: any): void;
@@ -1242,7 +1242,7 @@ declare class tGameEnchantment {
 }
 
 declare class tGameEnsei {
-  parent: any;
+  parent: tGameMain;
   nextUpdateTime: any;
   bokenshaMaxLevel: any;
   init(a: any): void;
@@ -1259,7 +1259,7 @@ declare class tGameEnsei {
 }
 
 declare class tGameEquipRankup {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   getAddRank(): any;
@@ -1279,7 +1279,7 @@ declare class tGameEquipRankup {
 }
 
 declare class tGameEquipmentWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -1307,7 +1307,7 @@ declare class tGameEquipmentWindow {
 }
 
 declare class tGameEtc {
-  parent: any;
+  parent: tGameMain;
   linkData: any;
   data: any;
   images: any;
@@ -1321,7 +1321,7 @@ declare class tGameEtc {
 }
 
 declare class tGameEtcTown {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   actionPattern(a: any): any;
   updateActionPattern(a: any): any;
@@ -1329,7 +1329,7 @@ declare class tGameEtcTown {
 }
 
 declare class tGameEvent {
-  parent: any;
+  parent: tGameMain;
   eventDatas: any;
   init(a: any): void;
   loadEvent(a: any, b: any): any;
@@ -1347,7 +1347,7 @@ declare class tGameEvent {
 }
 
 declare class tGameEventAnimation {
-  parent: any;
+  parent: tGameMain;
   animationData: any;
   moveSpeed: any;
   init(a: any): void;
@@ -1361,7 +1361,7 @@ declare class tGameEventAnimation {
 }
 
 declare class tGameEventFrame {
-  parent: any;
+  parent: tGameMain;
   hiddenCanvases: any;
   viewData: any;
   init(a: any): void;
@@ -1379,7 +1379,7 @@ declare class tGameEventFrame {
 }
 
 declare class tGameExMapData {
-  parent: any;
+  parent: tGameMain;
   version: any;
   importData: any;
   init(a: any): void;
@@ -1393,7 +1393,7 @@ declare class tGameExMapData {
 }
 
 declare class tGameFaceResource {
-  parent: any;
+  parent: tGameMain;
   size: any;
   faceLink: any;
   faceData: any;
@@ -1412,7 +1412,7 @@ declare class tGameFaceResource {
 }
 
 declare class tGameFaith {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   addTownFaith(a: any): any;
   getRivalCharas(): any;
@@ -1442,7 +1442,7 @@ declare class tGameFaith {
 }
 
 declare class tGameFaithWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   fontSize: any;
   textSpace: any;
@@ -1454,7 +1454,7 @@ declare class tGameFaithWindow {
 }
 
 declare class tGameFarm {
-  parent: any;
+  parent: tGameMain;
   farmData: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -1468,7 +1468,7 @@ declare class tGameFarm {
 }
 
 declare class tGameFieldGenerator {
-  parent: any;
+  parent: tGameMain;
   csize: any;
   fieldEventData: any;
   init(a: any): void;
@@ -1573,7 +1573,7 @@ declare class tGameFieldGenerator {
 }
 
 declare class tGameFieldMaterial {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   autoCreate(a: any): void;
   getName(a: any, b: any): any;
@@ -1589,7 +1589,7 @@ declare class tGameFieldMaterial {
 }
 
 declare class tGameFishing {
-  parent: any;
+  parent: tGameMain;
   data: any;
   img: any;
   viewData: any;
@@ -1611,7 +1611,7 @@ declare class tGameFishing {
 }
 
 declare class tGameFukidashiResource {
-  parent: any;
+  parent: tGameMain;
   fukidashiLink: any;
   cvs: any;
   ctx: any;
@@ -1621,7 +1621,7 @@ declare class tGameFukidashiResource {
 }
 
 declare class tGameFullscreenLog {
-  parent: any;
+  parent: tGameMain;
   callBack: any;
   init(a: any): void;
   view(a: any): void;
@@ -1633,7 +1633,7 @@ declare class tGameFullscreenLog {
 }
 
 declare class tGameGameClear {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   checkClearFlg(): void;
@@ -1643,14 +1643,14 @@ declare class tGameGameClear {
 }
 
 declare class tGameGameOptionWindow {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   viewOptionWindow(a: any, b: any): void;
 }
 
 declare class tGameGameOver {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   setLastInTown(a: any): any;
@@ -1665,7 +1665,7 @@ declare class tGameGameOver {
 }
 
 declare class tGameGamePad {
-  parent: any;
+  parent: tGameMain;
   isEnableGamePad: any;
   targetGamePadIndex: any;
   isSteamInput: any;
@@ -1685,7 +1685,7 @@ declare class tGameGamePad {
 }
 
 declare class tGameGamePadBase {
-  parent: any;
+  parent: tGameMain;
   isEnableGamePad: any;
   targetGamePadIndex: any;
   pressedButtons: any;
@@ -1714,7 +1714,7 @@ declare class tGameGamePadBase {
 }
 
 declare class tGameGamePadEditor {
-  parent: any;
+  parent: tGameMain;
   objs: any;
   isInit: any;
   viewData: any;
@@ -1728,7 +1728,7 @@ declare class tGameGamePadEditor {
 }
 
 declare class tGameGod {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   viewMapWarikomi(a: any): void;
   getCastleEventData(a: any): any;
@@ -1754,7 +1754,7 @@ declare class tGameGod {
 }
 
 declare class tGameGoodTrap {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   convertData(a: any): any;
   getTrapToObject(a: any, b: any): any;
@@ -1767,7 +1767,7 @@ declare class tGameGoodTrap {
 }
 
 declare class tGameGuide {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   checkChangeMapGuideEvent(): void;
   checkMoveGuideEvent(a: any): any;
@@ -1780,7 +1780,7 @@ declare class tGameGuide {
 }
 
 declare class tGameHelp {
-  parent: any;
+  parent: tGameMain;
   data: any;
   itemlink: any;
   textMaxWidth: any;
@@ -1812,7 +1812,7 @@ declare class tGameHelp {
 }
 
 declare class tGameHikitsugi {
-  parent: any;
+  parent: tGameMain;
   version: any;
   init(a: any): void;
   getHikitsugiData(a: any): any;
@@ -1834,7 +1834,7 @@ declare class tGameHikitsugi {
 }
 
 declare class tGameHikitsugiNakama {
-  parent: any;
+  parent: tGameMain;
   max: any;
   version: any;
   myData: any;
@@ -1855,7 +1855,7 @@ declare class tGameHikitsugiNakama {
 }
 
 declare class tGameHikyo {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   initLoad(a: any): void;
   loadLinkJson(a: any): void;
@@ -1867,7 +1867,7 @@ declare class tGameHikyo {
 }
 
 declare class tGameHoridashimono {
-  parent: any;
+  parent: tGameMain;
   nextUpdateTime: any;
   init(a: any): void;
   view(a: any): void;
@@ -1876,7 +1876,7 @@ declare class tGameHoridashimono {
 }
 
 declare class tGameHyk {
-  parent: any;
+  parent: tGameMain;
   targetFont: any;
   textMode: any;
   timeViewMode: any;
@@ -1912,7 +1912,7 @@ declare class tGameHyk {
 }
 
 declare class tGameIcon24Resource {
-  parent: any;
+  parent: tGameMain;
   iconData: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -1920,7 +1920,7 @@ declare class tGameIcon24Resource {
 }
 
 declare class tGameIconResource {
-  parent: any;
+  parent: tGameMain;
   iconData: any;
   init(a: any): void;
   loadIcon(a: any): void;
@@ -1928,7 +1928,7 @@ declare class tGameIconResource {
 }
 
 declare class tGameIdRecycle {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initSaveData(): void;
@@ -1939,7 +1939,7 @@ declare class tGameIdRecycle {
 }
 
 declare class tGameIkesu {
-  parent: any;
+  parent: tGameMain;
   data: any;
   maxNum: any;
   init(a: any): void;
@@ -1967,7 +1967,7 @@ declare class tGameIkesu {
 }
 
 declare class tGameItem {
-  parent: any;
+  parent: tGameMain;
   masterData: any;
   egoMaxLength: any;
   rankItems: any;
@@ -2110,7 +2110,7 @@ declare class tGameItem {
 }
 
 declare class tGameItemInfoWindow {
-  parent: any;
+  parent: tGameMain;
   cvs: any;
   ctx: any;
   fontSize: any;
@@ -2119,7 +2119,7 @@ declare class tGameItemInfoWindow {
 }
 
 declare class tGameItemWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   textMaxWidth2: any;
   views: any;
@@ -2153,7 +2153,7 @@ declare class tGameItemWindow {
 }
 
 declare class tGameJashin {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   createEventDungeon(): any;
   viewAdventureGuildBoard(a: any, b: any): any;
@@ -2166,7 +2166,7 @@ declare class tGameJashin {
 }
 
 declare class tGameJinja {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   affectSaisenbako(a: any, b: any): any;
   kau(a: any, b: any): void;
@@ -2174,7 +2174,7 @@ declare class tGameJinja {
 }
 
 declare class tGameJob {
-  parent: any;
+  parent: tGameMain;
   jobData: any;
   groups: any;
   jobNameMax: any;
@@ -2189,7 +2189,7 @@ declare class tGameJob {
 }
 
 declare class tGameJobChange {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -2199,7 +2199,7 @@ declare class tGameJobChange {
 }
 
 declare class tGameK1up {
-  parent: any;
+  parent: tGameMain;
   hcvs: any;
   hctx: any;
   uploadMyTownData: any;
@@ -2219,6 +2219,7 @@ declare class tGameK1up {
   uploadTalkData: any;
   listTalkData: any;
   manualData: any;
+  tags: any;
   scrollEventData: any;
   apiUrl: any;
   key: any;
@@ -2255,11 +2256,17 @@ declare class tGameK1up {
   getOverwriteItemList(): any;
   refreshOverwriteItem(a: any, b: any): any;
   initSearchBox(a: any): void;
+  initTagInsert(a: any): void;
+  initTagEdit(a: any): void;
+  updateDetailTagEdit(a: any): void;
+  getInsertTags(a: any): any;
   updateSearchForm(a: any): void;
+  changeSearchTag(a: any): void;
+  loadTags(a: any): any;
 }
 
 declare class tGameKeyboard {
-  parent: any;
+  parent: tGameMain;
   simplePressKeys: any;
   forcePressKeys: any;
   pressKeyLimitTime: any;
@@ -2296,14 +2303,14 @@ declare class tGameKeyboard {
 }
 
 declare class tGameLakeZou {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   view(a: any, b: any): void;
   act(a: any): any;
 }
 
 declare class tGameLoading {
-  parent: any;
+  parent: tGameMain;
   targets: any;
   objs: any;
   init(a: any): void;
@@ -2319,7 +2326,7 @@ declare class tGameLoading {
 }
 
 declare class tGameLoading2 {
-  parent: any;
+  parent: tGameMain;
   targets: any;
   errorHeightMin: any;
   init(): void;
@@ -2330,7 +2337,7 @@ declare class tGameLoading2 {
 }
 
 declare class tGameLog {
-  parent: any;
+  parent: tGameMain;
   logs: any;
   logMaxNum: any;
   textMaxWidth: any;
@@ -2354,7 +2361,7 @@ declare class tGameLog {
 }
 
 declare class tGameMagicalGirl {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   isWarikomi(a: any, b: any): any;
   actWarikomi(a: any, b: any): void;
@@ -2366,7 +2373,7 @@ declare class tGameMagicalGirl {
 }
 
 declare class tGameMaigo {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   tryCreate(a: any): any;
   oneActionFinishAction(a: any, b: any, c: any): void;
@@ -2594,6 +2601,7 @@ declare class tGameMain {
   firstLogData: any;
   windowLabelMaxWidth: any;
   limitLevel: any;
+  tGameData: tGameData;
   init(a: any): void;
   initNext(a: any): void;
   initLoad(a: any): void;
@@ -2647,7 +2655,7 @@ declare class tGameMain {
 }
 
 declare class tGameMamonoJisho {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   getDungeonTypes(): any;
   getDungeonEnemyIds(a: any): any;
@@ -2663,7 +2671,7 @@ declare class tGameMamonoJisho {
 }
 
 declare class tGameMaou {
-  parent: any;
+  parent: tGameMain;
   data: any;
   images: any;
   tobatsuLvs: any;
@@ -2694,7 +2702,7 @@ declare class tGameMaou {
 }
 
 declare class tGameMap {
-  parent: any;
+  parent: tGameMain;
   data: any;
   maps: any;
   cvs: any;
@@ -2773,7 +2781,7 @@ declare class tGameMap {
 }
 
 declare class tGameMapCharaCommonAction {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   actionBeforePatternOne(a: any, b: any, c: any, d: any): void;
   actionPatternOne(a: any, b: any): any;
@@ -2832,7 +2840,7 @@ declare class tGameMapCharaCommonAction {
 }
 
 declare class tGameMapEditor {
-  parent: any;
+  parent: tGameMain;
   objs: any;
   data: any;
   isInit: any;
@@ -2907,7 +2915,7 @@ declare class tGameMapEditor {
 }
 
 declare class tGameMapResource {
-  parent: any;
+  parent: tGameMain;
   mapData: any;
   mapBaseData: any;
   init(a: any): void;
@@ -2917,7 +2925,7 @@ declare class tGameMapResource {
 }
 
 declare class tGameMatsuri {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   tryMap(a: any): any;
   createMap(): any;
@@ -2929,7 +2937,7 @@ declare class tGameMatsuri {
 }
 
 declare class tGameMeiro {
-  parent: any;
+  parent: tGameMain;
   data: any;
   imgs: any;
   objs: any;
@@ -2969,7 +2977,7 @@ declare class tGameMeiro {
 }
 
 declare class tGameMenu {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   viewMenu(a: any, b: any): void;
   viewItem(a: any, b: any): void;
@@ -2996,7 +3004,7 @@ declare class tGameMenu {
 }
 
 declare class tGameMenuShortcutWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -3023,7 +3031,7 @@ declare class tGameMenuShortcutWindow {
 }
 
 declare class tGameMessageWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -3048,7 +3056,7 @@ declare class tGameMessageWindow {
 }
 
 declare class tGameMyAdventurerCharactor {
-  parent: any;
+  parent: tGameMain;
   max: any;
   myData: any;
   init(a: any): void;
@@ -3077,7 +3085,7 @@ declare class tGameMyAdventurerCharactor {
 }
 
 declare class tGameMyShop {
-  parent: any;
+  parent: tGameMain;
   maxItemNum: any;
   kakuchoMoney: any;
   tesuryoMax: any;
@@ -3103,7 +3111,7 @@ declare class tGameMyShop {
 }
 
 declare class tGameMyTown {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   getTargetMapCharaNum(a: any, b: any): any;
   isHomeMyTownSubTown(a: any): any;
@@ -3129,7 +3137,7 @@ declare class tGameMyTown {
 }
 
 declare class tGameMyTownMeibo {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   viewWindow(a: any): any;
@@ -3142,7 +3150,7 @@ declare class tGameMyTownMeibo {
 }
 
 declare class tGameMyTownRuleWindow {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   isEnableCharactor(a: any): any;
@@ -3150,7 +3158,7 @@ declare class tGameMyTownRuleWindow {
 }
 
 declare class tGameNakamaHaken {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   view(a: any, b: any): void;
@@ -3175,7 +3183,7 @@ declare class tGameNakamaHaken {
 }
 
 declare class tGameName {
-  parent: any;
+  parent: tGameMain;
   nameData: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -3187,7 +3195,7 @@ declare class tGameName {
 }
 
 declare class tGameNaraku {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   getDungeonLevel(a: any): any;
   getDungeonFloorFix(a: any): any;
@@ -3198,7 +3206,7 @@ declare class tGameNaraku {
 }
 
 declare class tGameNoriai {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   selectMokutekichi(a: any): any;
   moveEvent(a: any): any;
@@ -3213,7 +3221,7 @@ declare class tGameNoriai {
 }
 
 declare class tGameNouchi {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   getNouchiName(): any;
   getChipData(a: any): any;
@@ -3229,7 +3237,7 @@ declare class tGameNouchi {
 }
 
 declare class tGameNumWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -3254,7 +3262,7 @@ declare class tGameNumWindow {
 }
 
 declare class tGameNumWindow2 {
-  parent: any;
+  parent: tGameMain;
   objs: any;
   viewData: any;
   cursor: any;
@@ -3272,7 +3280,7 @@ declare class tGameNumWindow2 {
 }
 
 declare class tGameNw {
-  parent: any;
+  parent: tGameMain;
   isEnabled: any;
   callObj: any;
   callObj_screen: any;
@@ -3328,7 +3336,7 @@ declare class tGameNw {
 }
 
 declare class tGameObjectResource {
-  parent: any;
+  parent: tGameMain;
   objectData: any;
   cantMoveMap: any;
   init(a: any): void;
@@ -3378,7 +3386,7 @@ declare class tGameObjectResource {
 }
 
 declare class tGameOnsen {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   view(a: any, b: any): void;
   view2(a: any, b: any): void;
@@ -3387,7 +3395,7 @@ declare class tGameOnsen {
 }
 
 declare class tGameOpening {
-  parent: any;
+  parent: tGameMain;
   talkData: any;
   viewData: any;
   hiddenCanvases: any;
@@ -3409,7 +3417,7 @@ declare class tGameOpening {
 }
 
 declare class tGameOption {
-  parent: any;
+  parent: tGameMain;
   masterData: any;
   myData: any;
   init(a: any): void;
@@ -3430,7 +3438,7 @@ declare class tGameOption {
 }
 
 declare class tGameOptionWindow {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   viewOptionWindow(a: any, b: any): void;
@@ -3440,7 +3448,7 @@ declare class tGameOptionWindow {
 }
 
 declare class tGameOverMapResource {
-  parent: any;
+  parent: tGameMain;
   chipsize: any;
   omapData: any;
   init(a: any): void;
@@ -3453,7 +3461,7 @@ declare class tGameOverMapResource {
 }
 
 declare class tGameParts {
-  parent: any;
+  parent: tGameMain;
   cvs: any;
   ctx: any;
   init(): void;
@@ -3461,7 +3469,7 @@ declare class tGameParts {
 }
 
 declare class tGamePlayerPartyInfo {
-  parent: any;
+  parent: tGameMain;
   cvs: any;
   ctx: any;
   isRequireRefresh: any;
@@ -3473,7 +3481,7 @@ declare class tGamePlayerPartyInfo {
 }
 
 declare class tGamePoker {
-  parent: any;
+  parent: tGameMain;
   data: any;
   objs: any;
   viewData: any;
@@ -3510,7 +3518,7 @@ declare class tGamePoker {
 }
 
 declare class tGameRecipe {
-  parent: any;
+  parent: tGameMain;
   masterData: any;
   myData: any;
   init(a: any): void;
@@ -3525,7 +3533,7 @@ declare class tGameRecipe {
 }
 
 declare class tGameRecord {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   view(a: any, b: any): void;
   view_chara(a: any, b: any): void;
@@ -3535,7 +3543,7 @@ declare class tGameRecord {
 }
 
 declare class tGameRectArea {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   getRectsOuterPoints(a: any): any;
   getRandomRectPosition(a: any, b: any, c: any): any;
@@ -3547,7 +3555,7 @@ declare class tGameRectArea {
 }
 
 declare class tGameRefresh {
-  parent: any;
+  parent: tGameMain;
   tug: any;
   refreshCallBack: any;
   init(a: any): void;
@@ -3556,7 +3564,7 @@ declare class tGameRefresh {
 }
 
 declare class tGameRoom {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   isSizeOver(a: any): any;
   wideRoad(a: any): void;
@@ -3623,7 +3631,7 @@ declare class tGameRoom {
 }
 
 declare class tGameRoutineMap {
-  parent: any;
+  parent: tGameMain;
   isRequireCanvasRefresh: any;
   refreshData: any;
   viewMapData: any;
@@ -3706,7 +3714,7 @@ declare class tGameRoutineMap {
 }
 
 declare class tGameRoutineMapMove {
-  parent: any;
+  parent: tGameMain;
   isAction: any;
   callBack: any;
   init(a: any): void;
@@ -3718,7 +3726,7 @@ declare class tGameRoutineMapMove {
 }
 
 declare class tGameRyourifukuro {
-  parent: any;
+  parent: tGameMain;
   data: any;
   itemType: any;
   itemIds: any;
@@ -3739,10 +3747,11 @@ declare class tGameRyourifukuro {
   kanteiItem(a: any, b: any, c: any): any;
   noroikeshiItem(a: any, b: any, c: any): any;
   npcHoju(a: any, b: any): void;
+  outOkuItem(a: any, b: any): any;
 }
 
 declare class tGameSave {
-  parent: any;
+  parent: tGameMain;
   saveNumber: any;
   saveMaxNum: any;
   separate: any;
@@ -3790,7 +3799,7 @@ declare class tGameSave {
 }
 
 declare class tGameSchoolGenerator {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   createSchoolWithLoad(a: any, b: any): void;
   createSchool(a: any, b: any): any;
@@ -3801,14 +3810,14 @@ declare class tGameSchoolGenerator {
 }
 
 declare class tGameSelectBgmWindow {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   getBgmItems(a: any): any;
   view(a: any): void;
 }
 
 declare class tGameSelectFovTarget {
-  parent: any;
+  parent: tGameMain;
   modes: any;
   mode: any;
   viewData: any;
@@ -3824,7 +3833,7 @@ declare class tGameSelectFovTarget {
 }
 
 declare class tGameSelectFovTargetSkill {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   cursor: any;
   hiddenCanvases: any;
@@ -3839,7 +3848,7 @@ declare class tGameSelectFovTargetSkill {
 }
 
 declare class tGameSelectImageTarget {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   cvs: any;
   ctx: any;
@@ -3864,7 +3873,7 @@ declare class tGameSelectImageTarget {
 }
 
 declare class tGameSelectTarget {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   view(a: any): void;
@@ -3878,7 +3887,7 @@ declare class tGameSelectTarget {
 }
 
 declare class tGameSelectWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -3914,14 +3923,14 @@ declare class tGameSelectWindow {
 }
 
 declare class tGameSfpc {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   view(a: any, b: any): void;
   act(a: any): any;
 }
 
 declare class tGameShitaiasari {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   tryCreate(a: any): any;
   oneActionFinishAction(a: any, b: any, c: any): void;
@@ -3938,7 +3947,7 @@ declare class tGameShitaiasari {
 }
 
 declare class tGameShokuzaifukuro {
-  parent: any;
+  parent: tGameMain;
   data: any;
   types: any;
   init(a: any): void;
@@ -3958,10 +3967,11 @@ declare class tGameShokuzaifukuro {
   kanteiItem(a: any, b: any, c: any): any;
   noroikeshiItem(a: any, b: any, c: any): any;
   searchItemId(a: any, b: any): any;
+  outOkuItem(a: any, b: any, c: any): any;
 }
 
 declare class tGameShop {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   checkNewItem(a: any, b: any): any;
   buy(a: any): any;
@@ -3979,7 +3989,7 @@ declare class tGameShop {
 }
 
 declare class tGameShortCut {
-  parent: any;
+  parent: tGameMain;
   maxNum: any;
   init(a: any): void;
   getShortCut(): any;
@@ -3989,7 +3999,7 @@ declare class tGameShortCut {
 }
 
 declare class tGameShortEvent {
-  parent: any;
+  parent: tGameMain;
   chips: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -4052,7 +4062,7 @@ declare class tGameShortEvent {
 }
 
 declare class tGameShukkabako {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initSaveData(): void;
@@ -4068,7 +4078,7 @@ declare class tGameShukkabako {
 }
 
 declare class tGameSkill {
-  parent: any;
+  parent: tGameMain;
   skillData: any;
   npcSkills: any;
   init(a: any): void;
@@ -4078,7 +4088,7 @@ declare class tGameSkill {
 }
 
 declare class tGameSkillAction {
-  parent: any;
+  parent: tGameMain;
   iconData: any;
   askillData: any;
   rankMagics: any;
@@ -4251,7 +4261,7 @@ declare class tGameSkillAction {
 }
 
 declare class tGameSkillActionBook {
-  parent: any;
+  parent: tGameMain;
   randomTargets: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -4260,7 +4270,7 @@ declare class tGameSkillActionBook {
 }
 
 declare class tGameSkillActionInfoWindow {
-  parent: any;
+  parent: tGameMain;
   cvs: any;
   ctx: any;
   fontSize: any;
@@ -4269,7 +4279,7 @@ declare class tGameSkillActionInfoWindow {
 }
 
 declare class tGameSkillActionWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -4296,7 +4306,7 @@ declare class tGameSkillActionWindow {
 }
 
 declare class tGameSkillInfoWindow {
-  parent: any;
+  parent: tGameMain;
   cvs: any;
   ctx: any;
   fontSize: any;
@@ -4305,7 +4315,7 @@ declare class tGameSkillInfoWindow {
 }
 
 declare class tGameSkillShop {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   checkNewItem(a: any): any;
   buyPlayerTeam(a: any): any;
@@ -4313,7 +4323,7 @@ declare class tGameSkillShop {
 }
 
 declare class tGameSkillWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -4337,7 +4347,7 @@ declare class tGameSkillWindow {
 }
 
 declare class tGameSlaveShop {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   checkNewItem(a: any): any;
   createSlaveCharactor(a: any): any;
@@ -4345,7 +4355,7 @@ declare class tGameSlaveShop {
 }
 
 declare class tGameSleep {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   initLoad(a: any): void;
   sleep(a: any, b: any): void;
@@ -4358,7 +4368,7 @@ declare class tGameSleep {
 }
 
 declare class tGameSlot {
-  parent: any;
+  parent: tGameMain;
   data: any;
   img: any;
   objs: any;
@@ -4388,7 +4398,7 @@ declare class tGameSlot {
 }
 
 declare class tGameSlotReel {
-  parent: any;
+  parent: tGameMain;
   objs: any;
   viewData: any;
   init(a: any): void;
@@ -4401,7 +4411,7 @@ declare class tGameSlotReel {
 }
 
 declare class tGameSlumGenerator {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   createSlumWithLoad(a: any, b: any): void;
   createSlum(a: any, b: any): any;
@@ -4411,7 +4421,7 @@ declare class tGameSlumGenerator {
 }
 
 declare class tGameSoubifukuro {
-  parent: any;
+  parent: tGameMain;
   max: any;
   nameMaxLength: any;
   init(a: any): void;
@@ -4426,7 +4436,7 @@ declare class tGameSoubifukuro {
 }
 
 declare class tGameSoundResource {
-  parent: any;
+  parent: tGameMain;
   soundData: any;
   playSounds: any;
   oggOrM4a: any;
@@ -4445,7 +4455,7 @@ declare class tGameSoundResource {
 }
 
 declare class tGameSozaifukuro {
-  parent: any;
+  parent: tGameMain;
   data: any;
   types: any;
   init(a: any): void;
@@ -4464,10 +4474,11 @@ declare class tGameSozaifukuro {
   kanteiItem(a: any, b: any, c: any): any;
   noroikeshiItem(a: any, b: any, c: any): any;
   searchItemId(a: any, b: any): any;
+  outOkuItem(a: any, b: any, c: any): any;
 }
 
 declare class tGameSpecialMap {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   initLoad(a: any): void;
   createQuest1Map(a: any, b: any): any;
@@ -4484,7 +4495,7 @@ declare class tGameSpecialMap {
 }
 
 declare class tGameStatusWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -4522,7 +4533,7 @@ declare class tGameStatusWindow {
 }
 
 declare class tGameSteal {
-  parent: any;
+  parent: tGameMain;
   data: any;
   img: any;
   viewData: any;
@@ -4543,7 +4554,7 @@ declare class tGameSteal {
 }
 
 declare class tGameStg {
-  parent: any;
+  parent: tGameMain;
   data: any;
   img: any;
   objs: any;
@@ -4571,7 +4582,7 @@ declare class tGameStg {
 }
 
 declare class tGameStgBg {
-  parent: any;
+  parent: tGameMain;
   stars: any;
   init(): void;
   update(a: any): void;
@@ -4579,7 +4590,7 @@ declare class tGameStgBg {
 }
 
 declare class tGameStgShoot {
-  parent: any;
+  parent: tGameMain;
   playerWaitTime: any;
   init(a: any): void;
   addShoot(a: any): any;
@@ -4588,7 +4599,7 @@ declare class tGameStgShoot {
 }
 
 declare class tGameStgObject {
-  parent: any;
+  parent: tGameMain;
   removeObject(a: any): void;
   addObject(a: any): any;
   updateSize(a: any): void;
@@ -4602,14 +4613,14 @@ declare class tGameStgObject {
 }
 
 declare class tGameStgScene {
-  parent: any;
+  parent: tGameMain;
   scenes: any;
   init(): void;
   update(a: any): void;
 }
 
 declare class tGameStgEnemy {
-  parent: any;
+  parent: tGameMain;
   addEnemy(a: any): any;
   addEnemy_1(a: any): void;
   addEnemy_2(a: any, b: any): void;
@@ -4625,12 +4636,12 @@ declare class tGameStgEnemy {
 }
 
 declare class tGameStgPoint {
-  parent: any;
+  parent: tGameMain;
   draw(): void;
 }
 
 declare class tGameStorage {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initSaveData(): void;
@@ -4664,7 +4675,7 @@ declare class tGameStorage {
 }
 
 declare class tGameStoryWindow {
-  parent: any;
+  parent: tGameMain;
   fontSize: any;
   textSpace: any;
   init(a: any): void;
@@ -4691,7 +4702,7 @@ declare class tGameStoryWindow {
 }
 
 declare class tGameSubTown {
-  parent: any;
+  parent: tGameMain;
   max: any;
   init(a: any): void;
   getSubTownName(a: any): any;
@@ -4710,7 +4721,7 @@ declare class tGameSubTown {
 }
 
 declare class tGameTableTalk {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   init(a: any): void;
   view(a: any, b: any): any;
@@ -4720,7 +4731,7 @@ declare class tGameTableTalk {
 }
 
 declare class tGameTalkResource {
-  parent: any;
+  parent: tGameMain;
   talkData: any;
   talkDataCache: any;
   emptyMsg: any;
@@ -4772,7 +4783,7 @@ declare class tGameTalkResource {
 }
 
 declare class tGameText {
-  parent: any;
+  parent: tGameMain;
   colorData: any;
   cvs: any;
   ctx: any;
@@ -4790,7 +4801,7 @@ declare class tGameText {
 }
 
 declare class tGameTextInputWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   wcvs: any;
@@ -4810,7 +4821,7 @@ declare class tGameTextInputWindow {
 }
 
 declare class tGameTextInputWindow2 {
-  parent: any;
+  parent: tGameMain;
   objs: any;
   viewData: any;
   cursor: any;
@@ -4828,7 +4839,7 @@ declare class tGameTextInputWindow2 {
 }
 
 declare class tGameTime {
-  parent: any;
+  parent: tGameMain;
   cvs: any;
   ctx: any;
   isRequireRefresh: any;
@@ -4857,7 +4868,7 @@ declare class tGameTime {
 }
 
 declare class tGameTitle {
-  parent: any;
+  parent: tGameMain;
   images: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -4868,7 +4879,7 @@ declare class tGameTitle {
 }
 
 declare class tGameTitleWindow {
-  parent: any;
+  parent: tGameMain;
   textMaxWidth: any;
   views: any;
   ccvs: any;
@@ -4907,7 +4918,7 @@ declare class tGameTitleWindow {
 }
 
 declare class tGameTougijo {
-  parent: any;
+  parent: tGameMain;
   data: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -4927,7 +4938,7 @@ declare class tGameTougijo {
 }
 
 declare class tGameTownGenerator {
-  parent: any;
+  parent: tGameMain;
   townTypes: any;
   init(a: any): void;
   createTownWithLoad(a: any, b: any): void;
@@ -4939,7 +4950,7 @@ declare class tGameTownGenerator {
 }
 
 declare class tGameTrap {
-  parent: any;
+  parent: tGameMain;
   trapTypes: any;
   init(a: any): void;
   convertData(a: any): any;
@@ -4954,7 +4965,7 @@ declare class tGameTrap {
 }
 
 declare class tGameTutorial {
-  parent: any;
+  parent: tGameMain;
   talkData: any;
   viewData: any;
   hiddenCanvases: any;
@@ -4986,7 +4997,7 @@ declare class tGameTutorial {
 }
 
 declare class tGameUniqueQuest {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   viewMap(a: any): void;
   tryCreate(a: any): any;
@@ -5036,14 +5047,14 @@ declare class tGameUniqueQuest {
 }
 
 declare class tGameVersion {
-  parent: any;
+  parent: tGameMain;
   versions: any;
   init(a: any): void;
   checkEnableTargetSave(a: any): any;
 }
 
 declare class tGameWar {
-  parent: any;
+  parent: tGameMain;
   data: any;
   fukidashi: any;
   myData: any;
@@ -5170,13 +5181,13 @@ declare class tGameWar {
 }
 
 declare class tGameWeading {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   view(a: any): void;
 }
 
 declare class tGameWeather {
-  parent: any;
+  parent: tGameMain;
   weatherData: any;
   init(a: any): void;
   initLoad(a: any): void;
@@ -5187,7 +5198,7 @@ declare class tGameWeather {
 }
 
 declare class tGameWindowResource {
-  parent: any;
+  parent: tGameMain;
   wcvs: any;
   wctx: any;
   windowData: any;
@@ -5198,7 +5209,7 @@ declare class tGameWindowResource {
 }
 
 declare class tGameWindows {
-  parent: any;
+  parent: tGameMain;
   isEnabled: any;
   type: any;
   callObj: any;
@@ -5238,14 +5249,14 @@ declare class tGameWindows {
 }
 
 declare class tGameYagi {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   affect(a: any): any;
   tryRefresh(): any;
 }
 
 declare class tGameYubiwadukuri {
-  parent: any;
+  parent: tGameMain;
   viewData: any;
   kisekiMaxNum: any;
   gineikesshoMaxNum: any;
@@ -5266,7 +5277,7 @@ declare class tGameYubiwadukuri {
 }
 
 declare class tGameYukigassen {
-  parent: any;
+  parent: tGameMain;
   init(a: any): void;
   tryMap(a: any): any;
   createMap(): any;
@@ -5276,4 +5287,11 @@ declare class tGameYukigassen {
   oneActionFinishAction(a: any, b: any, c: any): void;
   oneActionFinishAction_createyukigassen(a: any, b: any): any;
 }
+
 declare var tWgm: tGameMain;
+
+interface tFn {
+  t: tDefault;
+}
+
+declare var tFn: tFn;
