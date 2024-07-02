@@ -34,7 +34,7 @@ export function checkGameVersion() {
 }
 
 export function exportGameVersion() {
-  const patchNotePath = new Path('game/★更新内容.txt');
+  const patchNotePath = new Path('game/★(日本語)Changelog.txt');
 
   const patchNote = patchNotePath.readTextSync();
   const matched = patchNote.match(/v\d+\.\d+\.\d+\.\d+/g);
