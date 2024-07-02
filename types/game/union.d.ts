@@ -797,7 +797,7 @@ declare class tGameCharactor {
   birthdayLog(a: any): void;
   setKinenbi(a: any, b: any): any;
   checkCdtTarget(a: any): any;
-  addItemWithFukuro(a: any, b: any, c: any, d: any): void;
+  addItemWithFukuro(a: any, b: any, c: any, d: any, e: any): any;
   viewAddItemLog(a: any, b: any, c: any, d: any): void;
   npcShiokuri(a: any): void;
   getItemSpaceMaxNum(a: any, b: any): any;
@@ -1883,6 +1883,7 @@ declare class tGameHyk {
   cnvData: any;
   logoFileName: any;
   textLengthMode: any;
+  htmlLang: any;
   list: any;
   init(a: any): void;
   initLoad(a: any, b: any): any;
@@ -2171,6 +2172,7 @@ declare class tGameJinja {
   affectSaisenbako(a: any, b: any): any;
   kau(a: any, b: any): void;
   kau2(a: any, b: any): void;
+  addItem(a: any): any;
 }
 
 declare class tGameJob {
@@ -3134,6 +3136,7 @@ declare class tGameMyTown {
   getMyTownNakamaType(a: any): any;
   getMyTownNakamaCtype(a: any): any;
   setNightBgmMenu(a: any): void;
+  getChipsets(): any;
 }
 
 declare class tGameMyTownMeibo {
@@ -3609,6 +3612,7 @@ declare class tGameRoom {
   getCreateRoomCon_56(a: any): any;
   getCreateRoomCon_57(a: any): any;
   getCreateRoomCon_58(a: any): any;
+  getCreateRoomCon_60(a: any): any;
   getCreateRoomCon(a: any): any;
   createMap(a: any): any;
   copyObjectLinks(a: any): any;
