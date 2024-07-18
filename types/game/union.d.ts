@@ -2282,6 +2282,7 @@ declare class tGameKeyboard {
   keymapDataDefault: any;
   isPreventDefault: any;
   isEnableBlock: any;
+  shortcutTabIdx: any;
   init(): void;
   loadKeyMap(a: any): void;
   initEvent(a: any): void;
@@ -2302,6 +2303,7 @@ declare class tGameKeyboard {
   setDisablePreventDefault(): void;
   sendKeyDown(a: any): void;
   sendKeyUp(a: any): void;
+  getEventKey(a: any): any;
 }
 
 declare class tGameLakeZou {
@@ -2666,6 +2668,7 @@ declare class tGameMamonoJisho {
   getTargetEnemyBaseData(a: any): any;
   createcharactor(a: any): any;
   getDropItems(a: any): any;
+  getCalAll(): any;
   view(a: any, b: any): void;
   viewMamonoInfo(a: any, b: any, c: any): any;
   viewDropItems(a: any, b: any): void;
@@ -4000,6 +4003,7 @@ declare class tGameShortCut {
   setShortCutIdx(a: any, b: any, c: any, d: any): any;
   getShortCutIdx(a: any, b: any): any;
   actionShortCutIdx(a: any, b: any): any;
+  checkChangeTab(): any;
 }
 
 declare class tGameShortEvent {
