@@ -898,6 +898,16 @@ declare class tGameCharactorRuleWindow {
   getCharaRule_usenoroiitem(a: any): any;
 }
 
+declare class tGameCheat {
+  parent: tGameMain;
+  init(a: any): void;
+  view(a: any): void;
+  action_m8(a: any): void;
+  action_m9(a: any): void;
+  action_m14(a: any): void;
+  action_m15(a: any): void;
+}
+
 declare class tGameChikaMakyo {
   parent: tGameMain;
   init(a: any): void;
@@ -2149,6 +2159,7 @@ declare class tGameItemWindow {
   clearCanvas(): void;
   setCursor(a: any): any;
   updateItems(a: any): void;
+  updateItemSubLabels(a: any): void;
   viewBottomWindow(a: any, b: any): any;
   getItemShortCuts(): void;
 }
@@ -2265,6 +2276,15 @@ declare class tGameK1up {
   updateSearchForm(a: any): void;
   changeSearchTag(a: any): void;
   loadTags(a: any): any;
+}
+
+declare class tGameKakeraChange {
+  parent: tGameMain;
+  infoWindowData: any;
+  init(a: any): void;
+  view(a: any): void;
+  getItemDescription(a: any, b: any): any;
+  setCreateItem(a: any): void;
 }
 
 declare class tGameKeyboard {
@@ -2601,6 +2621,8 @@ declare class tGameMain {
   tGameDialog: tGameDialog;
   tGameMamonoJisho: tGameMamonoJisho;
   tGameNakamaHaken: tGameNakamaHaken;
+  tGameKakeraChange: tGameKakeraChange;
+  tGameCheat: tGameCheat;
   loadFinishData: any;
   firstLogData: any;
   windowLabelMaxWidth: any;
@@ -4460,6 +4482,7 @@ declare class tGameSoundResource {
   play(a: any, b: any): any;
   setVolume(a: any): any;
   reflectOption(a: any): void;
+  clearAllSound(): void;
 }
 
 declare class tGameSozaifukuro {
