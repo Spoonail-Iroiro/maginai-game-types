@@ -1838,6 +1838,7 @@ declare class tGameHikitsugi {
   getMapEditor(): any;
   getItemRecord(): any;
   getMamonoRecord(): any;
+  getIkesu(): any;
   setWindow(a: any): void;
   save(a: any, b: any): void;
   load(a: any): void;
